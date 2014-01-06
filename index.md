@@ -18,7 +18,7 @@ The **DreamOps Hub** is a set of Git repositories with ready-to-clone code. Logo
 
 The **DreamOps Wiki** on Developerforce catalogs best practices used by Force.com enterprise developers. Explore new practices that  you can use with your own team, and help us grow by sharing your own, -- [DreamOps.org/wiki](http://wiki.developerforce.com/page/DreamOps)
 
-The **DreamOps Roadmap** is a prioritized list of Force.com Ideas that we believe will push the platform to new heights. Show your support and upvote the ideas today! -- [DreamOps.org/ideas](https://github.com/DreamOps/dreamops.github.io/wiki/Manifesto)
+The **DreamOps Roadmap** is a prioritized list of Force.com Ideas that we believe will push the platform to new heights. Show your support and upvote the ideas today! -- [DreamOps.org/roadmap](https://github.com/DreamOps/dreamops.github.io/wiki/Manifesto)
 
 
 Together, let's take Force.com to new heights, 
