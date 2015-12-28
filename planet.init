@@ -1,0 +1,38 @@
+# pluto b planet.ini
+title = Planet DreamOps
+
+[AndyInTheCloud]
+  title = Andy in the Cloud
+  link = http://andyinthecloud.com/
+  feed = http://andyinthecloud.com/feed/
+
+[JeffDouglas]
+  title = My Life is a Hackathon
+  link  = http://blog.jeffdouglas.com/
+  feed  = http://blog.jeffdouglas.com/rss/
+
+[Force201]
+  title = Force 201 
+  link  = https://force201.wordpress.com/
+  feed  = https://force201.wordpress.com/feed/
+
+[O Ye Code]
+  title = Oyecode
+  link  = http://peterknolle.com/
+  feed  = http://www.oyecode.com/feeds/posts/default
+
+[Peter Knolle]
+  title = Peter Knolle
+  link  = http://peterknolle.com/
+  feed  = http://peterknolle.com/feed
+
+[Simon Goodyear]
+  title = Simon Goodyear
+  link  = http://smgoodyear.com/
+  feed  = http://smgoodyear.cocm/feed/
+
+#[Nimnble AMS]
+# https://our.umbraco.org/forum/developers/xslt/7071-Help-with-RSS-xslt-and-aspx-parameters
+#  title = Nimble AMS Developer Blogs
+#  link  = http://www.nimbleams.com/blog/?filterBy=Developer
+#  feed  = http://www.nimbleams.com/blog/rss.aspx?filterBy=Developer

@@ -1,0 +1,2435 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='generator' content='Pluto 1.4.0 on Ruby 2.2.4 (2015-12-16) [i686-linux]'>
+
+  <title>Planet DreamOps</title>
+
+  <link rel='stylesheet' type='text/css' href='css/font-awesome.css'>
+  <link rel='stylesheet' type='text/css' href='css/blank.css'>
+
+  <!-- fix: use script_tag  rails-style ??? -->
+  <script src='js/jquery-2.0.3.min.js'></script>
+  <script src='js/blank.js'></script>
+
+  
+  
+
+</head>
+<body>
+
+
+<div id='navwrap'>
+<div id='nav'>
+    <p>
+      Last Update
+    </p>
+    <p class='small'>
+      
+    </p>
+
+    <p>Subscriptions</p>
+    <ul class='subscriptions small' >
+     
+      <li>
+        <a href='http://andyinthecloud.com/feed/'><img src='i/feed-icon-10x10.png'></a>
+        <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+      </li>
+     
+      <li>
+        <a href='http://blog.jeffdouglas.com/rss/'><img src='i/feed-icon-10x10.png'></a>
+        <a href='http://blog.jeffdouglas.com/'>My Life is a Hackathon</a>
+      </li>
+     
+      <li>
+        <a href='http://smgoodyear.cocm/feed/'><img src='i/feed-icon-10x10.png'></a>
+        <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+      </li>
+     
+     </ul>
+
+    <p>Planetarium</p>
+    <ul class='planetarium small'>
+      <li><a href='http://plutolive.herokuapp.com'>Planet Ruby</a></li>
+      <li><a href='http://viennarb.herokuapp.com'>Planet vienna.rb</a></li>
+    </ul>
+
+    <p>Meta</p>
+    <p class='small'>Powered by <a href='https://github.com/feedreader'>Pluto</a>; 
+       Questions? Comments?
+      Send them along to the <a href='http://groups.google.com/group/feedreader'>forum/mailing list</a>. Thanks!
+    </p>
+</div>
+</div>
+
+
+<div id='opts'>
+  <div style='width: 100%; text-align: right;'>
+   <img src='i/view-headlines.png' id='show-headlines' title='Show Headlines Only' width='24' height='24'>
+   <img src='i/view-snippets.png' id='show-snippets'    title='Show Snippets' width='24' height='24'>
+   <img src='i/view-standard.png' id='show-fulltext'    title='Show Full Text' width='24' height='24'>
+  </div>
+  <div style='width: 100%; text-align: right;'>
+    Style |
+      <a href='planet.html'>Standard</a> &bull;
+      <a href='planet.cards.html'>Cards</a>
+  </div>
+</div>  
+
+
+<h1>Planet DreamOps</h1>
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Thursday, 24. December 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/12/24/declarative-lookup-rollup-summary-tool-and-custom-metadata/'>Declarative Lookup Rollup Summary Tool and Custom Metadata</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  Back in Dreamforce 2015, i told the audience in a session dedicated to Custom Metadata that i estimated it would take around 5 days to perform the retro fit from Custom Object to Custom Metadata. Well i&#8217;m pleased to say &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Back in Dreamforce 2015, i told the audience in a session dedicated to Custom Metadata that i estimated it would take around 5 days to perform the retro fit from Custom Object to Custom Metadata. Well i&#8217;m pleased to say i have come in a little under that, and also retained support for using Custom Object&#8217;s to store rollup definitions for now.</p>
+<p>&#8220;Custom Metadata is like Game of Thrones, its addictive, great value for money and I just keep wanting more of it!&#8221;</p>
+<p>In this blog i&#8217;ll talk about what support for Custom Metadata means for users of the tool and also a bit about how technically the retrofit was coded.</p>
+<p>♦</p>
+<p>Before getting into the coding side, lets quickly discuss the new feature and what you can expect&#8230;</p>
+<p>What is so good about Custom Metadata then?</p>
+<p>Well if you have not heard by now, its basically a huge time saver for anyone using apps that have adopted it. As the configurations you make are no longer treated as data but a metadata.</p>
+<p>What that means is like other configurations you make under the Setup menu, your rollups in this case are treated like any layout, Custom Field, Validation Rule, Flow etc you have also added, when it comes to migrating to production via Change Sets or building out an extension package and packaging rollups. In addition if your refreshing a configuration only Sandbox, your rollups get copied over as well! No more rekeying rollups or using Data Loaders to transfer them.</p>
+<p>If you don&#8217;t want to take my word for it, take a look at what Aaaron, Platform Product Management Director at Salesforce, has to say!</p>
+<p>Install vs Upgrade</p>
+<p>If your familiar with the tool but installing for the first time in a new org you&#8217;ll notice some changes to the default tabs (as shown above), though worry not, the old tabs are still present. So if you&#8217;d rather catchup with this stuff later just continue as normal setting up your rollups via the Lookup Rollup Summaries tab.</p>
+<p>If your upgrading things will remain the same and you&#8217;ll have to go to All Tabs to find the new tab above. When you select the new tab you will be presented with a small info message, a link to the old tab and a means to dismiss it once read from appearing again in the future.</p>
+<p>♦</p>
+<p>Tip: You can edit the Declarative Lookup Rollup Summaries app tabs under Setup to remove the new tab and replace with the old until your ready</p>
+<p>Why a new Tab and not the native Custom Metadata UI?</p>
+<p>The platform provided UI for Custom Metadata is for sure a much appreciated addition, with Layout support its certainly wins out over Custom Settings for sure! In this case however I still found myself wanting in terms of the user experience&#8230;</p>
+<p>When editing Custom Metadata based rollups I wanted two core peaces of functionality currently available when using the Custom Object based UI. Mainly validation (the existing Apex Trigger / Domain logic) to check field names, allowed activation etc and also make available the various buttons to manage the child object trigger and start/schedule calculations. So, as per the info message above, you can use the native Custom Metadata Types under Setup if you wish, but be advised for now at least, you&#8217;ll be bypassing validation.</p>
+<p>The design is based on my earlier proof of concept described in this blog.</p>
+<p>Does the new tab do all the stuff the old one does?</p>
+<p>Almost! Take a look at the Pilot limitations section (see v2.0 release) in the README.</p>
+<p>Can i mix and match between using this new feature and existing?</p>
+<p>Yes you totally can. Just make sure if you copy over an old rollup to deactivate it once you activate the Custom Metadata based one to avoid duplicate processing.</p>
+<p>Is there a means to automate copying my old rollups over to Custom Metadata?</p>
+<p>Not currently. This is possible and something i wanted to build for this release, i just ran out of available time, so is now on the backlog as a future enhancement.</p>
+<p>I see this is Pilot, are there any known limitations?</p>
+<p>Take a look at the Pilot limitations section (see v2.0 release) in the README.</p>
+<p>How did you go about coding this retrofit to Custom Metadata?</p>
+<p>The Apex Enterprise Patterns and Separation of Concerns most definitely helped me perform the update here. Especially as i wanted to effectively support two storage options, that shared the same fields, but leave the core functionality intact.</p>
+<p>If you review the GitHub History around the few days i was working on this (22nd to 24th) you can see more or less that i took the following approach. Also after each set of changes ensuring all unit tests where still working was key.</p>
+<ol>
+<li>Created the Custom Metadata object, as per the approach i took in my original proof of concept, this is mostly a copy paste from the Custom Object with some tweaks.</li>
+<li>Create a Apex wrapper class around the Custom Object and Custom Metadata representation of the rollup definition, RollupSummary class.</li>
+<li>Updated the Selector to return RollupSummary lists instead of Custom Objects. At this stage i just wanted to complete a sweep to address compilation issues (primarily in the Service layer). I had not plumbed in querying for Custom Metadata yet.</li>
+<li>Decoupled tracking the Calculation Job Id from the rollup definition (this after all is operational information) and created a new Custom Object to track this, that both modes would use.</li>
+<li>Updated the Domain class to support both storage options by utilising the RollupSummary wrapper class within its core logic, to retrieve field values and set field errors etc. Thus the Domain class logic has been abstracted away from the underlying storage type. Apex Trigger behaviour is totally unaffected.</li>
+<li>Developed the new UI based on the proof of concept from my earlier blog. Some new RollupService methods also leveraged the CustomMetadataService to perform CRUD operations on Custom Metadata Objects via the Salesforce Metadata API also highlighted in the same blog.</li>
+<li>New Service methods have been added to expose operations to callers such as the new UI controller above. These methods also delegate to the Domain class onValidate methods to ensure the same validation as applied to the Custom Object via its Trigger is reused consistently.</li>
+</ol>
+<p>Summary</p>
+<p>Custom Metadata is like Game of Thrones, its addictive, great value for money and I just keep wanting more of it!</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   13:49 &bull;
+   4 days ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Monday, 21. December 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://blog.jeffdouglas.com/'>My Life is a Hackathon</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://blog.jeffdouglas.com/2015/12/21/how-we-built-the-build-a-battle-station-project/'>How we Built the 'Build a Battle Station' Trailhead Project</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>It's official. Based upon the tweets, everyone seems to love our Trailhead project, Build a Battle Station App! We are thrilled it has been received so well.</p>
+
+<p>♦</p>
+
+<p>The Trailhead way is to do crazy, fun stuff and the hype surrounding Star Wars was the perfect opportunity for us to do</p>
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  ♦<p>It's official. Based upon the tweets, everyone seems to love our Trailhead project, Build a Battle Station App! We are thrilled it has been received so well.</p>
+
+<p>♦</p>
+
+<p>The Trailhead way is to do crazy, fun stuff and the hype surrounding Star Wars was the perfect opportunity for us to do something fun for the community. We've done daily fun badges before but we wanted to do something special for Star Wars. We are all huge fans, of course. Given the buzz, I thought everyone might enjoy a little insight on how we built the project.</p>
+
+<p>I've been at Salesforce for a couple of month now and I've still surprised how nimble and agile the developer relations team is. We get stuff done! This project was a prime example. A couple of months before the launch we had a skunkworks meeting to brainstorm different ideas. We had to keep a low profile inside the company or things would get out of control. The "battle station" idea was by far the most popular. I missed the meeting so I was, naturally, assigned the task of building the project. ;)</p>
+
+<p>♦</p>
+
+<p>I came up with a first draft of the project but wasn't happy with the direction and target audience. We wanted to build something that would be fun for the movie release but also usable down the road for workshop and other training events. Plus it was balancing act of how close our references were to the movie for obvious reasons. For a while I was even contemplating a more cloud computing focused storyline with sections like:</p>
+
+<ul>
+<li>"From across the galaxy you have just received a distress message from the planet of Onpremsia..."</li>
+<li>"The message ends with the plea, 'Help us Obi-Marc Keynoti, you’re our only hope!'”</li>
+<li>"The Council of Safe Harbor begins a furious plan..."</li>
+</ul>
+
+<p>My partner in crime Chris Duarte was awesome as usual. We met a couple of times to brainstorm ideas and anyone listening to our conversation must have thought we'd been drinking. We had soo much fun talking about different ideas and scenarios. She's such a Star Wars nerd. </p>
+
+<p>I spent the next couple of weeks tweaking the scenarios and building the units to walk users through the entire process of building the battle station project management app. Steps were double and triple checked and final screenshots taken. I must have build that app 10 times in total! Finally, when I was happy with the project I wrote the code that runs "under the covers" and checks that you've done everything correctly. </p>
+
+<p>This was a huge team effort by a number of people behind the scenes. In addition to Chris, I also have to thank Jacob Lehrbaum and Lauren Grau who kept me out of legal hot water by proofing my prose a number of times. Also, our fearless leader, Sandeep Bhanot for voluntolding me for this project. </p>
+
+<p>I'm glad everyone is having fun. Keep the tweets coming!</p>
+
+  
+</div>
+
+<div class='item-footer'>
+   15:57 &bull;
+   7 days ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Saturday, 12. December 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/12/12/visual-flow-with-list-view-and-related-list-buttons/'>Visual Flow with List View and Related List Buttons</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  Last years blog Clicks not Code with Visual Flow Custom Buttons has continued to be quite well received, so i thought i would explore what more could be done and address a few questions that have come up since. This blog &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Last years blog Clicks not Code with Visual Flow Custom Buttons has continued to be quite well received, so i thought i would explore what more could be done and address a few questions that have come up since. This blog does make some assumptions that you are already familiar with the approach from my previous blog.</p>
+<p>This time i want to focus on using Visual Flows with list Custom Buttons, such buttons can be placed on List View layouts and Related List sections on Detail layouts. Salesforce also provides a means for the user to select specific records to process. These buttons apply to both Salesforce Classic and Salesforce Lighting Experience.</p>
+<p>♦</p>
+<p>As before we are keeping in the spirit of Clicks not Code, well with a little bit of reusable Visualforce code. But don&#8217;t worry you can easily copy and paste to adapt with a few changes. Critically with this approach you don&#8217;t need to resort to JavaScript based Custom Buttons, which will no longer be supported in Lighting Experience.</p>
+<p>Handling Record Lists from Custom Buttons</p>
+<p>First things first, ensure you have created a SObjectCollection variable in your Flow and ensured its designated as Input. For this blog we are simply going to display a step in the UI for each selected record. Using the Loop and Screen elements. One thing to keep track of is the fields your referencing within the Flow, in this case i&#8217;m using Account Name and Annual Amount.</p>
+<p>♦</p>
+<p>List View Custom Button Example</p>
+<p>Lets get started with a Custom Button on the Account List View. When adding a List Custom Button you have two choices, do you want the user to be able to select records or not? If not, then your button will pass all the records in the List View (currently limited to 2000).</p>
+<p>So if when creating your Custom Button you plan to select the Display Checkboxes (for Multi-Record Selection) option. Then create the following Visualforce page, changing the object name and list of fields accordingly. This will ensure selected records are passed to your Flow.</p>
+<pre>
+&lt;apex:page standardController=&quot;Account&quot; tabStyle=&quot;Account&quot; recordSetVar=&quot;AllAccounts&quot; &gt;
+    &lt;!-- Add below each field you reference in your Flow --&gt;    
+    &lt;apex:repeat value=&quot;{!AllAccounts}&quot; var=&quot;row&quot; rendered=&quot;false&quot;&gt;
+        {!row.Name}
+        {!row.AnnualRevenue}
+    &lt;/apex:repeat&gt;
+    &lt;!-- Runs your Flow --&gt;    
+    &lt;flow:interview name=&quot;SelectedAccounts&quot; 
+          finishLocation=&quot;{!URLFOR($Action.Account.Tab, $ObjectType.Account)}&quot;&gt;
+        &lt;apex:param name=&quot;SelectedRows&quot; value=&quot;{!Selected}&quot;/&gt;
+    &lt;/flow:interview&gt;
+&lt;/apex:page&gt;
+</pre>
+<p>IMPLEMENTATION NOTE: If you want to avoid bothering with changes between lines 3-6, simply re-query the records in the Flow using the Fast Lookup element. Thought it&#8217;s less efficient this way since your not leveraging the query made by Visualforce.</p>
+<p>If you don&#8217;t want the ability for the users to select records and want all records, the main difference to the above is a change to the line 10, passing in the AllAccounts binding.</p>
+<pre>
+    &lt;!-- Runs your Flow --&gt;    
+    &lt;flow:interview name=&quot;SelectedAccounts&quot; 
+          finishLocation=&quot;{!URLFOR($Action.Account.Tab, $ObjectType.Account)}&quot;&gt;
+        &lt;apex:param name=&quot;SelectedRows&quot; value=&quot;{!AllAccounts}&quot;/&gt;
+    &lt;/flow:interview&gt;
+</pre>
+<p>Don&#8217;t forget to add your button to the List View layout, select some records and give it a try!</p>
+<p>♦</p>
+<p>Related List Custom Button Example</p>
+<p>In this case the Visualforce page is much the same, accept that of course your placing the associated button on the Layout of the parent object by editing the applicable related list section. The following example shows a button on the Opportunities related list on the Account object.</p>
+<pre>
+&lt;apex:page standardController=&quot;Opportunity&quot; tabStyle=&quot;Opportunity&quot; recordSetVar=&quot;AllOpportunities&quot;&gt;
+    &lt;!-- Add below each field you reference in your Flow --&gt;
+    &lt;apex:repeat value=&quot;{!AllOpportunities}&quot; var=&quot;row&quot; rendered=&quot;false&quot;&gt;
+        {!row.Name}
+        {!row.Amount}
+    &lt;/apex:repeat&gt;
+    &lt;!-- Runs your Flow --&gt;
+    &lt;flow:interview name=&quot;SelectedOpportunities&quot; 
+          finishLocation=&quot;{!$CurrentPage.parameters.retURL}&quot;&gt;
+        &lt;apex:param name=&quot;SelectedRows&quot; value=&quot;{!Selected}&quot;/&gt;
+    &lt;/flow:interview&gt;    
+&lt;/apex:page&gt;
+</pre>
+<p>♦</p>
+<p>IMPLEMENTATION NOTE: Note that the above Visualforce page code uses a URL parameter retURL, which is not available in Lighting Experience. It still works, but leaves the user on the finish page.</p>
+<p>Summary</p>
+<p>For more information on passing values to Flows using Visualforce check out the docs here. With the exception of the retURL hack above, i&#8217;m pleased to see support in Classic and Lighting Experience. Though the later, has yet to obtain support for providing the record selection support, so only the all records use case is available.</p>
+<p>At present Visual Flow styling does not quite look at home either in Lightning Experience, which made me wonder about trying SLDS styling with Flow&#8217;s CSS customisation abilities (i will let everyone known how successful this is!)&#8230;</p>
+<p>♦</p>
+<p>♦</p>
+<p>Finally both these approaches will also work equally well with Automation Flows (aka Headless Flows), just in case, as with the example in my earlier blog you just want to do some kind of calculations without prompting the user.</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   23:45 &bull;
+   16 days ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Monday, 07. December 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/12/7/nimble-ams-returns-to-the-windy-city-for-holiday-showcase/'>Nimble AMS Returns to the Windy City for Holiday Showcase</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>Are you heading to Association Forum’s Holiday Showcase on December 15th? Meet with Nimble AMS:</p>
+<p>♦</p>
+<p>Nimble AMS (Association Management Software) will return to Chicago to attend Holiday Showcase. This one day event is the midwest association event that fosters new connections, new ideas and creativity. The day will be packed with motivating keynotes, breakout sessions and over 600 
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Are you heading to Association Forum’s Holiday Showcase on December 15th? Meet with Nimble AMS:</p>
+<p>♦</p>
+<p>Nimble AMS (Association Management Software) will return to Chicago to attend Holiday Showcase. This one day event is the midwest association event that fosters new connections, new ideas and creativity. The day will be packed with motivating keynotes, breakout sessions and over 600 exhibitors spanning hospitality and business services.</p>
+<p>Nimble AMS, the association management software powered by the Salesforce App Cloud, has been an exhibitor at Holiday Showcase for several years. The association professionals who attend this event are truly looking to Ignite Innovation in their organizations. We are excited to share our journey of continuous innovation within the Association Management Software industry and meet new forward thinking association professionals. Catch us at the show in booth 348!</p>
+<p>♦</p>
+<p>About NimbleUser/Nimble AMS: NimbleUser has been helping associations and nonprofits become nimble through technology since 1992. Our flagship product, Nimble AMS, is an enterprise class association management system (AMS) built on the Salesforce App Cloud, the world's leading and most innovative customer relationship management (CRM) system.  </p>
+<p> </p>
+<p> </p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   22 days ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Thursday, 03. December 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/12/3/nimble-ams-heads-to-the-west-coast-for-calsaes-seasonal-spectacular/'>Nimble AMS Heads to the West Coast for CalSAE's Seasonal Spectacular</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>Nimble AMS (Association Management Software) returns to CalSAE’s Seasonal Spectacular event today for the largest association professionals gathering on the west coast. Held annually, Seasonal Spectacular offers a full full-day of networking opportunities including education programs and the new Seasonal Snapshot Luncheon. Over 1,000 association/meeting professionals and industry partners will c
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Nimble AMS (Association Management Software) returns to CalSAE’s Seasonal Spectacular event today for the largest association professionals gathering on the west coast. Held annually, Seasonal Spectacular offers a full full-day of networking opportunities including education programs and the new Seasonal Snapshot Luncheon. Over 1,000 association/meeting professionals and industry partners will convene at Seasonal Spectacular to connect face-to-face. <br></p>
+<p>You can find Nimble AMS in Booth 106. Join us or tweet us @NimbleAMS #CalSAE15!</p>
+<p> ♦</p>
+<p>About NimbleUser/Nimble AMS: NimbleUser has been helping associations and nonprofits become nimble through technology since 1992. Our flagship product, Nimble AMS, is an enterprise class association management system (AMS) built on the Salesforce App Cloud, the world's leading and most innovative customer relationship management (CRM) system.  </p>
+<p> </p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   26 days ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Tuesday, 01. December 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/12/1/nimble-ams-returns-to-asae-technology-conference-in-national-harbor,-md/'>Nimble AMS Returns to ASAE Technology Conference in National Harbor, MD</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>Are you heading to the ASAE Technology Conference &amp; Expo on Dec.15th-16th? We'd love to speak with you!:</p>
+<p>♦</p>
+<p>Nimble AMS (Association Management Software) returns to the ASAE Technology Conference and bringing together over 1200 association executives for 2 days of learning and networking. Held annually, the conference attracts many CEOs, CIOs, directors, managers, and associati
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Are you heading to the ASAE Technology Conference &amp; Expo on Dec.15th-16th? We'd love to speak with you!:</p>
+<p>♦</p>
+<p>Nimble AMS (Association Management Software) returns to the ASAE Technology Conference and bringing together over 1200 association executives for 2 days of learning and networking. Held annually, the conference attracts many CEOs, CIOs, directors, managers, and association professionals with an interest in technology. This year’s theme is centered around disruption and leading the way in the ever-evolving technology landscape and the role it plays in all departments. This is certainly a theme that resonates with us!</p>
+<p>Nimble AMS, the association management software powered by the Salesforce App Cloud, has been a long-time ASAE supporter. This is THE event for association executives to share knowledge, network and hear from thought leaders in the association industry.</p>
+<p>Nimble AMS will be in Booth 527 (Look for the Airstream trailer). We are excited to show associations how Nimble AMS:</p>
+<ul>
+<li>Delivers mobile nirvana</li>
+<li>Streamlines member data</li>
+<li>Increases staff collaboration and visibility</li>
+<li>Measures member engagement</li>
+<li>Automates repetitive tasks</li>
+<li>Makes event registrations effortless</li>
+<li>Brings transparency to financial data</li>
+<li>Creates an enjoyable online shopping experience for members</li>
+<li>&amp; more</li>
+</ul>
+<p>Learn more by scheduling an appointment with Nimble AMS at the conference. We hope to see you there!</p>
+<p>♦</p>
+<p>About NimbleUser/Nimble AMS: NimbleUser has been helping associations and nonprofits become nimble through technology since 1992. Our flagship product, Nimble AMS, is an enterprise class association management system (AMS) built on the Salesforce App Cloud, the world's leading and most innovative customer relationship management (CRM) system.</p>
+<p> </p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   28 days ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Saturday, 28. November 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/11/28/automating-the-creation-of-flow-screens-with-apex-metadata-api/'>Automating the Creation of Flow Screens with Apex Metadata API</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  Having just completed some improvements to the Apex Metadata API to support creating, reading, updating and deleting Flows. I wanted to give it a bit more of test drive than the usual Apex examples i write. So i started wondering &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>♦Having just completed some improvements to the Apex Metadata API to support creating, reading, updating and deleting Flows. I wanted to give it a bit more of test drive than the usual Apex examples i write. So i started wondering if there was something i could do as a developer armed with this API to help with the process of configuring and managing Flows? The following is basic example of updating a Flow to add a Screen Step&#8230;.</p>
+<pre>
+        // Read Flow
+        MetadataService.Flow flow =
+            (MetadataService.Flow) service.readMetadata('Flow',
+                new String[] { 'NewFlow-1' }).getRecords()[0];
+
+        // Add a new step
+        MetadataService.FlowScreen flowScreen = new MetadataService.FlowScreen();
+        flowScreen.name = 'NewScreen';
+        flowScreen.label = 'New Screen';
+        flowScreen.locationX = 100;
+        flowScreen.locationY = 100;
+        flowScreen.allowBack = true;
+        flowScreen.allowFinish = true;
+        flowScreen.fields = new List&lt;MetadataService.FlowScreenField&gt;();
+        flowScreen.fields.add(new MetadataService.FlowScreenField());
+        flowScreen.fields[0].name = 'Test_Box';
+        flowScreen.fields[0].dataType = 'String';
+        flowScreen.fields[0].fieldText = 'Test Box';
+        flowScreen.fields[0].fieldType = 'InputField';
+        flowScreen.fields[0].isRequired = true;
+        flow.screens = new List&lt;MetadataService.FlowScreen&gt; { flowScreen };
+
+        // Link it with the previous one
+        flow.recordCreates[0].connector = new MetadataService.FlowConnector();
+        flow.recordCreates[0].connector.targetReference = 'NewScreen';
+
+        // Update
+        handleSaveResults(service.updateMetadata(new List&lt;MetadataService.Metadata&gt; { flow })[0]);
+</pre>
+<p>♦♦Doing this manually is a simple matter of dragging a Screen Flow element onto the canvas and configuring it with the type of UI fields you want to see. In scenarios where your step is surfacing fields from objects you can mirror those fields by setting up the Screen element with labels and field types based on the underlying field metadata.</p>
+<p>However wouldn&#8217;t it be much easier if we could simply state which object fields we want and automatically use their metadata to drive the creation of the fields in the UI. Reusing the labels and selecting the applicable field type. The following code uses the Apex Metadata API with Apex Describe to show how something like this can be done.</p>
+<pre>
+    public static void addFields(MetadataService.FlowScreen flowScreen, List&lt;SObjectField&gt; fieldsToAdd) {
+        for(SObjectField field : fieldsToAdd) {
+            // Construct a FlowScreenField based on the SObjectField metadata
+            DescribeFieldResult fieldDescribe = field.getDescribe();
+
+            // Create Screen field
+            MetadataService.FlowScreenField flowScreenField = new MetadataService.FlowScreenField();
+            flowScreenField.name = fieldDescribe.getName();
+            flowScreenField.dataType = FLOWTYPEBYDISPLAYTYPE.get(fieldDescribe.getType());
+            flowScreenField.fieldText = fieldDescribe.getLabel();
+            flowScreenField.fieldType = 'InputField';
+            flowScreenField.isRequired = fieldDescribe.isNillable();            
+            flowScreenField.helpText = fieldDescribe.getInlineHelpText();
+            if(flowScreenField.dataType == 'Number') {
+                flowScreenField.scale = fieldDescribe.getScale();
+            }
+
+            // Add to Screen field list
+            if(flowScreen.fields==null)
+                flowScreen.fields = new List&lt;MetadataService.FlowScreenField&gt;();
+            flowScreen.fields.add(flowScreenField);
+        }
+    }
+</pre>
+<p>The sample shown at the start of this blog then becomes&#8230;</p>
+<pre>
+MetadataService.FlowScreen flowScreen = new MetadataService.FlowScreen();
+flowScreen.name = 'NewScreen';
+flowScreen.label = 'New Screen';
+flowScreen.locationX = 100;
+flowScreen.locationY = 100;
+flowScreen.allowBack = true;
+flowScreen.allowFinish = true;       
+addFields(flowScreen, 
+   new List&lt;SObjectField&gt; { 
+      Account.AccountNumber, 
+      Account.Description, 
+      Account.Fax,
+      Account.IsPartner,
+      Account.AnnualRevenue });
+</pre>
+<p>This results in the following Screen element being created in the Flow&#8230;.<br>
+♦♦</p>
+<p>You can see the full code for this example here.</p>
+<p>Summary</p>
+<p>There is certainly i&#8217;m sure a number of other possibilities for dynamically generating or indeed updating Flows, that can now be realised in Apex through the Metadata API. I&#8217;m certainly keen to know what people think of the above and any other thoughts like it&#8230;</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   14:30 &bull;
+   1 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Monday, 23. November 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/11/23/google-script-connection-to-salesforce-nimble-ams-via-oauth/'>Google Script Connection to Salesforce / Nimble AMS via OAUTH</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>Google Sheets can be a great reporting tool for Salesforce / Nimble AMS.   This can be done pretty easily via Google Apps Script.♦</p>
+<p>This blog is part one of a series on how to connect these two great cloud products.  In this blog we will cover the first step which is OATH authentication to Salesforce.  </p>
+<p>Create a Salesforce Connected App</p>
+<p>To connect we will first need a Sale
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Google Sheets can be a great reporting tool for Salesforce / Nimble AMS.   This can be done pretty easily via Google Apps Script.♦</p>
+<p>This blog is part one of a series on how to connect these two great cloud products.  In this blog we will cover the first step which is OATH authentication to Salesforce.  </p>
+<p>Create a Salesforce Connected App</p>
+<p>To connect we will first need a Salesforce connected app Follow these instructions from the Salesforce Success Community to create a connected app.  </p>
+<blockquote>
+<p>A "Connected App" is an application that can connect to salesforce.com over Identity and Data APIs. Connected Apps use the standard OAuth 2.0 protocol to authenticate, provide Single Sign-On, and acquire access tokens for use with Salesforce APIs.<br>Salesforce Developer Technical Library</p>
+</blockquote>
+<p> ♦</p>
+Google Authentication Script
+<p>I built the following script to authenticate to Salesforce / Nimble AMS. This script will return two items that will be needed to access the data (subject of a future blog):</p>
+<ol>
+<li>Access Token which can be thought of as the Salesforce Session ID</li>
+<li>Instance URL which uniquely identifies the Salesforce instance to which API calls should be sent</li>
+</ol>
+// &lt;![CDATA[
+
+// ]]&gt;
+Sample Call
+<p>♦</p>
+What is Google Apps Script?
+<p>Per Google's App Script Start Page "Google Apps Script is a JavaScript cloud scripting language that provides easy ways to automate tasks across Google products and third party services and build web applications".  I love it because it allows me to leverage my Salesforce and Nimble AMS data along with all of the great tools (Sheets, Docs, Gmail, etc) that I use every day.  In addition (since we use Google Apps as our office productivity suite at NimbleUser) it comes at no additional cost. </p>
+About NimbleUser/Nimble AMS
+<p>NimbleUser has been helping associations and nonprofits become nimble through technology since 1992. Our flagship product, Nimble AMS, is an enterprise class association management system (AMS) built on the Salesforce App Cloud, the world's leading and most innovative customer relationship management (CRM) system. </p>
+Stay Tuned
+<p>In the next blog in this series I will cover how to process SOQL (Salesforce Object Query Language) to return data from Salesforce directly into a Google Spreadsheet.</p>
+<p> </p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   1 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Tuesday, 17. November 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/11/17/rotating-versions-with-confluence-spaces/'>Rotating Versions with Confluence Spaces</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  ♦
+<p>Professional technical writing platforms, like the DITA platform, are an excellent way to create single-source documentation. Hands-down.</p>
+<p>Though, in real life, the editing software is not mere-mortal friendly. If you're a full-time help topic author, learning DITA editing software is well worth the effort. If you write documentation in between other things, jumping into a DITA editor 
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  ♦
+<p>Professional technical writing platforms, like the DITA platform, are an excellent way to create single-source documentation. Hands-down.</p>
+<p>Though, in real life, the editing software is not mere-mortal friendly. If you're a full-time help topic author, learning DITA editing software is well worth the effort. If you write documentation in between other things, jumping into a DITA editor can be a real struggle.</p>
+<p>Being Atlasssian folks, we've started to use Confluence for our enterprise wiki, and it's quickly become our new standard. Google Docs has its benefits, but the platform is still raw in many ways, and lacks much of the maturity and "finish" we find in Confluence.</p>
+<p>I'm not saying Confluence is all unicorns and rainbows, but, for us, it's a step up from Google Docs, and it's head and shoulders above DITA editors.</p>
+<p>As we migrated more-and-more internal content to Confluence, using Confluence for our Nimble AMS help topics became a natural progression. The major stumbling block being: How do you version a Confluence space?</p>
+<p>If you (google/bing/yahoo) around, you'll find a lot of tips and tricks for using plugins, permissions, smoke, mirrors, and elbow grease to version Confluence, but our use case seems more straight-forward.</p>
+<p>Like Salesforce, we go through a preview/production rollout every four months: We preview our new release in customer staging environments for a time, and then roll out the new release to all of the production environments. (The Release is dead, long live the Release!)</p>
+<p>To manage our product help pipeline, we need to</p>
+<ul>
+<li>synchronize production help content with production code changes,</li>
+<li>roll out a preview help site as part of our major release rollout, and</li>
+<li>port the preview content to the live site once the new major release is in production.</li>
+</ul>
+<p>As much as I adore continuous delivery, our use case begs for a conventional code/test/live pipeline, where we can start with a Dev version of the space, roll that over to a Preview version, and then put the Preview version into Production. Bada-bing, bada-boom.</p>
+<p>Problem is, Confluence doesn't directly support the notion of merging or synchronizing spaces or changing the space URL.</p>
+<p>Indirect support ... well, that's a fresh kettle of fish.</p>
+<p>The indirect bits are:</p>
+<ul>
+<li>Exporting a Space and changing its Key.</li>
+<li>Dropping a Space and importing another in its place.</li>
+</ul>
+<p>The workflow bits are:</p>
+<p>The content originates in the Dev space. When we're ready for a Preview version of the updated software, and a corresponding preview version of Help, we just</p>
+<ul>
+<li>export the Dev space,</li>
+<li>update the export XML to reference the Preview space Key,</li>
+<li>delete the Preview space (to free up the Key), and</li>
+<li>import Dev as the new Preview space.</li>
+</ul>
+<p>The same process then holds for Preview to Production.</p>
+<p>Since the new content uses the same URLs as the old content (because we imported under the old space Key), our page rank is preserved, and people are not confused by multiple sites.</p>
+<p>Updating the key in the XML export is a bit groddy, but it's far from the worse thing I have to do on any given day.</p>
+<p>For the semi-official step-by-step, see</p>
+<ul>
+<li>How to copy or rename a space in Confluence. </li>
+</ul>
+<p>Shifting Keys is much simplified if you use a Key that is not going to appear as part of another string. With a Key like "HELPDEV", you can make the switch to "HELPPREV", or to "HELP", in a single find/replace pass.</p>
+<p>If we need to correct any production or preview content, as in a typo or misinformation, there is a bit of rework, in that we update dev and then update production, but that's simpler than trying to hide this-or-that until it ready for the big reveal.</p>
+<p>So, if you are a cloud shop, like us, and roll out continually, don't be distracted by shiny objects. Sometimes the old ways are still the best ways.</p>
+
+<p>Ted Husted is a Kaizen Squad developer on the Nimble AMS product crew. "We make the good changes that create a great product."</p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   1 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Monday, 16. November 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/11/16/what-does-the-association-management-software-of-the-future-look-like/'>What Does the Association Management Software of the Future Look Like?</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>♦In September I attended AMS Fest, an event for associations that are looking to replace their existing association management software (AMS).</p>
+<p>There were great speakers including thought leaders Reggie Henry (CIO of ASAE) and David DeLorenzo each who gave some very interesting observations on the future of association management systems.</p>
+Key Takeaways:♦
+<ul>
+<li>
+<p>The Behemoth 
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>♦In September I attended AMS Fest, an event for associations that are looking to replace their existing association management software (AMS).</p>
+<p>There were great speakers including thought leaders Reggie Henry (CIO of ASAE) and David DeLorenzo each who gave some very interesting observations on the future of association management systems.</p>
+Key Takeaways:♦
+<ul>
+<li>
+<p>The Behemoth AMS Is Dead<br>The overarching AMS that does virtually everything is dead.  The AMS is just one part of an association’s technology stack.  David referenced the AMS as  “one part of a large technology solar system”.  <br><br>Associations must be empowered to select best of breed applications that best handle their needs.  A good corollary is accounting software - the AMS acts as a sub ledger and leaves the heavier general ledger tasks to purpose built accounting packages like Intacct or NetSuite that best meet the organization’s needs.  <br><br>The association management system does not need to be the LMS (learning management system), the CMS (content management system) and the general ledger.  The AMS should stick to being excellent at AMS features and the organization should be able to choose a best of breed solution that works best for them.<br></p>
+</li>
+<li>
+<p>Integration is Paramount<br>In the AMS of the future, the ability to integrate with CMS, LMS and other systems is critical.  Open, documented, scalable APIs are needed as are other methods like webhooks and app stores.  (Related:  Is Your Association Software's API Up to Spec?)<br></p>
+</li>
+<li>
+<p>Cloud is Required<br>Reggie stated that the the Future AMS must be cloud based.  This may seem obvious but we still see a number of systems that are not truly cloud based or  they may be hosted but they are not true cloud applications.  (Related:  How To Tell If Your AMS Really Cloud Based?)</p>
+</li>
+<li>
+<p>Mobility is Key<br>The future AMS must be available from any device at anytime.  This applies both to the association’s staff ability to access the AMS data as well as the member’s ability to access the AMS’s member portal on any device.  <br></p>
+</li>
+<li>
+<p>Leaders Want Innovation <br>Association leaders are facing a host of challenges in their race to relevance and an innovative AMS is a key piece in delivering member value.<br><br></p>
+</li>
+</ul>
+<p>An innovative AMS is a key piece in delivering member value<br><br></p>
+How Does Nimble AMS Stack Up To The Future AMS?
+<p>While listening to these dynamic speakers I felt a sense of validation in regards to what NimbleUser is  doing with Nimble AMS:</p>
+<ul>
+<li>
+<p>Nimble AMS is built on Salesforce the world's leading cloud platform.</p>
+</li>
+<li>
+<p>Integration with Nimble AMS is easy through our Integration Framework, the Salesforce APIs and the Salesforce Appexchange App Store.</p>
+</li>
+<li>
+<p>Mobility is baked in via the Salesforce App Cloud and Nimble AMS’s Community Hub.  </p>
+</li>
+<li>
+<p>And lastly Forbes magazine rated Salesforce the most innovative company in the world in 2011, 2012, 2013, and 2014 (they finished 2nd to Tesla this year).  Innovation is part and parcel of Salesforce and Nimble AMS.</p>
+</li>
+</ul>
+Bright Future
+♦
+<p>At NimbleUser we are see a very bright future for Associations and we are excited to be part of that.  <br><br>To Quote the Lyrics of Timbuk 3: </p>
+<p>Things are going great, and they're only getting better<br>I'm doing all right, getting good grades<br>The future's so bright, I gotta wear shades</p>
+<p> </p>
+About NimbleUser/Nimble AMS: 
+<p>NimbleUser has been helping associations and nonprofits become nimble through technology since 1992. Our flagship product, Nimble AMS, is an enterprise class association management system (AMS) built on the Salesforce App Cloud, the world's leading and most innovative customer relationship management (CRM) system. Contact us today.</p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   1 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Thursday, 12. November 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/11/12/is-your-association-software-really-cloud-based/'>Is Your Association Software Really Cloud Based?</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>♦</p>
+<p>The “Cloud” has many different interpretations.  Some think the cloud simply means that the application can be accessed thru a web browser.  </p>
+<p>That simply isn’t the case.. </p>
+Hosting &lt;&gt; Cloud
+<p>The True Cloud embodies the following:</p>
+<ul>
+<li>
+<p>Born in the Cloud<br>The True Cloud Association Management System (AMS) is built from the ground up as a cloud soluti
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>♦</p>
+<p>The “Cloud” has many different interpretations.  Some think the cloud simply means that the application can be accessed thru a web browser.  </p>
+<p>That simply isn’t the case.. </p>
+Hosting &lt;&gt; Cloud
+<p>The True Cloud embodies the following:</p>
+<ul>
+<li>
+<p>Born in the Cloud<br>The True Cloud Association Management System (AMS) is built from the ground up as a cloud solution and not fiddle-fudged into a “Cloud AMS”.  If your AMS is more than 6 years old it is likely a legacy application that is hosted (we have even seen some that are delivered using Citrix or Terminal Services).   <br><br>Most AMS systems that are billed as running “in the cloud" were originally designed to run on-premise. These vendors usually do not host, manage, or maintain these "cloud" AMS solutions.  Typically, they turn responsibility over to a local value-added reseller. This is reminiscent of how application service providers (ASPs) operated decades ago and most of them went out of business for good reason.<br></p>
+</li>
+<li>
+<p>Multi Tenancy<br>In the true cloud all customers access the same solution from the same cloud. This gives customers continuous and instantaneous access to the latest product upgrades.<br></p>
+</li>
+<li>
+<p>Cost / Worry Free Upgrades<br>Association Software in the true cloud ensures frequent, free, and automatic software upgrades that have minimal (like 5 minutes or less) downtime.  Without frequent upgrades your AMS will quickly become out of date (Related:  AMS of the Lost - 7 signs that your AMS may be a dinosaur)<br></p>
+</li>
+<li>
+<p>Scalability<br>Is the AMS built on a platform of thousands of servers or is it hosted on in a data center somewhere?  This matters - ask your AMS how many transactions they process per day and how fast they process each one.  Most enterprise cloud applications will make this available via a status panel.  For example here is what Salesforce shows on their trust site:  <br><br>♦<br></p>
+</li>
+<li>
+<p>Innovation<br>What kind of R&amp;D investment is your AMS Provider putting into your platform to make it better?  Enterprise cloud platforms are pouring hundreds of millions of dollar every year into making the product better and more innovative (Example - Salesforce is on track to spend $900 Million on R&amp;D this year alone)<br></p>
+</li>
+<li>
+<p>Low TCO (Total Cost of Ownership)<br>With the True Cloud AMS your organization gets more value for money. An enterprise cloud platform like Salesforce can achieve substantially better economies of scale and pass the savings onto you.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p>Security and Integrity<br>No system can be entirely secure. But when you are part of a true cloud solution like one based on Salesforce there are many more resources to protect your data. Salesforce meets the highest standards set in the IT and audit practices in the US and overseas. Compliance at this level requires significant resources and effort that is simply out of reach of typical AMS providers.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p>Customization<br>The True Cloud AMS provides a platform that allows you to  customize your application on their platform, AND ensure that all of your customizations continue to work when new versions are released.  This gives you the peace of mind that your organization is  getting to use the latest functionality without delay and that customizations do not need to be constantly re-implemented every time a new version of the AMS comes out.<br><br>The best platforms also have an app store to extend your association software.  For example the Salesforce Appexchange has thousands of apps to empower your association to better meet member needs.  <br></p>
+</li>
+</ul>
+How Can You Tell If Your AMS Is In The True Cloud?  Ask These Questions:
+<ul>
+<li>
+<p>Is every customers on the same version?<br> If the answer is no it is obvious they are not a multi-tenant application.<br></p>
+</li>
+<li>
+<p>How long has your AMS been around?<br>If it is more than 6 years old it is likely that it was not born in the cloud but somehow forced into what the vendor now markets as a cloud based application.<br></p>
+</li>
+<li>
+<p>Are upgrades free, frequent and painless?<br>If the answer is no this is an indicator that the AMS in question is in the fake cloud.<br></p>
+</li>
+<li>
+<p>Is the word “Hosted” used?<br>If the vendor says that the AMS is hosted on Amazon Web Services or in a Tier one data center it is likely that it is not a true cloud application.  The server(s) it runs on will still need patching and it will not have the scalability of a true cloud application.  </p>
+</li>
+</ul>
+♦
+Two Huge Pitfalls of the False Cloud:<br>
+<ol>
+<li>
+<p>Jaw Dropping Upgrade Costs / Pain<br>Last week I talked with an organization that just spent $2 million dollars on an upgrade.  This upgrade came within 11 months of their $4 million dollar implementation.  To make matters worse the system was unavailable for 4 days and many of their customizations were not carried over or did not function correctly.<br></p>
+</li>
+<li>
+<p>Lack of Innovation<br>The True Cloud make it much easier for vendors to release new and innovative features.   There is only one version to support / maintain so the vendor can concentrate on delivering features versus maintaining legacy versions.<br><br></p>
+</li>
+</ol>
+Is Nimble AMS in the True Cloud?♦
+<p>Absolutely.  Nimble AMS is 100% on the Salesforce Platform and Salesforce is the poster child of cloud computing.  </p>
+Some Facts:
+<ul>
+<li>
+<p>Nimble AMS and Salesforce were built from the ground up in the cloud.</p>
+</li>
+<li>
+<p>Nimble AMS and Salesforce are multi-tenant applications (always have been and always will be).</p>
+</li>
+<li>
+<p>Every Nimble AMS and Salesforce customer is on the same version.</p>
+</li>
+<li>
+<p>Nimble AMS features no cost / no worry upgrades 3 times/year.</p>
+</li>
+</ul>
+About NimbleUser/Nimble AMS: 
+<p>NimbleUser has been helping associations and nonprofits become nimble through technology since 1992. Our flagship product, Nimble AMS, is an enterprise class association management system (AMS) built on the Salesforce App Cloud, the world's leading and most innovative customer relationship management (CRM) system. Contact us today.</p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   2 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Saturday, 07. November 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/11/07/supercharging-salesforce-report-subscriptions-with-apex-and-flow/'>Supercharging Salesforce Report Subscriptions with Apex and Flow</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  In the Spring&#8217;15 release Salesforce provided the ability to subscribe to reports. This is done through a new Schedule button shown below. Users can schedule reports with criteria based on the report contents. When the platform runs the report, the criteria gets evaluated and if met will result in &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>In the Spring&#8217;15 release Salesforce provided the ability to subscribe to reports. This is done through a new Schedule button shown below. Users can schedule reports with criteria based on the report contents. When the platform runs the report, the criteria gets evaluated and if met will result in notifications sent to the user. The usual Email and Chatter options are available, as well Mobile Notifications for Salesforce1 mobile users, pretty cool!</p>
+<p>♦</p>
+<p>It is the last notification option that caught my interest. Described simply as Execute Custom Action. This is in fact the gateway to many more possibilities, as it is essentially a peace of any Apex code. When the report is run and the criteria is met the platform will call your Apex code, a bit like an Apex Trigger but for Reports. Given the capabilities of Apex and what users can do with Salesforce Reports, thats not just pretty cool, that&#8217;s super cool!</p>
+<p>♦</p>
+<p>Once the user saves the subscription the platform creates a scheduled entry that can be seen and deleted by administrators under the All Scheduled Jobs page under Setup, classified as Reporting Notification scheduled job type. The job will then run under the user context of the user that setup the subscription. Note that each user can only setup up to 5 report subscriptions presently.</p>
+<p>Creating a Custom Action with Apex</p>
+<p>In order for your Apex class to appear in the above UI for selection you must implement a platform provided Apex interface. The Reports.NotificationAction Apex interface is pretty simple, with just one execute method.</p>
+<pre>
+public with sharing class MyReportNotification 
+	implements Reports.NotificationAction {
+
+	public void execute(Reports.NotificationActionContext context) {
+	    // Context parameter contains report instance and criteria
+	    Reports.ReportResults results = context.getReportInstance().getReportResults();
+	    // In the above subscription case this is the 'Record Count'
+	    System.debug(context.getThresholdInformation().getEvaluatedConditions()[0].getValue();
+	    // You can also access the report definition!
+	    System.debug(results.getReportMetadata().getName());
+	}
+}
+</pre>
+<p>If your familiar with the Analytics Apex API, you&#8217;ll soon feel quite at home with the information provided by the context parameter. The context parameter passes in an instance of the report itself, as in the records of the report. As well as a reminder of the criteria behind the subscription (as entered in the UI above) and the aggregate values that caused the criteria to be met. Also the report definition (its metadata), useful if you wanted to write a generic handler for example.</p>
+<p>What about Clicks not Coders?</p>
+<p>Now i love Apex coding, but i also know that this platform has not got where it has from just providing a programming language. Having a declarative means to deliver solutions rapidly with more pervasive skills is the corner stone of what makes the platform so successful. Tools like Process Builder and Visual Flow are a great example of this.</p>
+<p>So you may think Salesforce have missed an opportunity here, by not providing a means to use for example an Autolaunched Flow as a Report subscription. I personally think so, hence i&#8217;ve raised this Idea Exchange idea here, please up vote if you agree. Meanwhile, all is not lost!  As i&#8217;ve previously blogged there is a means to invoke Flow&#8217;s from Apex. So this got me wondering if Apex could be the glue between Salesforce Report Notifications and Flow?</p>
+<p>Here is the result of a basic experiment of calling a Flow from an Apex Report Notification&#8230;</p>
+<pre>
+public with sharing class MyReportNotification 
+	implements Reports.NotificationAction {
+
+	public void execute(Reports.NotificationActionContext context) {
+		// Context parameter contains report instance and criteria
+		Reports.ReportResults results = context.getReportInstance().getReportResults();
+		// Construct some parameters to pass to the Flow
+		Map&lt;String, Object&gt; params = new Map&lt;String, Object&gt;();
+		params.put('ReportName', results.getReportMetadata().getName());
+		params.put('RecordCount', context.getThresholdInformation().getEvaluatedConditions()[0].getValue());
+		// Call the Flow with the parameters
+		Flow.Interview.MyReportNotificationFlow reportNotificationFlow = 
+			new Flow.Interview.MyReportNotificationFlow(params);
+		reportNotificationFlow.start();		 
+	}
+}
+</pre>
+<p>Implementation Note: The only drawback so far i can see is sadly you cannot pass the whole context parameter &#8220;as is&#8221; into Flow, as its variable types are quite limited, to make this more generic you would have to be quite inventive as to how you pass information.</p>
+<p>The following shows the Autolaunched Flow called in the above example. It&#8217;s pretty simple but achieves something the other notification options cannot which is to create Task. If you want to know more see my blog here.</p>
+<p>♦</p>
+<p>This results in a Task being created for the user as shown in the screenshot below. There is certainly a great potential for this type of approach, as it allows for clicks not coders to stretch their declarative skills without having to revisit the Apex code each time a new requirement or change is required.</p>
+<p>♦</p>
+<p>Running, Testing and Debugging</p>
+<p>♦If you look closely at the UI above you&#8217;ll see the button Save &amp; Run Now. As the name suggests this will save the subscription details and run the report immediately. If the criteria is met your Apex class will be called immediately also. This is obviously pretty useful as the most granular scheduling period is on the hour.</p>
+<p>♦When i did schedule the subscription as normal users would. I found oddly no evidence of it in the Apex Jobs page, despite a schedule appearing on the All Scheduled Jobs page. Its pretty obvious the platform runs these async, so i would have expected some evidence of this&#8230;</p>
+<p>During my testing i found the Debug Logs output as expected (in both execution modes above). Though an important note is any exceptions thrown got swallowed when run from the UI, so always check your debug log if things are not working as expected.</p>
+<p>Warning Possible Platform Bug: I did find that if my Apex code threw an exception when i used the UI to run my code it deleted any prior schedules for the report subscription. I had to delete and recreate the subscription to get the schedule entry back. I&#8217;ll investigate this a bit further and raise a case with Salesforce.</p>
+<p>Writing an Apex Test for Report Notification Actions</p>
+<p>Writing Apex Tests for the above is little different than the usual approach, mainly owing to the fact that the Analytics API requires that Apex tests leverage the SeeAllData attribute. This is clearly less than ideal, but is indeed documented as such in the formal Salesforce documentation.</p>
+<p>In order to emulate the platform calling your execute method, you&#8217;ll need to mock the context parameter, fortunately it seems unlike some system types the context parameter type can be constructed, nice!</p>
+<pre>
+@IsTest
+private class MyReportNotificationTest {
+	
+	@IsTest(SeeAllData=true)
+	private static void testMyReportNotification() {
+	
+		// Get an instance of the report
+		Report report = [SELECT Id FROM Report WHERE DeveloperName = 'ClosedWon'];
+		Test.startTest();
+		Reports.ReportInstance reportInstance =
+          Reports.ReportManager.runAsyncReport(report.Id, true);
+		Test.stopTest();
+
+		// Emulate the platform calling the custom action passing criteria that was met
+		MyReportNotification myReportNotification = new MyReportNotification();		
+		Reports.NotificationActionContext context = 
+			new Reports.NotificationActionContext(
+				reportInstance, 
+				new Reports.ThresholdInformation( 
+					new List&lt;Reports.EvaluatedCondition&gt; {
+							/* new Reports.EvaluatedCondition(
+								'RecordCount', 
+								'Record Count', Double.valueOf(0), Double.valueOf(1), 
+								Reports.EvaluatedConditionOperator.GREATER_THAN) */ }));
+		myReportNotification.execute(context);
+
+		// Assert accordingly...
+		// ...
+	}
+}
+</pre>
+<p>Implementation Note: At time of writing, i found that i could not create a mock instance of the Reports.EvaluatedCondition type without receiving a compilation error claiming the constructor was not found (hence why its commented out). I&#8217;ll update this blog if i find out why. This issue will limit the testing of any criteria / threshold references in your code you make.</p>
+<p>Summary</p>
+<p>I love how Salesforce are opening up more of the platform to support Apex callbacks like this. It adds much more flexibility for developers to really extend the platform and not just solutions on top of it. In this case it also provided some flexibility for us to plug any gaps in the platforms current feature set. Salesforce please keep it up!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   18:09 &bull;
+   2 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Thursday, 05. November 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/11/5/is-your-association-softwares-api-up-to-spec/'>Is Your Association Software's API Up to Spec?</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>Who needs an API?</p>
+<p>Lets face it; today Integration and extensibility are key.  The days of the all in one behemoth Association Management System (AMS) are over.   </p>
+<p>♦</p>
+<p>Today the ability to integrate to best of breed applications like Content Management Systems (CMSs), Learning Management Systems (LMSs) and the like is critical to the delivery of member value.  </p>
+<p>Some 
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Who needs an API?</p>
+<p>Lets face it; today Integration and extensibility are key.  The days of the all in one behemoth Association Management System (AMS) are over.   </p>
+<p>♦</p>
+<p>Today the ability to integrate to best of breed applications like Content Management Systems (CMSs), Learning Management Systems (LMSs) and the like is critical to the delivery of member value.  </p>
+<p>Some AMS systems have light integrated versions of these systems but the modern association  needs the flexibility to integrate to packages that have the ability to best meets their needs.  That is where the AMS’s API comes front and center.</p>
+<blockquote>
+<p>Think of the AMS as one part of a large “solar system” versus an overarching, do everything system. Integration to other systems is hugely important now and continues to grown in importance daily<br></p>
+<br>
+<p>-Sig VanDamme - NimbleUser Founder</p>
+</blockquote>
+What is an API?
+<p>Think of your AMS’s API as a way for outside systems to communicate with the AMS.  </p>
+What Can an API Do for an Association?
+<p>In the association world the API typically performs two functions; Single Sign On (SSO) and Data Exchange.</p>
+Single Sign On♦
+<p>An organization's Association Management Software is really the authentication provider for your organization.  If one wants to know if someone is a member they look in the AMS.  Similarly when one goes to an association’s website and logs in, the CMS, behind the scenes, queries the AMS  with the provided user information (typically username and password) and the AMS returns a token if the user is found along with the AMS Id of the user and perhaps some additional information (name, member type, etc).  This enables the AMS to validate the user’s entry into members only areas as well as personalize the website to them.  This authentication methodology between the association software and outside systems is commonly referred to as Single Sign On.  </p>
+<blockquote>
+<p>Single Sign On is an authentication process that permits a user to enter one name and password in order to access multiple applications</p>
+</blockquote>
+Data Exchange
+<p>Often an outside application needs to access data from the AMS.  For instance, the website content management system may need to display a member directory.  To do this it needs to retrieve information from the AMS and it does this thru the API.  </p>
+<p>In addition, outside systems often need to safely write information to the AMS.  For instance an association’s community package may write detailed or summary information back to the AMS that can then be used to calculate engagement.  </p>
+What to look for in an API 
+<blockquote>
+<p>An API needs to be easy, fast and well supported</p>
+<p><br>- Noel Shatananda, Director of Solution Architecture - NimbleUser</p>
+</blockquote>
+Documentation
+<p>The API should be available in an easily digestible format, such as a web page with numerous working code examples.  </p>
+<p>The Salesforce API Documentation does this really well.</p>
+Support
+<p>The API must be well supported.   This is multi faceted: </p>
+<ol>
+<li>
+<p>To start there should be a status web page that shows the operational status of the system including the API.  Salesforce does a great job with its trust site.  <br></p>
+</li>
+<li>
+<p>There should be multiple ways contact the Software manufacturer for API support.   For example Nimble AMS support can be accessed via phone, email, support form and the NimbleLand Community.   </p>
+</li>
+</ol>
+Ease of Use
+<p>Any reasonably technical administrator of the system should have the ability to easily setup the outbound and inbound data transfer information.  This should not require a developer.   </p>
+<p>From the developer (i.e. non-setup) side of the equation we have found that RESTFul APIs are simpler to integrate with.   It makes the testing process easier as well;  testing the API can be done with a web browser and plug-in.</p>
+<p>SOAP is a good second but it takes more works to get up and running and there always seem to be nuances to getting it to work right.</p>
+JSON Formatted Data♦
+<p>Ideally the API returns data in a JSON format as it is easier to parse and it is easy to use in Javascript and other languages.   </p>
+Performance and Scalability
+<p>The API needs to be able to handle the expected transaction volumes or a lot of additional work will be necessary.  Since Nimble AMS leverage the Salesforce platform we do not run into the typical performance and scalability issues of legacy packages.  For example yesterday Salesforce handled 3 billion (yes with a ‘B’) transactions and did each in an average of 212 milliseconds (real time salesforce performance) .   <br><br>♦</p>
+<p>Sometimes the systems we communicate with have very different performance envelopes and we have to write middleware to slow things down to a point the other system can handle it.  This results in additional cost to the client so always keep in mind that marrying a high performance / high volume system with other systems that may not have the same performance.</p>
+<p><br>Security</p>
+<p>The data stored in your Association Management System is truly the lifeblood of your organization and security needs to be a top priority when interfacing with other systems.</p>
+<p>A good API will only grant access with the use of a security key that is known only to the authorized system.  Remarkably we have often found services that were completely open.</p>
+<p>Each system should have their own individual keys (I.e. do not give multiple outside systems the same security key).  This will give your organization the ability to monitor and/or disable the use of the service from one vendor while continuing to allow the other.</p>
+<p>A good API will also restrict what information is available once the service is accessed.  As a best practice the minimum set of data and rights should be granted to the outside service.  Just enough and nothing more.  </p>
+Logging
+<p>Directly related to security is logging  The API should have the ability to log access and what data has been sent and/or received.  This should be easily configurable as it is often the case that during the initial phases of the implementation, a higher level of logging is required while a lower level would be required during regular operations post go live.</p>
+Business Layer
+<p>A business layer is the set of rules that the API should pass all incoming data through when interfacing with AMS.  For example the AMS may have layer for adding an event registration that rolls up 30 different low level interactions that are necessary to correctly add the registration into a simple layer.   </p>
+Error Handling and Retry Capabilities
+<p>The API should have  robust error handling and retry features to notify the external system of failures and retry gracefully after a failure. <br></p>
+Synchronous Versus Asynchronous Processing
+<p>Ideally the API should support both Synchronous and Asynchronous execution.  When executing a task synchronously, the executing system must wait for the AMS to complete the task before moving on to something else.</p>
+<p>When executing a task asynchronously the external system can submit the task to the AMS and move on to another task before it completes.  In this scenario the API needs to provide the calling system with either a callback or another form of notification.   Asynchronous tasks are typically used for large, bulk data transfers that may lead to inordinate wait times on the calling system if it were processed synchronously.</p>
+API Limits
+<p>It is very important that every API support the concept of limits.  This helps to balance the use of system resources and ensures that no one process ends up consuming all the resources.</p>
+The Rise of the API is Great for Associations
+<p>APIs sound dull, but they’re anything but.   They are a valuable tool in an Association’s Race for Relevance and can fundamentally change the way value is delivered to members.   </p>
+<p><br><br></p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   2 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Wednesday, 04. November 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/11/4/nimble-ams-winter-16/'>Nimble AMS Winter '16</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>Did you notice that it just got chilly? That's no cold front my friend, it's the Nimble AMS Winter '16 release!</p>
+<p>The Nimble AMS Winter '16 release includes Community Hub (Pilot), Nimble AMS Programs (Pilot), Delete Payments (Pilot), Value Added Tax support and much more.</p>
+<ul>
+<li>Community Hub (Pilot) - NimbleUser is pleased to announce the release of Community Hub; our new constitu
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Did you notice that it just got chilly? That's no cold front my friend, it's the Nimble AMS Winter '16 release!</p>
+<p>The Nimble AMS Winter '16 release includes Community Hub (Pilot), Nimble AMS Programs (Pilot), Delete Payments (Pilot), Value Added Tax support and much more.</p>
+<ul>
+<li>Community Hub (Pilot) - NimbleUser is pleased to announce the release of Community Hub; our new constituent facing portal built on the Salesforce Communities Platform. Community Hub is a completely new approach for your constituents to manage their personalize online experience. Community Hub brings together the worlds of self service account management and ecommerce with the empowering and engaging elements of community all within one umbrella on the associations website. Community Hub also takes a huge leap by leveraging powerful tools now available to your administrators so they can owning crafting and maintaining your constituents' online experience.  We have now give your association staff everything they need to personalize your online Community Hub. Features of Community Hub include,
+<ul>
+<li>Mobile first design;</li>
+<li>Point and click configuration in staff view;</li>
+<li>Instantaneous updates from staff view to the user interface;</li>
+<li>More flexibility to add and remove content;</li>
+<li>Friendlier user interface;</li>
+<li>and much more...</li>
+</ul>
+For existing customers, Community Hub is a replacement for your Self Service site. In the coming months, we will develop a plan to migrate the existing Self Service customers to Community Hub. We are looking forward to working with you as we roll out this new product.</li>
+<li>Nimble AMS Programs (Pilot) - Nimble AMS Programs allows associations to introduce certification program tracking. This dynamic feature includes three levels of tracking, Programs, Milestones and Components. Staff will now have the ability to enroll members in programs and help them keep track of their progress toward program requirements. </li>
+<li>Delete Payments (Pilot) - Delete payments functionality in Nimble AMS allows association staff to delete a non credit card payment if the payment was made in error or if the payment was a duplicate payment. For example, If Association staff accidentally enters two check payments (duplicate payments) to the same order, they can delete one of the duplicate payments.</li>
+<li>Value Added Tax (VAT) - Nimble AMS now offers "limited" VAT functionality for country specific sales tax calculations. The VAT feature allows associations to charge a flat percentage tax amount for events based on the country where the event is being held.</li>
+<li>Membership Drop - Membership drop functionality in Nimble AMS allows association staff to override a member's membership term end. For example, if a member chooses not to renew for the next year, Staff can end the membership prior to the end of the grace period. When the membership end date is changed, there is no accounting impact.</li>
+<li>Improved Shipping by Weight - Shipping by weight has been improved in Nimble AMS to allow staff to set threshold weight amounts for different shipping levels, and include the weight at the product level. Shipping amounts in the checkout process will be calculated based on the overall weight of the items in the cart.</li>
+</ul>
+Release Overview
+<p></p>
+<p>For more information, be sure to check out the Nimble AMS Winter '16 release notes.</p>
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   2 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Saturday, 31. October 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/10/31/pillars-of-enterprise-development/'>Pillars of Enterprise Development</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  During 2014 i authored my first full book, entitled Force.com Enterprise Development, it was a long process taking over 8 months, so certainly if your considering such a thing yourself be prepared for a big investment! The opening paragraph is &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>During 2014 i authored my first full book, entitled Force.com Enterprise Development, it was a long process taking over 8 months, so certainly if your considering such a thing yourself be prepared for a big investment! The opening paragraph is as follows&#8230;</p>
+<p>♦Enterprise organisations have complex processes and integration requirements that typically span multiple locations around the world. They seek out the best in class applications that support their needs today and in the future. The ability to adapt an application to their practices, terminology, and integrations with other existing applications or processes is key to them. They invest as much in your application as they do in you as the vendor capable of delivering an application strategy that will grow with them.</p>
+Motivation and background to the book
+<p>The Salesforce community is diverse, consisting of package developers, in house developers and consultants, each with varying degrees of technical knowledge. While Salesforce documentation can be found to address the needs of each of these types of developers, it is often more of a reference style in nature and can be hard to contextualise. Meaning a clear path to an architecture for enterprise developers to refer can be hard to find and peace together.</p>
+<p>I wanted the book to act as flow for all that a developer needs to get the best out of the platform while laying down a strong foundation of development practices and patterns, to allow their application to scale and evolve with the same rapid pace of the platform itself (see some examples of where this has been achieved below).  Existing enterprise Java or .Net developers considering the platform will find some well known enterprise patterns. There has been a significant increase in architecture and best practice questions over the last 2-3 years on the Salesforce forums such as StackExchange and Salesforce Community Answers.</p>
+Pillars of Enterprise Development
+<p>♦When planning the outline for the book and thinking about Enterprise development on the platform in general, i had three core beliefs in mind that i wanted to seed within the book.</p>
+<ul>
+<li>Embrace the whole Platform, The first tenant of the Force.com platform is to combine the power of the declarative programming style with the traditional source code based programming style. Doing so ensures not only the developer is as effective as possible, focusing on coding only where needed, but also the resulting application has strong ‘native’ feel to it, giving its end users access to the platforms rich set of customization, configuration and integration capabilities that enterprise customers demand. I wanted the reader to have a key awareness of the benefits of being ‘native’ on the platform, to keep it in mind always and realize the benefits this combined development approach can be bring to end users.
+<p></li>
+<li>Build Strong Foundations, Enterprise applications are expected to serve their customers for many years to come, as customers build solutions and processes around them, which become a critical part of their businesses. As applications grow in complexity the code base especially needs to not buckle under the pressure, be that the addition features or general maintenance of existing features, made by existing or new developer resources. A strong foundation will ensure that the code base endures this type of change with minimal impact on the rest of the system and the users. I wanted the reader to get a strong sense of the meaning of Separation of Concerns and how it applies to enterprise applications built on the Force.com platform.
+<p></p>
+<ul>
+<li>Lightning Experience was obviously not around at the time and Lightning Components only in Pilot, now they are both GA, but are Services still as applicable to Lighting controllers? You bet!
+<p></li>
+</ul>
+</li>
+<li>Your Application as Platform, Enterprise customers demand high levels of integration, customization and integration from your application, as they either repurpose or consume the application within a larger business process or integration. So i wanted the reader to gain an understanding of the Force.com platform features they can leverage to ensure that these aspects are considered from an architecture perspective and thus baked into each new application function, such that the resulting application becomes in essence a part of the platform itself.
+<p></p>
+<ul>
+<li>Lightning Process Builder was but a gleam in someones eye a year ago, but can Services be exposed via Invocable Methods to this tool? You bet!</li>
+</ul>
+</li>
+</ul>
+<p>I&#8217;m so pleased and proud to see some great reviews of the book and also some great feedback on Twitter. If your interested in taking a deeper look check out the sidebar of my blog, you can get your hands on it both digitally and in good old paper back! Enjoy!</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   20:33 &bull;
+   2 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Thursday, 29. October 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://smgoodyear.com/'>Simon Goodyear</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://www.nimbleams.com/blog/2015/10/29/sobject-test-data-design-pattern/'>SObject Test Data Design Pattern</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  Apex SObject Test Data Design Pattern
+<p>In the Apex Data Factory Design Pattern, a design pattern was introduced using static create &amp; insert methods for instantiating and inserting records in Apex. With many fields on the SObject, this resulted in many methods being created and caused too many static methods to be used. The SObject Test Data Design Pattern resolves this.</p>
+SObject Test Da
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  Apex SObject Test Data Design Pattern
+<p>In the Apex Data Factory Design Pattern, a design pattern was introduced using static create &amp; insert methods for instantiating and inserting records in Apex. With many fields on the SObject, this resulted in many methods being created and caused too many static methods to be used. The SObject Test Data Design Pattern resolves this.</p>
+SObject Test Data Design Pattern
+<p>The SObject Test Data Design Pattern consists of a base SObjectTestData apex class that builds SObject records and optionally inserts them. It uses a fluent API to allow method chaining so that the code is self-documenting within test classes. For each SObject used in tests, a corresponding {Object}TestData class is created that extends from SObjectTestData. In each test class, the test methods then use the {Object}TestData classes as needed.</p>
+<p>Let's see an Account example.</p>
+Account Test Class
+// &lt;![CDATA[
+
+// ]]&gt;
+AccountTestData Class
+// &lt;![CDATA[
+
+// ]]&gt;
+SObject Test Data Class
+// &lt;![CDATA[
+
+// ]]&gt;
+
+  
+</div>
+
+<div class='item-footer'>
+   00:00 &bull;
+   2 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Sunday, 18. October 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/10/18/setup-audit-trail-api-in-winter16/'>Setup Audit Trail API in Winter’16</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  Winter&#8217;16 was a bit low on API for me, but one thing i just found hiding in the New Objects section, was this&#8230; SetupAuditTrail, &#8220;Represents changes you or other administrators made in your organization’s Setup area.&#8221; Wow, this is a BIG thing &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>Winter&#8217;16 was a bit low on API for me, but one thing i just found hiding in the New Objects section, was this&#8230;</p>
+<p>SetupAuditTrail, &#8220;Represents changes you or other administrators made in your organization’s Setup area.&#8221;</p>
+<p>♦Wow, this is a BIG thing and opens up a lot of tooling and greater compliance support for changes around orgs. Prior to this, folks where so keen to get hold of this information programatically they would resort to web scraping it from the Salesforce Setup menu!  So I set about giving it a spin via Developer Workbench and learning more about the object.<br>
+♦</p>
+<p>There is also much better data export support via tools such as DataLoader.io (and of course other tools)&#8230;.</p>
+<p>♦</p>
+<p>So in addition to Salesforce API&#8217;s (used by the above tools), it is also available via Apex SOQL! The following selects all audit records relating to users from a certain email domain.</p>
+<pre>
+List&lt;SetupAuditTrail&gt; stuffDoneByConsultants = 
+    [SELECT Id,
+     	Action,
+     	CreatedBy.Name,
+     	CreatedDate,
+     	Display,
+     	Section 
+     FROM SetupAuditTrail 
+     WHERE CreatedBy.Email LIKE '%xyzconsulting.com%'];
+</pre>
+<p>So what else can we do with it? Well&#8230; not a lot more sadly, doing an Apex Describe shows that its basically only query-able, no triggers, replication API or indeed streaming API, which while not a total surprised would have been very cool!</p>
+<p>Age of Records?</p>
+<p>Through the long standing CSV download facility under setup, only 6 months worth of data is available. However running queries in my various long standing orgs i&#8217;m seeing data going back as far as all time?!? Although there is no documentation to confirm, and i would honestly would not be surprised to see some limit here, perhaps those of you running long standing production orgs can confirm via the comments below?</p>
+<p>What are its fields?</p>
+<p>♦As you can see the SetupAuditTrail objects fields are not the most ideal to interpret the data, aside from CreatedBy field (which supports relationship walking to the User object). The most interesting are Action, Section and Display, the later is the one that actually contains the object, field, layout or whatever has changed. The challenge here is its embedded in a message and not called out separately, so there is a bit of parsing to be done here.</p>
+<p>IMPORTANT NOTE: The only gap i can see so far is the Delegate User (found in the Setup UI and CSV download) appears to be missing from the API at the moment. Yet it is documented as follows&#8230; &#8216;The Login-As user who executed the action in Setup. If a Login-As user didn’t perform the action, this field is blank.&#8217;</p>
+<p>So what next? </p>
+<ul>
+<li>Well i see AuditForce is an example of application tool that was created to better report and dashboard on this information, this tool could be enhanced to use this API now and remove the current web scraping hack the developer (Daniel Peter) was forced to utilise back then.</li>
+<li>With Apex support its also possible to write Apex Scheduled jobs that periodically scan for certain updates and apply your own rules and notifications.</li>
+<li>I was thinking it might also be useful to have a nice Lighting Component perhaps?</li>
+<li>The Setup UI does not permit filtering or even sorting, it would probably not require to much coding to get something like the excellent Data Table component show results of queries from this object (as featured in my List View API blog).</li>
+<li>Finally given this is available from Salesforce REST API, its also feasible to aggregate into a single console audit information from say multiple sandboxes (something Daniel hints at in his AuditForce blog).</li>
+</ul>
+<p>&nbsp;</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   16:51 &bull;
+   2 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Wednesday, 30. September 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/09/30/tips-for-migrating-to-apex-enterprise-patterns/'>Tips for Migrating to Apex Enterprise Patterns</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  One of the common questions i get asked is, &#8220;How do i adopt Apex Enterprise Patterns within an existing code base?&#8220;. Often its also folks who have not owned the code base from the start and are inheriting it. Your also &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>♦One of the common questions i get asked is, &#8220;How do i adopt Apex Enterprise Patterns within an existing code base?&#8220;.</p>
+<p>Often its also folks who have not owned the code base from the start and are inheriting it. Your also not likely to be blessed with a empty cheque of time to sort the code out before your asked to start adding new features or fixing issues. So how do you find time to crack open an old code base and start introducing Separation of Concerns?</p>
+<p>Tip 1. Pick and choose and go incrementally! You can pick and choose what layer you want to work on first and incrementally split out further. For example Service layer implementations don&#8217;t have to use Unit of Work, Domain or Selector initially. Typically I find the Service layer the most value add to get in place first. Going incrementally over a few release iterations perhaps, across the tips below can help you and your team walk before you start to run with the patterns and gain confidence and support across the team in the approach.</p>
+<p>Tip 2. Get a basic Service layer going. Even if you don&#8217;t adopt any other aspect, try to look for opportunities to move code from controllers, batch classes etc into a service layer. Remember that technically it is essentially a class ending in Service with some static methods in it, its the meaning and responsibility of it thats important here. If you don&#8217;t have time to follow all the conventions such as bulkification don&#8217;t worry, by moving it a Service you&#8217;ve already made a big step! For sure however, don&#8217;t apply global to your service until your happy with it&#8217;s methods.</p>
+<p>Tip 3. Sweeping out inlined SOQL. Again if your not ready to use the base classes in the library here, just start naming classes with the Selector suffix and re-home your code performing SOQL into methods on that class. You won&#8217;t get all the benefits of consistency, but you will start getting those from reuse and encapsulation. That said the Selector pattern does not really need you to have other things setup so do consider extending the base class where you can, doing for some Selectors and not others is also fine if some are a bigger challenge.</p>
+<p>Ti♦p 4. Moving your Trigger code into Domain class. The Domain class does support all the Apex Trigger events, and has several overrides to invoke code that applies to multiple events. So you should be able to find a home for your trigger code amongst the various overrides given by the base class. If you have got some recursive stuff going on you&#8217;ll want to look at the Statefull configuration in the Domain class.</p>
+<p>You may want to start with this one over tips 2 and 3 if your code is heavily Apex Trigger driven, it often the best way to show other developers the value as well, as the code starts to become more OO and more factored for typically little risk so long as you have good Apex tests in place. Finally developers familiar with so called Wrapper Patterns elsewhere in the community should warm to this pattern more quickly.</p>
+<p>Tip 5. Adding Application Factory and Mocking support Incrementally. This is possibly easier to add in areas of the solution where most of the patterns are starting to fall into place so don&#8217;t rush into adding this to soon. Separation of Concerns is key to making mocking work. So don&#8217;t try to introduce this to soon if you&#8217;ve not got things factored out well enough. That said, you may find adding support just for mocking the Service layer gives you some initial boosts in writing tests around controllers and batches classes and the like. The Unit of Work does not need to be fully configured either, its fine to have only have a subset of your objects representative of the areas its used in.</p>
+<p>So there you have it, some food for thought, i&#8217;m interested to know of approaches and processes others have ended up taking and if there is any neat short cuts or evening tooling options perhaps?</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   20:36 &bull;
+   3 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Thursday, 03. September 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://blog.jeffdouglas.com/'>My Life is a Hackathon</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://blog.jeffdouglas.com/2015/09/03/salesforce-lightning-design-system-node-demo/'>Salesforce Lightning Design System Node Demo</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>Last weekend I started playing around with the new Lightning Design System and before I knew it, I had an entire app written!! It was as simple as using Bootstrap!</p>
+
+<p>I have a confession to make... I suck at front-end design. I typically stumble over spans and divs and inject</p>
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  ♦<p>Last weekend I started playing around with the new Lightning Design System and before I knew it, I had an entire app written!! It was as simple as using Bootstrap!</p>
+
+<p>I have a confession to make... I suck at front-end design. I typically stumble over spans and divs and inject all sorts of silly stuff into the DOM when it shouldn't be there. In turn, my Visualforce pages also look terrible. </p>
+
+<blockquote>
+  <p>Disclaimer: the Design System is not completely baked but I found most of the standard elements were dev ready. The ones marked with <code>prototype</code> should be treated as alpha.</p>
+</blockquote>
+
+<p>This is the main reason why I love the new Design System. Salesforce has done all of the hard CSS and design work for me so that my apps look beautiful. With the Design System I can now build custom apps with a look and feel that is consistent with Salesforce Lightning Experience core features — without hacking up their styles!</p>
+
+<p>♦</p>
+
+<p>The node.js app is using handlebars for logic-less templating so the HTML is really clean. You should be able to port it to your favorite app easily. It also uses bluebird for Promises so there's a good example of getting an account record along with its contacts and opportunities.</p>
+
+<p>Demo: node-nforce-demo.herokuapp.com</p>
+
+<p>The code is available at  github.com/jeffdonthemic/node-nforce-demo or you can use the handy-dandy 'Deploy to Heroku' button below to get up and running quickly.</p>
+
+<p>♦</p>
+
+  
+</div>
+
+<div class='item-footer'>
+   19:26 &bull;
+   4 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Sunday, 30. August 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/08/30/winter16-lightning-custom-metadata-dreamforce-iot-social-coding-its-all-go/'>Winter’16, Lightning, Custom Metadata, Dreamforce, IoT, Social Coding… its all go!</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  So as is the norm in the run up to Dreamforce things are pretty busy! I thought i&#8217;d share a little summary of whats going on and what to look out for in the coming weeks before Dreamforce and in the weeks after &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>♦So as is the norm in the run up to Dreamforce things are pretty busy! I thought i&#8217;d share a little summary of whats going on and what to look out for in the coming weeks before Dreamforce and in the weeks after as the mighty Winter&#8217;16 release rolls out!</p>
+<p>Winter&#8217;16 Release, Custom Metadata Types and more&#8230;</p>
+<p>♦The release notes are out and if you grabbed yourself a pre-release org hopefully your already having a look around. I&#8217;ve yet to really sit down an poor through it, something i&#8217;m looking forward to, however i did jump to my usual favourite areas and of course Custom Metadata&#8230;</p>
+<p>The Custom Metadata team in Salesforce continue to invest in this great feature i&#8217;ve blogged already a few times about. I&#8217;m very pleased to see native UI support for it in this release! Below is a selection of screenshots showing the Custom Metadata Type from my last blog, now in my Winter&#8217;16 preview org. While there are some gaps, the native UI compared to a Custom Object native UI is pretty good. If your interested in know more about my thoughts on this for the tool i&#8217;ve started a GitHub discussion here.</p>
+
+♦
+♦
+♦
+♦
+
+<p>Lightning Experience</p>
+<p>Then of course who can ignore the Lightning Experience announcement, a bold new user experience! For sure inspired by the current Salesforce1 Mobile application, and built on the same framework, namely Aura. If you&#8217;ve been developing Lightning Components, now things really start to get exciting! As Salesforce continues on its mission to make Lightning a true device agnostic platform, your components are now not just for mobile users! There is a useful Lightning Experience FAQ from Salesforce here, and you can start reading up on Lightning Experience over at Trialhead now.</p>
+<p>♦</p>
+<p>Dreamforce 2015 and DevZone Sessions&#8230;</p>
+<p>The biggest challenge each year with this event, is finding new superlatives to describe it! I&#8217;m proud once again to be selected to speak at the event, along with my fellow FinancialForce R&amp;D team members, check out the complete list of FinancialForce DevZone sessions here. Here is a summary and a couple of short promo videos of the sessions i&#8217;ll be presenting or helping with&#8230;</p>
+<ul>
+<li>Apex Enterprise Patterns: Building Strong Foundations | Register<br>
+Dev Session | Tuesday, 9/15 | 1:30 PM &#8211; 2:00 PM | Moscone West, Innovation Theater</li>
+<li>Design Patterns: ISV Recipes for Success | Register<br>
+Dev Session | Tuesday, 9/15 | 5:00 PM &#8211; 5:40 PM | Park Central Hotel, Franciscan Ballroom</li>
+<li>Custom Metadata Types: Save years of development on app configurations | Register<br>
+Dev Session | Wednesday, 9/16 | 11:00 AM &#8211; 11:40 AM | Park Central Hotel, Franciscan Ballroom</li>
+<li>Building your own Internet of Things with the LittleBits Salesforce Connector | Register<br>
+Dev Session | Wednesday, 9/16 | 3:30 PM &#8211; 4:10 PM | Moscone West, 2008</li>
+</ul>
+<p>&nbsp;</p>
+<p>Internet of Things #IoT</p>
+<p>♦♦In preparation for my Dreamforce session above, the LittleBits Connector for Salesforce has been enhanced, and its now making plugging together my use cases a true joy, i can add new devices, subscribe to events from them in seconds, just they way a Clicks not Code solution should be! Check out my last blog for more details.</p>
+<p>Working with LittleBits i&#8217;ve got some great kit and demos to bring to Dreamforce, that will really i hope entertain and encourage you to get more involved in the every growing world of IoT. So if you want to take part as well as learn about IoT please join my session, where a hand shake really does close an opportunity&#8230;. </p>
+<p>Social Coding</p>
+<p>♦Increasingly my Salesforce community time is spent responding to questions, ideas and submissions via my GitHub profile page. Repositories such Apex Enterprise Patterns, Apex Mocks, Declarative Rollup Summary Looks and of course Apex Metadata API are all seeing increased traffic and an increasing amount of submissions from fellow community developers, such as the mighty Jon Davis (here and here). I&#8217;m so proud to see this happening and its one of my favourite ways to spend my community time (in addition to playing with LittleBits at the moment!). Today i released v1.23 of Declarative Rollup Summary tool, with a solid set of enhancements and bug fixes from Jon, the tools latest prolific contributor.</p>
+<p>&nbsp;</p>
+<p>Is there anything more&#8230;?</p>
+<p>Yes there is! But you&#8217;ll have to join myself and FinancialForce at Dreamforce to find out about other developments that have been keeping several other FinancialForce developers and myself very busy these last few weeks&#8230;.</p>
+<p>&nbsp;</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   12:24 &bull;
+   4 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Thursday, 27. August 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://blog.jeffdouglas.com/'>My Life is a Hackathon</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://blog.jeffdouglas.com/2015/08/27/salesforce-trailhead-developer-advocate/'>I'm the new Salesforce Trailhead Developer Advocate</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>After Labor Day I'll be joining the Salesforce Developer Relations team as the new Trailhead Developer Advocate! Is this a dream job? Yes! Am I super-excited? Yes! </p>
+
+<blockquote>
+  <p>If you are not familiar with Trailhead (shame on you!), it's simply the best way to learn Salesforce. Period. New to Salesforce or</p></blockquote>
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  ♦<p>After Labor Day I'll be joining the Salesforce Developer Relations team as the new Trailhead Developer Advocate! Is this a dream job? Yes! Am I super-excited? Yes! </p>
+
+<blockquote>
+  <p>If you are not familiar with Trailhead (shame on you!), it's simply the best way to learn Salesforce. Period. New to Salesforce or just want to dive deeper? We've got a learning trail that’s right for you.</p>
+</blockquote>
+
+<p>I've always been a huge fan of sites like Codeacademy and Code School that reinforce teaching by letting you code right in your browser. I even started to build my own Apex learning resource shortly before last Dreamforce but I saw the shining light of Trailhead and knew it was a force to be reckoned with. </p>
+
+<p>So what will I be doing in my new role? Among other things, I'm going to ...</p>
+
+<p>♦</p>
+
+<p>It was extremely tough leaving Appirio after helping it grow for the last 6 years. It's a fantastic company and I have a lot of great friends there that I'll stay in contact with. However, I couldn't pass up this opportunity at Salesforce. The possibilities with Trailhead are endless. I joked with Sandeep Bhanot, my new boss, that I thought he'd written the job specifically for me. It was spot-on. I've known almost everyone on the dev relations team for years so I'm excited to be part of a group that is dedicated to helping developers build incredible application with Salesforce.</p>
+
+<p>I'll still be blogging and developing all sorts of crazy stuff on my personal blog so stayed tuned. The fun will continue. However, most of my content will probably be appearing on Trailhead or the Developer Relations blog.</p>
+
+<p>We have a number of Trailhead announcements at Dreamforce so hang on cause it's going to be a wild ride that will just keep getting bigger and better!</p>
+
+<p> <br>
+♦</p>
+
+<p>Learn Salesforce like never before <br>
+Trailhead teaches you how to build cloud apps for free with fun, interactive tutorials. Stand out by learning in-demand Salesforce development skills. <br>
+</p>
+
+  
+</div>
+
+<div class='item-footer'>
+   17:03 &bull;
+   4 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Friday, 14. August 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://blog.jeffdouglas.com/'>My Life is a Hackathon</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://blog.jeffdouglas.com/2015/08/14/my-app-mavericks-video-interview-with-heywire/'>My App Mavericks Video Interview with HeyWire</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>I recently recorded an App Maverick interview for Salesforce with Meredith Flynn-Ripley, CEO and Founder of HeyWire, for a walkthrough of Heywire’s apps, LiveText Agent and Business Messenger.</p>
+
+<p>I've been doing SMS integration for Salesforce for years but HeyWire has some great features that make for a complete SMS</p>
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>I recently recorded an App Maverick interview for Salesforce with Meredith Flynn-Ripley, CEO and Founder of HeyWire, for a walkthrough of Heywire’s apps, LiveText Agent and Business Messenger.</p>
+
+<p>I've been doing SMS integration for Salesforce for years but HeyWire has some great features that make for a complete SMS conversation in Salesforce.</p>
+
+<ul>
+<li><p>HeyWire adds text features to a company’s existing 1-800 or office numbers so that texts come from a number that customers are familiar with and are more likely to engage with.</p></li>
+<li><p>With the LiveText Agent, customer service reps can text customers from within the Salesforce Service Cloud, allowing them to pull up each customer’s case history while messaging.</p></li>
+<li><p>According to Flynn-Ripley, HeyWire customers observed a 32% spike in close rates when responding to inbound Web inquiries via the app, while customer satisfaction scores increased an average of 50 to 60% in the first two months after launching HeyWire.</p></li>
+</ul>
+
+
+
+  
+</div>
+
+<div class='item-footer'>
+   13:27 &bull;
+   5 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Wednesday, 12. August 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://blog.jeffdouglas.com/'>My Life is a Hackathon</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://blog.jeffdouglas.com/2015/08/12/alexa-for-salesforce-with-amazon-echo/'>Alexa for Salesforce with Amazon Echo</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  <p>Amazon Echo is a voice command device with functions including question answering, playing music and controlling smart devices. Echo connects to Alexa, a cloud-based voice service, to provide information, answer questions, play music, read the news, check sports scores or the weather, and more—instantly. All you have to do</p>
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  ♦<p>Amazon Echo is a voice command device with functions including question answering, playing music and controlling smart devices. Echo connects to Alexa, a cloud-based voice service, to provide information, answer questions, play music, read the news, check sports scores or the weather, and more—instantly. All you have to do is ask. Echo begins working as soon as it detects the wake word. The Verge has a really good overview of it. </p>
+
+<p>♦</p>
+
+<p>A couple of weeks ago Amazon announced the Alexa Skills Kit for Amazon Echo to make development of new voice-driven capabilities for Alexa fast and easy.  I'd been watching Amazon Echo for awhile but now I could tell my wife that I needed one "for work".</p>
+
+<p>Within a matter of hours after the un-boxing, I had dug through the documentation and node examples and written my first skill to have Alexa tell my girls whose turn it was to choose a sound machine sound plus provide a random daily affirmation (video). It's very addicting to write new skills and I found myself dreaming of all the ways I could automate my life.  My wife even said, "I have to admit, I thought Alexa was a stupid idea at first but it's been fun!"</p>
+
+<p>I spent a good portion of last weekend getting my hards dirty with Alexa and building some integration with Salesforce. Most of the node.js documentation and examples are for Amazon Lambda so I decided to go that route for development instead of using Heroku as I typically do. </p>
+
+
+
+<p>This github repo has all of the code needed plus setup instructions for AWS Lambda and Alexa. The Alexa Salesforce application has the following functionality:</p>
+
+Create a New Lead
+
+<p>Alexa can walk the user through the process of creating a (simple) Lead in Salesforce. </p>
+
+<blockquote>
+  <p>User: "Alexa, ask Salesforce to create a new Lead." <br>
+  Alexa: "OK, let's create a new Lead. What is the person's first and last name?" <br>
+  User: "Jeff Douglas" <br>
+  Alexa: "Got it. the name is Jeff Douglas. What is the company name?" <br>
+  User: "ACME Corp" <br>
+  Alexa: "Bingo! I created a new lead for Jeff Douglas with the company name ACME Corp."  </p>
+</blockquote>
+
+Opportunity Status
+
+<p>You can ask Alexa for the status of any Opportunity by name and she will return the amount, stage and probability.</p>
+
+<blockquote>
+  <p>User: "Alexa, ask Salesforce for Opportunity United Oil Standby Generators." <br>
+  Alexa: "I found Opportunity United Oil Standby Generators for $80000, the stage is Value Proposition and the probability is 50%"  </p>
+</blockquote>
+
+New Leads for Today
+
+<p>You can ask Alexa for any new Leads entered today.</p>
+
+<blockquote>
+  <p>User: "Alexa, ask Salesforce for any new Leads." <br>
+  Alexa: "You have 2 new leads, 1, Jeff Douglas from ABC Company, and 2, Mike Smith from XYZ Corp. Go get them tiger!"  </p>
+</blockquote>
+
+Calendar for Today
+
+<p>Similar to the baked-in Google calendar integration, you can ask Alexa to check your Salesforce calendar and let you know what is upcoming for today.</p>
+
+<blockquote>
+  <p>User: "Alexa, ask Salesforce for my calendar for today." <br>
+  Alexa: "You have 2 events for today. At 10:15 am Follow-up Meeting. At 10:30 am, UI Demo with Tim Barr."</p>
+</blockquote>
+
+Amazon Echo App
+
+<p>The Amazon Echo App (iOS, Android &amp; web) allows you to view the cards and information from Alexa. This make it useful if you want to check the results of your skills or provide more information to users.</p>
+
+<p>♦</p>
+
+Development
+
+<p>If you are familiar with Node.js and nforce, development is fairly straight forward after you grok invocations and intents.  A user invokes intents with their voice and invocations are the name that identifies the capability the user wants. The IntentSchema.json defines the the intents for the applications (along with the "slots" or values that Alexa will send your Lambda function) and SampleUtterances.txt provide the mappings between the intents and the typical utterances that invoke those intents in a list of sample utterances.  The index.js file is the actual Lambda function that is uploaded to AWS and provides all of the functionality.</p>
+
+<p>The development experience with Alexa is sometimes infuriating. Often Alexa will say it cannot reach the skill and you don't know if there's an error with your code (you have to check the CloudWatch logs) or if Alexa just can't connect to the skill. Sometimes you just have to try the skill a couple of times before it works. I found that using the included test.js file helps in prototyping before adding the code in the Lambda function.</p>
+
+Conclusion
+
+<p>So far this is a good start with Alexa but there's a long way to go. One issue with the Salesforce integration is that it is a single user mode. Each interaction is with a specific named user and there's currently no authentication process. Perhaps that's something I can work on.</p>
+
+  
+</div>
+
+<div class='item-footer'>
+   14:46 &bull;
+   5 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+
+
+
+
+ <h2 class='new-date'>
+  Monday, 10. August 2015
+ </h2>
+
+
+
+<article class='item'>
+
+
+<h4 class='feed-title'>
+  <a href='http://andyinthecloud.com/'>Andy in the Cloud</a>
+</h4>
+
+
+
+<h3 class='item-title'>
+ 
+ <i class='icon-caret-down item-collapse item-close item-opened'></i>
+ <i class='icon-caret-right item-expand item-open item-closed'></i>
+ <a href='http://andyinthecloud.com/2015/08/10/exploring-iot-with-littlebits-and-salesforce-df15/'>Exploring IoT with LittleBits and Salesforce #DF15</a>
+</h2>
+
+<div class='item-body'>
+
+<div class='item-snippet'>
+<!-- use 'smarter' algorithm for cutoff snippet text
+   note: summary goes first; than try content -->
+
+  As soon as I got my hands on the LittleBits kit last December, i quickly fell in love with it. With its mission to bring IoT and electronics closer to everyone or in the words of LittleBits themselves &#8230; OUR MISSION IS &#8230; Continue reading &#8594;♦
+
+</div>
+
+<div class='item-content item-summary'>
+
+<!-- todo: use sanitize or simplify or whitelist
+   - todo/fix: check why summary can be nil/null
+   note: content goes first; than try summary
+ -->
+
+  <p>As soon as I got my hands on the LittleBits kit last December, i quickly fell in love with it. With its mission to bring IoT and electronics closer to everyone or in the words of LittleBits themselves &#8230;</p>
+<p>OUR MISSION IS TO DEMOCRATIZE HARDWARE</p>
+<p>It felt very familiar! Salesforce&#8217;s own Clicks not Code methodology is effectively the same but for Software!  However i quickly found some missing capabilities. While IFTTT (default way to control LittleBits) is great, there is only support for sending a Chatter Post. But no way to have Salesforce control devices or respond to them in different ways.</p>
+<p>♦♦Immediately i set about to rectify this! With a mission to allow the super inventive Salesforce community to leverage the full capability of LittleBits devices, the LittleBits Connector package was born earlier this year!</p>
+<p>Here is very cute creation from SNUGSFBAY using an early release&#8230;  &#8220;this guy&#8217;s blue light shines when Salesforce targets are met!&#8221;</p>
+Dreamforce 2015
+<p>If your attending Dreamforce, I&#8217;ll be explaining more about IoT, its background, why you need to thinking about it and how you can have some fun exploring ideas with Salesforce and LittleBits, click the link below to signup to my session!</p>
+<p>Dreamforce Session: Building Your own Internet of Things with the LittleBits Salesforce Connector</p>
+<p>Abstract: Devices are soon to out number humans as connected things on the internet! Are you prepared for judgement day? LittleBits is the perfect hardware complement to Salesforce&#8217;s clicks-not-code approach. No knowledge of electronics or even how to solder wires together is required. It&#8217;s all plug and play, or clicks-not-solder! There are over 40 LittleBits modules allowing projects such as automatic fish feeders, burglar alarms, or anything you can imagine. Join us to see how we&#8217;ve built the LittleBits Connector for Salesforce. Learn to connect your own Internet of Things creations to your Salesforce objects, processes, and reports using clicks-not-code via LittleBits</p>
+Latest Release of the LittleBits Connector
+<p>The latest release of the LittleBits Connector v1.12 now provides full support for integrating with LitteBits devices. Meaning you can now not only tell the device to perform an action from Salesforce, but you can also have Salesforce respond to messages (or events) the device sends. Your imagination is really the only limit! Choose from one of its many input bits, such as sound, movement and other sensors. As before this is made possible without coding at all!</p>
+<p>Here is a sneak preview of one of my slides from my Dreamforce session above&#8230;</p>
+<p>♦</p>
+Controlling Devices with Lightning Process Builder
+<p>♦If you&#8217;ve been following my blog, you&#8217;ll have already read my earlier blog describing how to use Process Builder to control LittleBits devices. It works really well and i&#8217;ve improved the internal coding for the Process Builder Action contained in the package for this new release. If your a Salesforce user and have not heard of Process Builder, you have my permission to stop reading now and go find out about it!♦</p>
+<p>&nbsp;</p>
+Controlling Devices with Salesforce Reports
+<p>♦Fellow Salesforce MVP, Cory Cowgill and I quickly found each other online as having had similar thoughts on integrating LittleBits with Salesforce. His sample code for using the Analytics API and LittleBits, inspired me to build a declarative feature in the connector.</p>
+<p>&nbsp;</p>
+<p>Simply create a Salesforce Summary Report and the connector runs the report on an hourly basis and updates your chosen device! In the following example, i created a report showing Closed Won Opportunities for the period, leveraging a formula field in the report to arrive at the all important target percentage i would then pass to my device.</p>
+<p>♦</p>
+<p>You can then define a LittleBits Report Trigger to tell the connector about the Salesforce Report and some details of where information can be found in the report. The Test button can be used to run the report immediately, so you can check everything is working fine. Finally use the Schedule button on the List View to schedule the job to run hourly.</p>
+<p>♦<br>
+♦<br>
+♦</p>
+<p>I&#8217;ll be building a device to demo this facility for Dreamforce, signup to my session to see it!</p>
+Responding to Devices with Salesforce Visual Flow
+<p>♦ ♦Once again inspired by Cory Cowgill&#8216;s sample here, this declarative feature allows you to connect LittleBits sensors (moving, sound, buttons etc) and any LittleBits input bit to Salesforce. Events sent to Salesforce are handled by Salesforce Visual Flow, or more specifically a Autolaunched Flows that you create. This is a very powerful #clicksnotcode tool, meaning the possibilities are practically endless in terms of what you can do in Salesforce in response to events from your latest device!</p>
+<p>Once you have configured your org to receive device events, you can setup a LittleBits Device Subscription to start listening to specific events from your devices and routing them to your chosen Flow. You can read more about how to configure your org and these events on the wiki here.</p>
+<p>♦</p>
+<p>You will have to have some experience with Visual Flow, but don&#8217;t be scared its quite easy to use and i&#8217;ll walk you through some examples to get you started in my Dreamforce session! Plus there are many many great resources in the Salesforce Community to help you.</p>
+<p>The following Flow has only one step, Record Create, that simply echo&#8217;s the information passed from the device to a custom object as a kind of device event log. However you can of course do anything you like in Flow with its many conditional and data elements at your disposal!</p>
+<p>♦<br>
+♦</p>
+Summary
+<p>I&#8217;m really very excited to see what happens next in the community with this latest release. There have already been some exciting devices from my fellow MVP&#8217;s in the community, what will you build next?!!</p><br>  ♦ ♦
+
+  
+</div>
+
+<div class='item-footer'>
+   09:16 &bull;
+   5 months ago
+</div>
+
+</div><!-- item-body -->
+
+</article><!-- item -->
+
+
+
+
+<!-- each item -->
+
+
+</body>
+</html>
