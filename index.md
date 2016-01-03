@@ -4,19 +4,15 @@ layout: index
 
 #About DreamOps#
 
-Are you struggling with using continuous integration on Force.com?
+Are you ready to to take Force.com development to the next level?
 
-Have you been unable to run Apex tests in parallel since Spring 2013? 
-
-Would you like to help take the development platform to the next level? 
-
-If so, join our success group, clone some code, hop onto the wiki, and upvote the roadmap!
+If so, brush up on the latest blogs, soak up pro tips and techniques, clone some code, hop onto the wiki, upvote the roadmap, then adopt and adapt your very own DevOps process.
 
 **Planet DreamOps** mashes blogs from the most influential writers in the Force.com technoverse. Check out our Feedly shared collections and see for yourself. -- [DreamOps.org/feedly](./feedly)
 
 The **DreamOps Success Group** is a technical forum with a strict focus on development issues. It's a place to create and share hardcore technical solutions. If you are ready to get your geek on, join the DreamOps success group today! -- [DreamOps.org/group](./group)
 
-The **DreamOps Hub** is a set of Git repositories with ready-to-clone code. Logon and jumpstart your own continous delivery, Selenium testing, and other enterprise initiatives. -- [DreamOps.org/hub](./hub)
+The **DreamOps Hub** is a set of Git repositories with ready-to-clone code. Logon and jumpstart your own continuous delivery, Selenium testing, and other enterprise initiatives. -- [DreamOps.org/hub](./hub)
 
 The **DreamOps Wiki** on Developerforce catalogs best practices used by Force.com enterprise developers. Explore new practices that  you can use with your own team, and help us grow by sharing your own. -- [DreamOps.org/wiki](./wiki)
 
