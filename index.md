@@ -1,8 +1,7 @@
 ---
 layout: index
+title: About DreamOps
 ---
-
-#About DreamOps#
 
 Are you ready to to take Force.com development to the next level?
 
