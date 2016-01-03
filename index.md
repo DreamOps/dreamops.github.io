@@ -3,6 +3,8 @@ layout: index
 title: About DreamOps
 ---
 
+#About DreamOps
+
 Are you ready to to take Force.com development to the next level?
 
 If so, brush up on the latest blogs, soak up pro tips and techniques, clone some code, hop onto the wiki, upvote the roadmap, then adopt and adapt your very own DevOps process.
