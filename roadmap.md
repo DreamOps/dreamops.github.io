@@ -10,8 +10,8 @@ Force.com is a remarkable platform, and we want to help take it to the next leve
 
 1. [Add "Switch" or "Case" Statement to Apex](https://success.salesforce.com/ideaView?id=08730000000BrSIAA0) (11750 points - On Roadmap).
 1. [Allow VisualForce Detail Page to be an edit form](https://success.salesforce.com/ideaView?id=08730000000BrQtAAK) (8820 points - Under Review).
-1. [IDE: Autocomplete for Apex and Visualforce code](https://success.salesforce.com/ideaView?id=08730000000BrptAAC) (7950 points)
-1. [Enforce CRUD and FLS in Apex](https://success.salesforce.com/ideaView?id=08730000000Lj8GAAS) (3090 points)
+1. [IDE: Autocomplete for Apex and Visualforce code](https://success.salesforce.com/ideaView?id=08730000000BrptAAC) (7950 points - Partially Delivered)
+1. [Enforce CRUD and FLS in Apex](https://success.salesforce.com/ideaView?id=08730000000Lj8GAAS) (3090 points - Under PM Review)
 1. [Allow Date, DateTime and Picklist fields to be indexed](https://success.salesforce.com/ideaView?id=08730000000Dg5DAAS) (340 points)
 1. [Permission Sets: Allow standard object permissions to be packaged](https://success.salesforce.com/ideaView?id=08730000000kmm6AAA) (290 points).
 1. [Partial Data DEVELOPER Sandboxes](https://success.salesforce.com/ideaView?id=08730000000kxdLAAQ) - 200mb is all we need for development (760 points).
