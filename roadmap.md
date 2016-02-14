@@ -22,10 +22,10 @@ Force.com is a remarkable platform, and we want to help take it to the next leve
 Sign on to the roadmap by clicking the links and upvoting all our top ideas today!
 
 #Delivered!#
-
+**We asked for it!**
 1. [Make managed packages less restrictive / more intelligent](https://success.salesforce.com/ideaView?id=08730000000Brq2AAC).
 1. [Source Control, Revision Control, CVS, Subversion - for S-Controls & Apex Code](https://success.salesforce.com/ideaView?id=08730000000BrBKAA0).
-1. [Provide Enhanced Apex Testing Functionality](https://success.salesforce.com/ideaView?id=08730000000BrPiAAK) (2730 points).
+1. [Provide Enhanced Apex Testing Functionality](https://success.salesforce.com/ideaView?id=08730000000BrPiAAK)
 
 #Enterprise Developer Top features#
 **What Force.com does really, really well!**
