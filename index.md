@@ -26,3 +26,5 @@ Together, let's take Force.com to new heights,
 - - -
 
 <p align="center">DreamOps Content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br /><a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons logo"/></a></p>
+
+<p align="center"><a href="http://www.nimbleams.com">Powered by Nimble AMS Engineering</a></p>
