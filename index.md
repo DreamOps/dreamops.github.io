@@ -9,6 +9,8 @@ Are you ready to to take Force.com development to the next level?
 
 If so, brush up on the latest blogs, soak up pro tips and techniques, clone some code, hop onto the wiki, upvote the roadmap, then adopt and adapt your very own DevOps process.
 
+(UNDER CONSTRUCTION!) **DreamOps Guide** helps Salesforce developers implement continuous delivery on the Force.com platform with step-by-step instructions that you can use to develop, package, release, monitor, and upgrade managed packages. Get more done, better and faster, by following a tried-and-true path. -- [DreamsOps.org/guide](./guide)
+
 **Planet DreamOps** mashes blogs from the most influential writers in the Force.com technoverse. Check out our Feedly shared collections and see for yourself. -- [DreamOps.org/planet](./planet)
 
 The **DreamOps Success Group** is a technical forum with a strict focus on development issues. It's a place to create and share hardcore technical solutions. If you are ready to get your geek on, join the DreamOps success group today! -- [DreamOps.org/group](./group)
