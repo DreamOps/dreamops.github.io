@@ -4,11 +4,248 @@
   
     
     <entry>
+      <title><![CDATA[The Thousand Developer March on DX GA]]></title>
+      <url>http://www.DreamOps.org/2017/02/the-thousand-developer-march-on-dx-ga/</url>
+      <content type="html"><![CDATA[<p>The Salesforce DX pilot is imminent, and it’s a pilot with a difference. Sure, DX is a groundbreaking initiative for Salesforce, breathtaking in its scope. Among other things, DX: Moves the source of truth from the cloud environment to source control – <a href="http://www.nimbleams.com/blog/2017/2/6/the-thousand-developer-march-on-dx-ga/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="https://pbs.twimg.com/profile_images/784609366985019392/jEp3FNFG.jpg"></div>
+
+]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Salesforce DX </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Confluence Templates For All]]></title>
+      <url>http://www.DreamOps.org/2017/01/confluence-templates-for-all/</url>
+      <content type="html"><![CDATA[<p>One of the many truly useful features of the Confluence enterprise wiki are page templates. Along with Confluence templates for sprint planning, retrospectives, and Go-No-Go decisions, we have checklist templates for routine maintenance – <a href="http://www.nimbleams.com/blog/2017/1/31/confluence-templates-for-all/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="max-width: 25%; max-height: 25%;" src="http://www.clipartkid.com/images/568/where-do-we-get-our-clip-art-and-images-from-lZK285-clipart.jpg"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Browse the DreamOps Guide]]></title>
       <url>http://www.DreamOps.org/2016/11/browse-the-dreamops-guide/</url>
       <content type="html"><![CDATA[<p>DreamOps Guide helps Salesforce developers implement continuous delivery on the Force.com platform with step-by-step instructions that you can use to develop, package, release, monitor, and upgrade managed packages. Get more done, better and faster, by following a tried-and-true path. – <a href="/guide.html">DreamOps.org/guide</a> – (under construction)</p>
+<div align="center"><img src="https://dreamops.atlassian.net/wiki/download/thumbnails/6324283/7443372_161b_3.jpg?width=174&height=174"></div>]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DreamOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Why Scrum is SMART]]></title>
+      <url>http://www.DreamOps.org/2016/11/why-scrum-is-smart/</url>
+      <content type="html"><![CDATA[<p><img style="float: left; margin: 0px 16px 0px 0px;" src="https://www.projectsmart.co.uk/img/goals-objectives.png"><br>Folks think of Scrum as an Agile project management system, and it is, but the ceremonies are classic time-management techniques that we see in Get Things Done, SMART Objectives, Pomodoro, and the Seven Habits. – <a href="http://www.nimbleams.com/blog/2016/11/17/why-scrum-is-smart/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
 ]]></content>
       
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Agile </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[JIRA: Our nexus of truth]]></title>
+      <url>http://www.DreamOps.org/2016/11/jira-our-nexus-of-truth/</url>
+      <content type="html"><![CDATA[<p>Once upon a time, when CVS ruled the earth, we used issue trackers, like Bugzilla and JIRA, to organize defect reports and help us squash bugs, over the web. – <a href="http://www.nimbleams.com/blog/2016/11/15/jira-our-nexus-of-truth/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="max-width: 50%; max-height: 50%; margin: 12px 0px 0px 0px; " src="https://blog.hipchat.com/wp-content/uploads/2016/06/hipchat_atlassian_integrations_JIRA_Bitbucket_Confluence-2.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Yoda User Stories]]></title>
+      <url>http://www.DreamOps.org/2016/11/yoda-user-stories/</url>
+      <content type="html"><![CDATA[<p>Most software folks are familiar with the classic user story format: “As a user role, I need this capability, for this benefit.” User stories are great way to kick off deeper design discussions, except for one major flaw: People tend to truncate the benefit.– <a href="http://www.nimbleams.com/blog/2016/11/1/yoda-user-stories/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="max-width: 50%; max-height: 50%;" src="http://designmodo.com/wp-content/uploads/2015/10/user-stories-ux.jpg"></div>]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Source driven development - Huh? What?]]></title>
+      <url>http://www.DreamOps.org/2016/10/source-driven-development-huh-what/</url>
+      <content type="html"><![CDATA[<p>In a classic Ted Talk, Tom Hulme asks “What can we learn from shortcuts?”. For years, many of us  have been looking for shortcuts through the Salesforce application lifecycle, so that we can use continuous delivery to develop packages – <a href="http://www.nimbleams.com/blog/2016/10/25/source-driven-development-huh-what/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="max-width: 30%; max-height: 30%;" src="https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/app-cloud/app-cloud-salesforce-dx.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Salesforce DX </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Write Better Apex With CodeScan]]></title>
+      <url>http://www.DreamOps.org/2016/10/write-better-apex-with-codescan/</url>
+      <content type="html"><![CDATA[<p>As the maker of two managed packages, we have a vested interest in developing the very best code we can. According to Economics of Software Quality (by Caspers Jones), the most effective software quality assurance tools are – <a href="http://www.nimbleams.com/blog/2016/10/20/write-better-apex-with-codescan/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://www.nimbleams.com/media/221236/2016-oct-mibex.png" width="50%" height="50%"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[From waterfall to pipeline to mobius strip]]></title>
+      <url>http://www.DreamOps.org/2016/10/from-waterfall-to-pipeline-to-mobius-strip/</url>
+      <content type="html"><![CDATA[<p>Once upon a time, a man named Royce published his recommended improvements to how large projects delivered software and accidentally popularized the “Waterfall” methodology. In a paper called “Managing the Development of Large Software Systems” (1970), Dr. Winston W. Royce recommended that large projects skip the initial systems and software requirements stages, jump straight to program design, and deliver working software in at least two iterations (instead of only one).– <a href="http://www.nimbleams.com/blog/2016/10/18/from-waterfall-to-pipeline-to-mobius-strip/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Agile </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Bitbucket Pipelines (Beta)]]></title>
+      <url>http://www.DreamOps.org/2016/05/bitbucket-pipelines-beta/</url>
+      <content type="html"><![CDATA[<p>Running development builds continuously is de rigeur for most software teams now (65% the survey says). Since the mainstay of development builds is pulling code from development source code repositories, Atlasssian is making a play for simplifying the process – <a href="http://www.nimbleams.com/blog/2016/5/25/bitbucket-pipelines-(beta" target="_blank" rel="external">Read More at NimbleAMS.com</a>)</p>
+<div align="center"><img src="http://atlassian.wpengine.netdna-cdn.com/wp-content/uploads/Bitbucket_Pipeline_Illustration_100.png" width="50%" height="50%"></div>]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[A Seriously Nimble (And Free) Tool That Every App Builder Needs]]></title>
+      <url>http://www.DreamOps.org/2016/02/a-seriously-nimble-and-free-tool-that-every-salesforce-admin-needs/</url>
+      <content type="html"><![CDATA[<p>Boost your admin and developer productivity on Salesforce.com and Nimble AMS with Boostr!<br>Current features include:</p>
+<ul>
+<li>Ability to search when adding items to a change set</li>
+<li>Filtering by type when adding to a change set</li>
+<li>Showing all items of a given type on one page when adding to a change set</li>
+<li>Displaying the API Name next to field names when editing a field set</li>
+<li>Using Pascal Case for the API Name when creating new objects and fields</li>
+<li>Preventing the placeholder text from filling in the setup area sidebar</li>
+</ul>
+<p><a href="http://www.nimbleams.com/blog/2016/2/22/a-seriously-nimble-and-free-tool-that-every-salesforce-admin-needs/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://www.nimbleams.com/media/192520/fieldset-api-names.jpg" width="25%" height="25%"></div>]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+        </tags>
         
     </entry>
     
@@ -16,8 +253,520 @@
       <title><![CDATA[Visit Planet DreamOps]]></title>
       <url>http://www.DreamOps.org/2016/02/visit-planet-dreamops/</url>
       <content type="html"><![CDATA[<p>Planet DreamOps mashes blogs from the most influential writers in the Force.com technoverse. Check out our Feedly shared collections and see for yourself. – <a href="/planet.html">DreamOps.org/planet</a></p>
+<div align="center"><img src="https://dreamops.atlassian.net/wiki/download/thumbnails/6324283/7443372_161b_3.jpg?width=174&height=174"></div>
 ]]></content>
       
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DreamOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Pair Programming with Salesforce App Cloud]]></title>
+      <url>http://www.DreamOps.org/2016/02/pair-programming-with-salesforce-app-cloud/</url>
+      <content type="html"><![CDATA[<p> Pair Programming is as an agile software development technique in which two programmers work as a pair together on one workstation.  Pair Programming on the Salesforce App Cloud has yielded many benefits for NimbleUser and this blog highlights lessons learned. – <a href="http://www.nimbleams.com/blog/2016/2/9/pair-programming-with-salesforce-app-cloud/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://www.nimbleams.com/media/191916/pair-programming-with-salesforce-app-cloud-for-professional-and-trade-associations.jpg" width="369" height="240" rel="900,585"></div>]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Agile </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Google Script Connection to Salesforce / Nimble AMS via OAUTH]]></title>
+      <url>http://www.DreamOps.org/2015/11/google-script-connection-to-salesforce-nimble-ams-via-oauth/</url>
+      <content type="html"><![CDATA[<p>Google Sheets can be a great reporting tool for Salesforce / Nimble AMS.   This can be done pretty easily via Google Apps Script.This blog is part one of a series on how to connect these two great cloud products.  In this blog we will cover the first step which is OATH authentication to Salesforce. – <a href="http://www.nimbleams.com/blog/2015/11/23/google-script-connection-to-salesforce-nimble-ams-via-oauth/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://nimbleams.com/media/189277/connect-google-sheets-docs-and-gmail-to-salesforce-and-nimble-association-management-software.jpg" width="50%" height="50%"></div>]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Integration </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Rotating Versions with Confluence Spaces]]></title>
+      <url>http://www.DreamOps.org/2015/11/rotating-versions-with-confluence-spaces/</url>
+      <content type="html"><![CDATA[<p>Professional technical writing platforms, like the DITA platform, are an excellent way to create single-source documentation. Hands-down. Though, in real life, the editing software is not mere-mortal friendly. – <a href="http://www.nimbleams.com/blog/2015/11/17/rotating-versions-with-confluence-spaces/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/5478/large/1431127911/ship-it-squirrel.png"></div>]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Documentation </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[sObject Test Data Design Pattern]]></title>
+      <url>http://www.DreamOps.org/2015/10/sobject-test-data-design-pattern/</url>
+      <content type="html"><![CDATA[<p>In the Apex Data Factory Design Pattern, a design pattern was introduced using static create &amp; insert methods for instantiating and inserting records in Apex. With many fields on the SObject, this resulted in many methods being created and caused too many static methods to be used. The SObject Test Data Design Pattern resolves this. – <a href="http://www.nimbleams.com/blog/2015/10/29/sobject-test-data-design-pattern/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Apex Tests </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Using task lists to get more done better]]></title>
+      <url>http://www.DreamOps.org/2015/09/using-task-lists-to-get-more-done-better/</url>
+      <content type="html"><![CDATA[<p>As much as I try to Automate All The Things, I still find myself walking through routine tasks with several simple steps. On busy days, it’s easy to miss a step, and on busier days, it’s easy to gloss over some of the fine details. – <a href="http://www.nimbleams.com/blog" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://www.nimbleams.com/media/187430/allthethings.png" width="25%" height="25%"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+            <tag> Productivity </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[DITA Best Practices: Use the maps, folks. Use the maps.]]></title>
+      <url>http://www.DreamOps.org/2015/03/dita-best-practices-use-the-maps-folks-use-the-maps/</url>
+      <content type="html"><![CDATA[<p>DITA is a tool created from the ground up for technical writers. It is, quite literally, an embodiment of best practices for people creating documents for software and hardware products. DITA stands for Darwin Information Typing Architecture. – <a href="http://www.nimbleams.com/blog/2015/3/17/dita-best-practices-use-the-maps,-folks-use-the-maps/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://www.pdfpower.com/XML2005Proceedings/ship/239/maps_and_topics.PNG" width="50%" height="50%"></div>]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Documentation </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[A Tale of Two Teams]]></title>
+      <url>http://www.DreamOps.org/2015/03/a-tale-of-two-teams/</url>
+      <content type="html"><![CDATA[<p>Teaching through dramatizations (or parables) is an ancient practice that is making its way into IT. For the Agile. Lean, and Devops inclined, I can strongly recommend the Scrum Training Series videos and The Phoenix Project. – <a href="http://www.nimbleams.com/blog/2015/3/4/a-tale-of-two-teams/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://scrumtrainingseries.com/srm.png"></div>]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Agile </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lag Measures Versus Lead Measures]]></title>
+      <url>http://www.DreamOps.org/2015/02/lag-measures-versus-lead-measures/</url>
+      <content type="html"><![CDATA[<p>The Four Disciplines of Execution (4DX) is a truly useful framework for getting things done at the enterprise level. Of the four disciplines, the trickiest one may be “Act on the Lead Measures”. – <a href="http://www.nimbleams.com/blog/2015/2/17/lag-measures-versus-lead-measures/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="max-width: 25%; max-height: 25%;" src="http://www.franklincovey.com/tc/public/images/4dx-edu-2.jpg"></div>]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+            <tag> Productivity </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Customizing Salesforce Help - Part 3]]></title>
+      <url>http://www.DreamOps.org/2015/02/customizing-salesforce-help-part-3/</url>
+      <content type="html"><![CDATA[<p>How you can implement a custom help site for your Salesforce org, like the one at help.nimbleams.com (in three parts). Warning: There’s a lot you can do to extend Salesforce help, but we need to create a few prerequisites along the way. – <a href="http://www.nimbleams.com/blog/2015/2/4/customizing-salesforce-help-part-3/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="max-height: 25%; max-width: 25%;" src="http://uploads3.wikiart.org/images/m-c-escher/drawing-hands.jpg!Blog.jpg"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Documentation </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Customizing Salesforce Help - Part 2]]></title>
+      <url>http://www.DreamOps.org/2015/02/customizing-salesforce-help-part-2/</url>
+      <content type="html"><![CDATA[<p>How you can implement a custom help site for your Salesforce org, like the one at help.nimbleams.com (in three parts). Warning: There’s a lot you can do to extend Salesforce help, but we need to create a few prerequisites along the way. – <a href="http://www.nimbleams.com/blog/2015/2/2/customizing-salesforce-help-part-2/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="max-width: 25%; max-height: 25%;" src="http://www.wpclipart.com/cartoon/people/kids/girl_cartoons/girlies/Help_me.png"></div>]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Documentation </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[NuOps: How the Nimble AMS Sausages are Made]]></title>
+      <url>http://www.DreamOps.org/2015/01/nuops-how-the-nimble-ams-sausages-are-made/</url>
+      <content type="html"><![CDATA[<p>Nimble AMS is created using an agile methodology and a sophisticated set of tools. The framework is a seamless software delivery platform integrating JIRA, BitBucket, TeamCity, and the Salesforce Migration Tool. – <a href="http://www.nimbleams.com/blog/2015/1/20/nuops-how-the-nimble-ams-sausages-are-made/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://pad2.whstatic.com/images/thumb/f/f6/Grill-Sausage-Step-2-Version-2.jpg/670px-Grill-Sausage-Step-2-Version-2.jpg" width="25%" height="25%"></div>]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Read Me First]]></title>
+      <url>http://www.DreamOps.org/2014/11/read-me-first/</url>
+      <content type="html"><![CDATA[<p>Many moons ago, I set out a “Read Me First” list for software developers. I’d now like to revise the list to include Jeff Sutherland’s new book “Scrum: The Art of Doing Twice the Work in Half the Time.” – <a href="http://www.nimbleams.com/blog/2014/11/27/read-me-first/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img width="20%" height="20%" src="http://www.talkingwithconfidence.com/wp-content/uploads/ReadMeFirst-286x300.png"></div>]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Agile </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Salesforce Publisher Actions 101 - Solutions to Common Problems]]></title>
+      <url>http://www.DreamOps.org/2014/10/salesforce-publisher-actions-101-solutions-to-common-problems/</url>
+      <content type="html"><![CDATA[<p>Introduced by Salesforce in their Summer 2013 release, I’m sure by now that most of you have heard something about publisher actions. There are certain limitations to publisher actions that I want to address, as well as provide solutions for getting around them. – <a href="http://www.nimbleams.com/blog/2014/10/23/salesforce-publisher-actions-101-solutions-to-common-problems/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://www.nimbleams.com/media/169950/Blog-Post-003.png" width="50%" height="50%"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Salesforce Developer Console Query Editor]]></title>
+      <url>http://www.DreamOps.org/2014/10/salesforce-developer-console-query-editor/</url>
+      <content type="html"><![CDATA[<p>For quite a while now, the Salesforce Workbench has been my goto for adhoc SOQL queries. Lately, however, the Salesforce Developer Console’s Query Editor has received more of my attention. It does simple Create, Retrieve, Update, and Delete (CRUD) operations in an easy, understandable way. – <a href="http://www.nimbleams.com/blog/2014/10/21/salesforce-developer-console-query-editor/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="https://lh6.googleusercontent.com/_mRw30rQgH4554l68o3d74tZ_hDixoHw_9bt62GYb7mMdcCpx05i-JzbnGWT_kzd_TBm6qKzIcNJ_7KY_DRZgEO4u3CPFRDP_XybzHQ1582a6Bk0K9JT1VUl2sIUAS50YA" width="25%;" height="25%"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> SOQL </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Customizing Salesforce Help]]></title>
+      <url>http://www.DreamOps.org/2014/08/customizing-salesforce-help/</url>
+      <content type="html"><![CDATA[<p>How you can implement a custom help site for your Salesforce org, like the one at help.nimbleams.com (in three parts). Warning: There’s a lot you can do to extend Salesforce help, but we need to create a few prerequisites along the way. – <a href="http://www.nimbleams.com/blog/2014/8/24/customizing-salesforce-help/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img width="20%" height="20%" src="http://mygradventure.files.wordpress.com/2013/11/keepcalmstudio-com-crown-keep-calm-and-ask-for-help.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Documentation </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[GUS: The Atlassian Way]]></title>
+      <url>http://www.DreamOps.org/2014/08/gus-the-atlassian-way/</url>
+      <content type="html"><![CDATA[<p>In real life, getting the initial release of a software product out-the-door is the easy part. The real work is growing the product, release after release, year after year. – <a href="http://www.nimbleams.com/blog/2014/8/17/gus-the-atlassian-way/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="https://www.atlassian.com/wac/sectionWrap/00/column/0/imageBinary/jira-large.png" width="50%" height="50%"></div>
+
+
+]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Grasping LastPass from the clutches of Salesforce Remember Me (and Me! and Me!)]]></title>
+      <url>http://www.DreamOps.org/2014/07/grasping-lastpass-from-the-clutches-of-salesforce-remember-me-and-me-and-me/</url>
+      <content type="html"><![CDATA[<p>Since Spring ‘14, LastPass and Salesforce Remember User Name have been at odds. Here’s how to make peace. Quick fix for Salesforce and LastPass Conflicts In LastPass, edit your Salesforce entry and click Edit Form Fields. – <a href="http://www.nimbleams.com/blog/2014/7/27/grasping-lastpass-from-the-clutches-of-salesforce-remember-me-(and-me!-and-me!" target="_blank" rel="external">Read More at NimbleAMS.com</a>/)</p>
+<div align="center"><img src="https://developer.salesforce.com/forums/servlet/rtaImage?eid=906F0000000AZ37&amp;feoid=Body&amp;refid=0EMF0000000QNOV"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Productivity </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Choosey partners choose Trialforce]]></title>
+      <url>http://www.DreamOps.org/2014/07/choosey-partners-choose-trialforce/</url>
+      <content type="html"><![CDATA[<p>Archimedes said of the lever: “Give me a place to stand and I will move the world.” As a release engineer for Nimble AMS, one of my key responsibilities is to give people the levers they need to develop, test, and demonstrate our product. – <a href="http://www.nimbleams.com/blog/2014/7/22/choosey-partners-choose-trialforce/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="https://www.math.nyu.edu/~crorres/Archimedes/Lever/LeverMid.gif"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Trialforce </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mountain-top servers are now literally in the clouds]]></title>
+      <url>http://www.DreamOps.org/2014/04/mountain-top-servers-are-now-literally-in-the-clouds/</url>
+      <content type="html"><![CDATA[<p>According to an article in Wired, Amazon is deploying a new tier of Elastic Cloud servers to Mount Elbert, the highest peak in the Rocky Mountains. – <a href="http://www.nimbleams.com/blog/2014/4/1/mountain-top-servers-are-now-literally-in-the-clouds/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="max-width: 30%; max-height: 30%;" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Mt._Elbert.jpg"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Satire </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[My DevOps Take Aways]]></title>
+      <url>http://www.DreamOps.org/2014/02/my-devops-take-aways/</url>
+      <content type="html"><![CDATA[<p>Some nifty DevOps videos have been circulating NimbleUser chat groups lately, ranging from the <a href="http://vooza.com/videos/what-is-devops/" target="_blank" rel="external">hilarious</a> to the <a href="http://www.youtube.com/watch?v=Hb4y0EHfOFQ" target="_blank" rel="external">sublime</a>. Here are my takeaways from these videos, and scads of other DevOps resources. Most tasks are part of a larger process. – <a href="http://www.nimbleams.com/blog/2014/2/12/my-devops-take-aways/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img style="margin-top: 12px" src="http://www.appdynamics.com/blog/wp-content/uploads/2013/06/DevOps-infinity-loop.png" width="50%" height="50%"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Designing with the Users in Mind]]></title>
+      <url>http://www.DreamOps.org/2014/01/designing-with-the-users-mind-in-mind/</url>
+      <content type="html"><![CDATA[<p>Having hard data from real user tests is oftentimes the best practice but is not always plausible, especially for smaller, “less risky” changes to the interface. This is where heuristic evaluations come in. – <a href="http://www.nimbleams.com/blog/2015/9/28/designing-with-the-users-mind-in-mind/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://www.nimbleams.com/media/187604/nimble-ams-usability-on-the-salesforce-platform.jpg" width="25%" height="25%"><br></div>]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Agile </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Apex Testing Username Creation Best Practice]]></title>
+      <url>http://www.DreamOps.org/2014/01/apex-testing-username-creation-best-practice/</url>
+      <content type="html"><![CDATA[<p>One common testing need is security testing. When a given user goes to Page X, they can only access and perform Y actions. Salesforce’s Apex Testing capabilities makes this painless. Through one or more test methods, users records are temporarily created and then verified that they can or cannot do the expected actions. This allows implementors to verify that their security model is correct or that it needs changing. – <a href="http://www.nimbleams.com/blog/2014/1/19/apex-testing-username-creation-best-practice/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Apex Tests </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Why feature branches are a good thing]]></title>
+      <url>http://www.DreamOps.org/2014/01/why-feature-branches-are-a-good-thing/</url>
+      <content type="html"><![CDATA[<p>“Pour new wine into new wineskins so both can grow together.” The recent generation of version control systems, like Git and Mercurial, have elevated merging to a new level. – <a href="http://www.nimbleams.com/blog/2014/1/7/why-feature-branches-are-a-good-thing/" target="_blank" rel="external">Read More at NimbleAMS.com</a></p>
+<div align="center"><img src="http://www.nimbleams.com/media/146379/feature-branch.jpg" width="50%" height="50%"></div>]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
         
     </entry>
     
@@ -34,6 +783,18 @@
 <p>– <a href="http://wiki.developerforce.com/page/DreamOps_Crew" target="_blank" rel="external">The DreamOps Crew</a></p>
 ]]></content>
       
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DreamOps </tag>
+            
+        </tags>
         
     </entry>
     
