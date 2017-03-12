@@ -579,6 +579,30 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Login Forensics: Login History plus for auditing user logins]]></title>
+      <url>http://www.DreamOps.org/2016/06/01/login-forensics-login-history-plus-for/</url>
+      <content type="html"><![CDATA[<p>[Adam Torman] The Salesforce App Cloud platform has important auditing capabilities built in to ensure that you can focus on what’s most important: your business. One of these foundational audit tools is Login History.  The Login History audit trail enables administrators to download the last six months of logins to the Force.com platform, either via a CSV download link in the setup user interface or via the API. With Login History, you can track login successes and failures by user, IP, application, API, or browser to name a few key attributes. In addition, Event Monitoring provides access to the Login log lines as well. As you can tell, we consider Login an important event to keep track of! – <a href="http://www.salesforcehacker.com/2016/06/login-forensics-login-history-plus-for.html" target="_blank" rel="external">Read more at Salesforce Hacker</a></p>
+<div align="center"><img style="max-width: 50%; max-height: 50%;" src="http://1.bp.blogspot.com/-vdFEBWDJU-E/VqwQSLu3zLI/AAAAAAAABEE/vE7wVdX6Ukw/s1600/loginForensicsAddInfo.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+            <tag> Adam Torman </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Bitbucket Pipelines (Beta)]]></title>
       <url>http://www.DreamOps.org/2016/05/25/bitbucket-pipelines-beta/</url>
       <content type="html"><![CDATA[<p>[Ted Husted] Running development builds continuously is de rigeur for most software teams now (65% the survey says). Since the mainstay of development builds is pulling code from development source code repositories, Atlasssian is making a play for simplifying the process – <a href="http://www.nimbleams.com/blog/2016/5/25/bitbucket-pipelines-(beta)" target="_blank" rel="external">Read more at NimbleUser</a></p>
@@ -1108,6 +1132,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[5 Skills Salesforce Devs Need for 2015]]></title>
+      <url>http://www.DreamOps.org/2015/02/24/5-skills-salesforce-devs-need-for-2015/</url>
+      <content type="html"><![CDATA[<p>[Jeff Douglas] Looking at the state of Salesforce and what is coming down the pike, here are 5 broad “skills” that Salesforce developers should be familiar with for 2015. – <a href="http://blog.jeffdouglas.com/2015/02/24/5-skills-salesforce-devs-need-for-2015/" target="_blank" rel="external">Read more at Jeff Douglas</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Lightning </tag>
+            
+            <tag> Jeff Douglas </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[If Programming Languages Were Beer ...]]></title>
       <url>http://www.DreamOps.org/2015/02/17/if-programming-languages-were-beer/</url>
       <content type="html"><![CDATA[<p>[Jeff Douglas] We were surprised the other day when we realized that If Programming Languages were <t> didn’t have a category for beer. It seemed like such a tragic mistake, so I naturally started a shared doc at Appirio and began to collect ideas. Here’s what we came up with. Let us know if we missed anything. – <a href="http://blog.jeffdouglas.com/2015/02/27/if-programming-languages-were-beer/" target="_blank" rel="external">Read more at Jeff Douglas</a></t></p>
@@ -1196,6 +1243,29 @@
         <tags>
             
             <tag> Andrew Fawcett </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[What is Salesforce1 Lightning?]]></title>
+      <url>http://www.DreamOps.org/2014/11/03/what-is-salesforce1-lightning/</url>
+      <content type="html"><![CDATA[<p>[Jesse Altman] You may have heard that Salesforce1 Lightning was announced at Dreamforce ’14. Truthfully, it may have been a bit confusing at first if you were following the development scene beforehand. That confusion may be compounded by the fact that the “Lightning” term seems to be thrown around all over the place. At the end of the day, Lightning is just a term used to described some new functionality. As per Salesforce’s article, “Lightning is the next generation of the Salesforce1 Platform.” It encompasses a large chunk of cool new tools used for extending the platform. – <a href="http://jessealtman.com/2014/11/what-is-salesforce1-lightning/" target="_blank" rel="external">Read more at Jesse Altman</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Lightning </tag>
+            
+            <tag> Jesse Altman </tag>
             
         </tags>
         
@@ -1318,6 +1388,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
+      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
+      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Andrew Fawcett </tag>
+            
+            <tag> Metadata API </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Salesforce.com’s New Open Source Releases – Part 3]]></title>
       <url>http://www.DreamOps.org/2014/07/29/salesforce-com-new-open-source-releases/</url>
       <content type="html"><![CDATA[<p>[Ian Varley] Does Salesforce create and contribute new open source releases? Historically, yes, although typically not core platform features… But, this is changing. With over 4 million custom apps written on our Platform, and 1.5 million developers in our community, the importance of open sourcing core platform technologies is critical for continued success. In the last year, Salesforce has open sourced two large libraries, Aura and Apache Phoenix. – <a href="https://developer.salesforce.com/blogs/engineering/2014/07/salesforce-com-new-open-source-releases.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
@@ -1336,29 +1429,6 @@
             <tag> Open Source </tag>
             
             <tag> Ian Varley </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
-      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
-      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Tutorial </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Andrew Fawcett </tag>
-            
-            <tag> Metadata API </tag>
             
         </tags>
         
