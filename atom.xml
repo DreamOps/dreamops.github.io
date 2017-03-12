@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.DreamOps.org/"/>
-  <updated>2017-03-11T12:49:58.000Z</updated>
+  <updated>2017-03-12T13:57:54.000Z</updated>
   <id>http://www.DreamOps.org/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.DreamOps.org/2017/03/11/top-open-source-projects/"/>
     <id>http://www.DreamOps.org/2017/03/11/top-open-source-projects/</id>
     <published>2017-03-11T11:00:00.000Z</published>
-    <updated>2017-03-11T12:49:58.000Z</updated>
+    <updated>2017-03-12T13:57:54.000Z</updated>
     
     <summary type="html">
     
@@ -196,7 +196,7 @@
     <link href="http://www.DreamOps.org/2017/01/29/undertanding-how-your-app-experience-fits-into-lightning-experience/"/>
     <id>http://www.DreamOps.org/2017/01/29/undertanding-how-your-app-experience-fits-into-lightning-experience/</id>
     <published>2017-01-29T11:00:00.000Z</published>
-    <updated>2017-03-12T02:04:35.000Z</updated>
+    <updated>2017-03-12T14:57:39.000Z</updated>
     
     <summary type="html">
     
@@ -218,11 +218,11 @@
     <link href="http://www.DreamOps.org/2017/01/17/ant-sf-dx-for-the-rest-of-us/"/>
     <id>http://www.DreamOps.org/2017/01/17/ant-sf-dx-for-the-rest-of-us/</id>
     <published>2017-01-17T11:00:00.000Z</published>
-    <updated>2017-03-11T12:49:34.000Z</updated>
+    <updated>2017-03-12T14:55:43.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;[DreamOps Crew] Moreover, the buildfile supports using task branches, where each task is a separate JIRA issue. Each task (or feature) ca
+      &lt;p&gt;[DreamOps Crew] The ant-sf buildfile supplements tasks provided by the Ant-Salesforce JAR. The JAR provides a core set of tasks for retri
     
     </summary>
     
@@ -334,11 +334,11 @@
     <link href="http://www.DreamOps.org/2016/11/20/browse-the-dreamops-guide/"/>
     <id>http://www.DreamOps.org/2016/11/20/browse-the-dreamops-guide/</id>
     <published>2016-11-20T11:00:00.000Z</published>
-    <updated>2017-03-11T12:50:21.000Z</updated>
+    <updated>2017-03-12T14:52:07.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;[DreamOps Crew] DreamOps Guide helps Salesforce developers implement continuous delivery on the Force.com platform with step-by-step inst
+      &lt;p&gt;[DreamOps Crew] The DreamOps Guide helps Salesforce developers implement continuous delivery on the Force.com platform with step-by-step 
     
     </summary>
     
@@ -356,7 +356,7 @@
     <link href="http://www.DreamOps.org/2016/11/15/jira-our-nexus-of-truth/"/>
     <id>http://www.DreamOps.org/2016/11/15/jira-our-nexus-of-truth/</id>
     <published>2016-11-15T11:00:00.000Z</published>
-    <updated>2017-03-11T00:50:58.000Z</updated>
+    <updated>2017-03-12T14:51:24.000Z</updated>
     
     <summary type="html">
     
@@ -400,11 +400,11 @@
     <link href="http://www.DreamOps.org/2016/10/20/write-better-apex-with-codescan/"/>
     <id>http://www.DreamOps.org/2016/10/20/write-better-apex-with-codescan/</id>
     <published>2016-10-20T10:00:00.000Z</published>
-    <updated>2017-03-11T00:50:58.000Z</updated>
+    <updated>2017-03-12T14:49:59.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;[Ted Husted] As the maker of two managed packages, we have a vested interest in developing the very best code we can. According to Econom
+      &lt;p&gt;[Ted Husted] As the maker of two managed packages, Nimble AMS hs a vested interest in developing the very best code we can. According to 
     
     </summary>
     
@@ -422,7 +422,7 @@
     <link href="http://www.DreamOps.org/2016/10/18/from-waterfall-to-pipeline-to-mobius-strip/"/>
     <id>http://www.DreamOps.org/2016/10/18/from-waterfall-to-pipeline-to-mobius-strip/</id>
     <published>2016-10-18T10:00:00.000Z</published>
-    <updated>2017-03-11T00:50:58.000Z</updated>
+    <updated>2017-03-12T14:48:33.000Z</updated>
     
     <summary type="html">
     
@@ -444,11 +444,11 @@
     <link href="http://www.DreamOps.org/2016/10/14/visualforce-development-cookbook-second-edition/"/>
     <id>http://www.DreamOps.org/2016/10/14/visualforce-development-cookbook-second-edition/</id>
     <published>2016-10-14T10:00:00.000Z</published>
-    <updated>2017-03-06T11:59:58.000Z</updated>
+    <updated>2017-03-12T14:47:28.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;[Keir Bowden] Visualforce Development Cookbook - and I really haven’t stopped banging on about it since. Well things just got worse as I 
+      &lt;p&gt;[Keir Bowden] As regular readers of this blog will know, I wrote a book three years ago - the Visualforce Development Cookbook - and I re
     
     </summary>
     
