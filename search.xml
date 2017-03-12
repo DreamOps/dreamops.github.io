@@ -1041,7 +1041,7 @@
       <title><![CDATA[17 Sites Every Force.com Developer Should Bookmark]]></title>
       <url>http://www.DreamOps.org/2015/03/18/17-sites-every-force-com-developer-should-bookmark/</url>
       <content type="html"><![CDATA[<p>[Jeff Douglas] The Salesforce developer ecosystem is expanding nearly as fast as my waistline and it’s hard to keep up with all of the new developments. There are three releases per year that unleash a flood of new features and upgrades plus the push for Salesforce1 Lightning is in full swing. How do you stay informed? I’ve put together a number of resources that you should bookmark and check often for the latest and greatest info, tutorials and thought leadership articles. – <a href="http://blog.jeffdouglas.com/2015/03/18/17-sites-every-force-com-developer-should-bookmark/" target="_blank" rel="external">Read more at Jeff Douglas</a></p>
-<div align="center"><img src="http://blog.jeffdouglas.com/content/images/2015/04/172H.jpg"></div>
+<div align="center"><img style="max-width: 25%; max-height: 25%;" src="http://blog.jeffdouglas.com/content/images/2015/04/172H.jpg"></div>
 ]]></content>
       
         <categories>
@@ -1087,7 +1087,7 @@
     <entry>
       <title><![CDATA[Extending Lightning Process Builder and Visual Workflow with Apex]]></title>
       <url>http://www.DreamOps.org/2015/03/01/extending-lightning-process-builder-and-visual-workflow-with-apex/</url>
-      <content type="html"><![CDATA[<p>So what is the next great platform feature and what has it got to do with writing Apex code? Well for me it’s actually two features, one has been around for a while, Visual Workflow, the other is new and shiny and is thus getting more attention, Lightning Process Builder. However as we will see in this blog there is a single way in which you can expose your finely crafted Apex functionality to users of both tools. Both of them have their merits and in fact can be used together for a super charged clicks not code experience! – <a href="https://andyinthecloud.com/2015/03/01/extending-lightning-process-builder-and-visual-workflow-with-apex/" target="_blank" rel="external">Read more at Andy in the Cloud</a></p>
+      <content type="html"><![CDATA[<p>[Andrew Fawcett] So what is the next great platform feature and what has it got to do with writing Apex code? Well for me it’s actually two features, one has been around for a while, Visual Workflow, the other is new and shiny and is thus getting more attention, Lightning Process Builder. However as we will see in this blog there is a single way in which you can expose your finely crafted Apex functionality to users of both tools. Both of them have their merits and in fact can be used together for a super charged clicks not code experience! – <a href="https://andyinthecloud.com/2015/03/01/extending-lightning-process-builder-and-visual-workflow-with-apex/" target="_blank" rel="external">Read more at Andy in the Cloud</a></p>
 ]]></content>
       
         <categories>
@@ -1111,7 +1111,7 @@
       <title><![CDATA[If Programming Languages Were Beer ...]]></title>
       <url>http://www.DreamOps.org/2015/02/17/if-programming-languages-were-beer/</url>
       <content type="html"><![CDATA[<p>[Jeff Douglas] We were surprised the other day when we realized that If Programming Languages were <t> didn’t have a category for beer. It seemed like such a tragic mistake, so I naturally started a shared doc at Appirio and began to collect ideas. Here’s what we came up with. Let us know if we missed anything. – <a href="http://blog.jeffdouglas.com/2015/02/27/if-programming-languages-were-beer/" target="_blank" rel="external">Read more at Jeff Douglas</a></t></p>
-<div align="center"><img src="http://blog.jeffdouglas.com/content/images/2015/02/beer.jpg"></div>
+<div align="center"><img style="max-width: 50%; max-height: 50%;" src="http://blog.jeffdouglas.com/content/images/2015/02/beer.jpg"></div>
 
 
 
@@ -1320,7 +1320,7 @@
     <entry>
       <title><![CDATA[Salesforce.com’s New Open Source Releases – Part 3]]></title>
       <url>http://www.DreamOps.org/2014/07/29/salesforce-com-new-open-source-releases/</url>
-      <content type="html"><![CDATA[<p>Does Salesforce create and contribute new open source releases? Historically, yes, although typically not core platform features… But, this is changing. With over 4 million custom apps written on our Platform, and 1.5 million developers in our community, the importance of open sourcing core platform technologies is critical for continued success. In the last year, Salesforce has open sourced two large libraries, Aura and Apache Phoenix. – <a href="https://developer.salesforce.com/blogs/engineering/2014/07/salesforce-com-new-open-source-releases.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
+      <content type="html"><![CDATA[<p>[Ian Varley] Does Salesforce create and contribute new open source releases? Historically, yes, although typically not core platform features… But, this is changing. With over 4 million custom apps written on our Platform, and 1.5 million developers in our community, the importance of open sourcing core platform technologies is critical for continued success. In the last year, Salesforce has open sourced two large libraries, Aura and Apache Phoenix. – <a href="https://developer.salesforce.com/blogs/engineering/2014/07/salesforce-com-new-open-source-releases.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
 <div align="center"><img src="https://opensource.org/trademarks/opensource/web/opensource-110x95.png"></div>
 ]]></content>
       
