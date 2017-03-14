@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Continous Integration How-To | DreamOps Success Group</title>
+  <meta name="author" content="DreamOps Crew">
+  
+  <meta name="description" content="Force.com is a remarkable platform, and we want to help take it to the next level. We have a dream. We want Salesforce DX to be the most scalable, most agile, most developer-friendly platform on the planet -- or in the cloud -- bar none.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Continous Integration How-To"/>
+  <meta property="og:site_name" content="DreamOps Success Group"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="DreamOps Success Group" type="application/atom+xml">
+  
+  
+    <link href="/favicon.ico" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/bootstrap.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-92989768-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">DreamOps Success Group</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="More about DreamOps.">
+			  <i class="fa fa-user"></i>about
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> Continous Integration How-To</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row page">
+	<!-- cols -->
+	
+	<div class="col-md-12">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <p>For administrators working with a single company, changesets are a great way to move updates between sandboxes and a parent org. However, when working on the enterprise tier, we often need to transfer components between various test and developer environments, which are outside the scope of changesets. </p>
+<p>To support multiple developers working across multiple environments on various features and fixes, a proven path is to use an automated continuous integration system to simplify deployments and promote transparency. </p>
+<h1 id="Lifecycle-Guide"><a href="#Lifecycle-Guide" class="headerlink" title="Lifecycle Guide"></a>Lifecycle Guide</h1><p>One approach, outlined in the <a href="https://resources.docs.salesforce.com/sfdc/pdf/salesforce_development_lifecycle.pdf" target="_blank" rel="external">Force.com Development Lifecycle guide</a>, is to use a separate developer org for each coder. While multiple orgs is better than one org, for larger teams, the org-per-developer approach presents challenges:</p>
+<ul>
+<li>Teardown scripts are needed to reset the developer org.</li>
+<li>Commingling alpha code with tested code increases the potential for error. </li>
+<li>Increased overhead discourages experimentation and innovation.</li>
+</ul>
+<h1 id="CumulusCI"><a href="#CumulusCI" class="headerlink" title="CumulusCI"></a>CumulusCI</h1><p>CumulusCI is the process used by the Salesforce.com Foundation for the Cumulus project, the next generation of the Non-Profit Starter Pack (NPSP).</p>
+<p>The process integrates GitHub, Jenkins, the Salesforce.com Ant Migration Tool, and a custom web application called mrbelvedere running on Heroku.</p>
+<p>While this process was specifically built for the Cumulus project, it should be useable by other Force.com projects.</p>
+<p>For a high-level overview, see [<a href="https://github.com/SalesforceFoundation/CumulusCI" target="_blank" rel="external">https://github.com/SalesforceFoundation/CumulusCI</a> the project’s GitHub page].</p>
+<h2 id="How-to-Setup-Continuous-Integration-with-Git-Jenkins-and-Force-com"><a href="#How-to-Setup-Continuous-Integration-with-Git-Jenkins-and-Force-com" class="headerlink" title="How to Setup Continuous Integration with Git, Jenkins, and Force.com"></a>How to Setup Continuous Integration with Git, Jenkins, and Force.com</h2><p>In the session “<a href="http://www.youtube.com/watch?v=a0u1CBUsj_I" target="_blank" rel="external">How to Setup Continuous Integration with Git, Jenkins, and Force.com</a>“ (Dreamforce 2013), Derek Hansen and Ted Husted presented an approach that maps Feature Branches to Feature Sandboxes. </p>
+<p>For a detailed step-by-step, <a href="https://github.com/DreamOps/continuous-delivery/wiki" target="_blank" rel="external">visit the session’s git repository</a>. </p>
+<h1 id="Continuous-Delivery-with-Force-com"><a href="#Continuous-Delivery-with-Force-com" class="headerlink" title="Continuous Delivery with Force.com"></a>Continuous Delivery with Force.com</h1><p>In the session “Continuous Delivery with Force.com” (Dreamforce 2012), Tim Inman and Sanjay Gidwani also presented on the same topic. For Dreamforce 2011, James Hatton with Alexis Williams presented “Continuous Delivery in the Cloud”.</p>
+<p>For details, see the <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=xeG5SonUuA8" target="_blank" rel="external">2012 session’s video</a> and the [session’s slides (<a href="http://www.slideshare.net/awillia2/continuous-integration-in-the-cloud-final-1" target="_blank" rel="external">http://www.slideshare.net/awillia2/continuous-integration-in-the-cloud-final-1</a> 2011 )].</p>
+<h1 id="Atlassian-Cookbook-for-Collaborative-Salesforce-Development"><a href="#Atlassian-Cookbook-for-Collaborative-Salesforce-Development" class="headerlink" title="Atlassian Cookbook for Collaborative Salesforce Development"></a>Atlassian Cookbook for Collaborative Salesforce Development</h1><p>How Atlassian uses JIRA and Bamboo to update their own Salesforce org using continuous integration and deployments. </p>
+<ul>
+<li><a href="https://developer.atlassian.com/sfdc" target="_blank" rel="external">Atlassian Cookbook for Collaborative Salesforce Development</a></li>
+</ul>
+<p>Also presented at <a href="https://developer.atlassian.com/sfdc/dreamforce-presentations" target="_blank" rel="external">Dreamforce 2014 and Dreamforce 2015</a>.</p>
+<hr>
+<p>Return to <a href="index.html">Best Practices for Enterprise Development on Force.com</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+	
+	<!-- comment 
+	
+	--> 
+	</div> <!-- col-md-9/col-md-12 -->
+
+		
+
+</div><!-- row -->
+<!-- 
+ -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p><a href="http://www.dreamops.org/powered-by/index.html">DreamOps is made possible by Nimble AMS Engineering</a>.</p> </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  <a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+<a href="/atom.xml"><img src="/images/rss.png"/></a>   
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+</body>
+   </html>

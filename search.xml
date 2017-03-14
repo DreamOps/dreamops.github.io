@@ -9,7 +9,7 @@
       <content type="html"><![CDATA[<p>[DreamOps Crew] Without open source, <a href="https://developer.salesforce.com/blogs/engineering/2014/07/open-source-at-salesforce-com.html" target="_blank" rel="external">there would be no Salesforce as we know it today</a>. </p>
 <p>Open source projects fuel the Salesforce core infrastructure in the same way Force.com fuels your managed packages. </p>
 <p>As SFDC Architect Ian Varley puts it: “Open source lets you control your own destiny.”</p>
-<p>Read more at <a href="/open-source/index.html">DreamOps Success Group</a></p>
+<p>Read more at <a href="/wiki/top-open-source-projects.html">DreamOps Success Group</a></p>
 <div align="center"><img src="https://opensource.org/trademarks/opensource/web/opensource-110x95.png"></div>
 
 ]]></content>
@@ -1146,9 +1146,9 @@
         
         <tags>
             
-            <tag> Lightning </tag>
-            
             <tag> Jeff Douglas </tag>
+            
+            <tag> Lightning </tag>
             
         </tags>
         
@@ -1388,29 +1388,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
-      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
-      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Tutorial </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Andrew Fawcett </tag>
-            
-            <tag> Metadata API </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Salesforce.com’s New Open Source Releases – Part 3]]></title>
       <url>http://www.DreamOps.org/2014/07/29/salesforce-com-new-open-source-releases/</url>
       <content type="html"><![CDATA[<p>[Ian Varley] Does Salesforce create and contribute new open source releases? Historically, yes, although typically not core platform features… But, this is changing. With over 4 million custom apps written on our Platform, and 1.5 million developers in our community, the importance of open sourcing core platform technologies is critical for continued success. In the last year, Salesforce has open sourced two large libraries, Aura and Apache Phoenix. – <a href="https://developer.salesforce.com/blogs/engineering/2014/07/salesforce-com-new-open-source-releases.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
@@ -1429,6 +1406,29 @@
             <tag> Open Source </tag>
             
             <tag> Ian Varley </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
+      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
+      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Andrew Fawcett </tag>
+            
+            <tag> Metadata API </tag>
             
         </tags>
         
