@@ -151,7 +151,7 @@
     <entry>
       <title><![CDATA[The Thousand Developer March on DX GA]]></title>
       <url>http://www.DreamOps.org/2017/02/06/the-thousand-developer-march-on-dx-ga/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] The Salesforce DX pilot is imminent, and it’s a pilot with a difference. Sure, DX is a groundbreaking initiative for Salesforce, breathtaking in its scope. Among other things, DX: Moves the source of truth from the cloud environment to source control – <a href="http://www.nimbleams.com/blog/2017/2/6/the-thousand-developer-march-on-dx-ga/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] The Salesforce DX pilot is imminent, and it’s a pilot with a difference. Sure, DX is a groundbreaking initiative for Salesforce, breathtaking in its scope. Among other things, DX: Moves the source of truth from the cloud environment to source control – <a href="http://www.nimbleuser.com/blog/the-thousand-developer-march-on-dx-ga" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img src="https://pbs.twimg.com/profile_images/784609366985019392/jEp3FNFG.jpg"></div>
 
 ]]></content>
@@ -176,7 +176,7 @@
     <entry>
       <title><![CDATA[Confluence Templates For All]]></title>
       <url>http://www.DreamOps.org/2017/01/31/confluence-templates-for-all/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] One of the many truly useful features of the Confluence enterprise wiki are page templates. Along with Confluence templates for sprint planning, retrospectives, and Go-No-Go decisions, we have checklist templates for routine maintenance – <a href="http://www.nimbleams.com/blog/2017/1/31/confluence-templates-for-all/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] One of the many truly useful features of the Confluence enterprise wiki are page templates. Along with Confluence templates for sprint planning, retrospectives, and Go-No-Go decisions, we have checklist templates for routine maintenance – <a href="http://www.nimbleuser.com/blog/confluence-templates-for-all" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img style="max-width: 25%; max-height: 25%;" src="http://www.clipartkid.com/images/568/where-do-we-get-our-clip-art-and-images-from-lZK285-clipart.jpg"></div>
 ]]></content>
       
@@ -370,7 +370,7 @@
     <entry>
       <title><![CDATA[JIRA: Our nexus of truth]]></title>
       <url>http://www.DreamOps.org/2016/11/15/jira-our-nexus-of-truth/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] Once upon a time, when CVS ruled the earth, we used issue trackers, like Bugzilla and JIRA, to organize defect reports and help us squash bugs, over the web. Before long, the development community realized that it was helpful to plan all code changes with an issue tracker and then to reference the issue ID in the commit message. – <a href="http://www.nimbleams.com/blog/2016/11/15/jira-our-nexus-of-truth/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] Once upon a time, when CVS ruled the earth, we used issue trackers, like Bugzilla and JIRA, to organize defect reports and help us squash bugs, over the web. Before long, the development community realized that it was helpful to plan all code changes with an issue tracker and then to reference the issue ID in the commit message. – <a href="http://www.nimbleuser.com/blog/jira-our-nexus-of-truth" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img style="max-width: 50%; max-height: 50%; margin: 12px 0px 0px 0px; " src="https://blog.hipchat.com/wp-content/uploads/2016/06/hipchat_atlassian_integrations_JIRA_Bitbucket_Confluence-2.png"></div>
 ]]></content>
       
@@ -394,7 +394,7 @@
     <entry>
       <title><![CDATA[Source driven development - Huh? What?]]></title>
       <url>http://www.DreamOps.org/2016/10/25/source-driven-development-huh-what/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] In a classic Ted Talk (no relation), Tom Hulme asks “What can we learn from shortcuts?”. For years, many of us  have been looking for shortcuts through the Salesforce application lifecycle, so that we can use continuous delivery to develop packages – <a href="http://www.nimbleams.com/blog/2016/10/25/source-driven-development-huh-what/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] In a classic Ted Talk (no relation), Tom Hulme asks “What can we learn from shortcuts?”. For years, many of us  have been looking for shortcuts through the Salesforce application lifecycle, so that we can use continuous delivery to develop packages – <a href="http://www.nimbleuser.com/blog/source-driven-development-huh-what" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img style="max-width: 30%; max-height: 30%;" src="https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/app-cloud/app-cloud-salesforce-dx.png"></div>
 ]]></content>
       
@@ -418,8 +418,9 @@
     <entry>
       <title><![CDATA[Write Better Apex With CodeScan]]></title>
       <url>http://www.DreamOps.org/2016/10/20/write-better-apex-with-codescan/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] As the maker of two managed packages, Nimble AMS hs a vested interest in developing the very best code we can. According to Economics of Software Quality (by Caspers Jones), the most effective software quality assurance tools are (1) static program analysis and (2) peer review. – <a href="http://www.nimbleams.com/blog/2016/10/20/write-better-apex-with-codescan/" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="http://www.nimbleams.com/media/221236/2016-oct-mibex.png" width="50%" height="50%"></div>
+      <content type="html"><![CDATA[<p>[Ted Husted] As the maker of two managed packages, Nimble AMS hs a vested interest in developing the very best code we can. According to Economics of Software Quality (by Caspers Jones), the most effective software quality assurance tools are (1) static program analysis and (2) peer review. – <a href="http://www.nimbleuser.com/blog/write-better-apex-with-codescan" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="http://www.nimbleuser.com/uploads/9/4/3/7/94371761/2016-oct-mibex.png" width="50%" height="50%"></div>
+
 ]]></content>
       
         <categories>
@@ -442,7 +443,7 @@
     <entry>
       <title><![CDATA[From waterfall to pipeline to mobius strip]]></title>
       <url>http://www.DreamOps.org/2016/10/18/from-waterfall-to-pipeline-to-mobius-strip/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] Once upon a time, a man named Royce published his recommended improvements to how large projects delivered software and accidentally popularized the “Waterfall” methodology. In a paper called “Managing the Development of Large Software Systems” (1970), Dr. Winston W. Royce recommended that large projects skip the initial systems and software requirements stages, jump straight to program design, and deliver working software in at least two iterations (instead of only one). – <a href="http://www.nimbleams.com/blog/2016/10/18/from-waterfall-to-pipeline-to-mobius-strip/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] Once upon a time, a man named Royce published his recommended improvements to how large projects delivered software and accidentally popularized the “Waterfall” methodology. In a paper called “Managing the Development of Large Software Systems” (1970), Dr. Winston W. Royce recommended that large projects skip the initial systems and software requirements stages, jump straight to program design, and deliver working software in at least two iterations (instead of only one). – <a href="http://www.nimbleuser.com/blog/from-waterfall-to-pipeline-to-mobius-strip" target="_blank" rel="external">Read more at NimbleUser</a></p>
 ]]></content>
       
         <categories>
@@ -605,7 +606,7 @@
     <entry>
       <title><![CDATA[Bitbucket Pipelines (Beta)]]></title>
       <url>http://www.DreamOps.org/2016/05/25/bitbucket-pipelines-beta/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] Running development builds continuously is de rigeur for most software teams now (65% the survey says). Since the mainstay of development builds is pulling code from development source code repositories, Atlasssian is making a play for simplifying the process – <a href="http://www.nimbleams.com/blog/2016/5/25/bitbucket-pipelines-(beta)" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] Running development builds continuously is de rigeur for most software teams now (65% the survey says). Since the mainstay of development builds is pulling code from development source code repositories, Atlasssian is making a play for simplifying the process – <a href="http://www.nimbleuser.com/blog/bitbucket-pipelines-beta" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img src="http://atlassian.wpengine.netdna-cdn.com/wp-content/uploads/Bitbucket_Pipeline_Illustration_100.png" width="50%" height="50%"></div>]]></content>
       
         <categories>
@@ -710,8 +711,9 @@
 <li>Using Pascal Case for the API Name when creating new objects and fields</li>
 <li>Preventing the placeholder text from filling in the setup area sidebar</li>
 </ul>
-<p><a href="http://www.nimbleams.com/blog/2016/2/22/a-seriously-nimble-(and-free)-tool-that-every-salesforce-admin-needs/" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="http://www.nimbleams.com/media/192520/fieldset-api-names.jpg" width="25%" height="25%"></div>]]></content>
+<p><a href="http://www.nimbleuser.com/blog/a-seriously-nimble-and-free-tool-that-every-salesforce-admin-needs/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="http://www.nimbleuseer.com/uploads/9/4/3/7/94371761/boostr-for-salesforce-and-nimbleams-750x300.jpg" width="25%" height="25%"></div>
+]]></content>
       
         <categories>
             
@@ -757,8 +759,8 @@
     <entry>
       <title><![CDATA[Pair Programming with Salesforce App Cloud]]></title>
       <url>http://www.DreamOps.org/2016/02/06/pair-programming-with-salesforce-app-cloud/</url>
-      <content type="html"><![CDATA[<p>[Craig Ceremuga] Pair Programming is as an agile software development technique in which two programmers work as a pair together on one workstation.  Pair Programming on the Salesforce App Cloud has yielded many benefits for NimbleUser and this blog highlights lessons learned. – <a href="http://www.nimbleams.com/blog/2016/2/9/pair-programming-with-salesforce-app-cloud/" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="http://www.nimbleams.com/media/191916/pair-programming-with-salesforce-app-cloud-for-professional-and-trade-associations.jpg" width="369" height="240" rel="900,585"></div>]]></content>
+      <content type="html"><![CDATA[<p>[Craig Ceremuga] Pair Programming is as an agile software development technique in which two programmers work as a pair together on one workstation.  Pair Programming on the Salesforce App Cloud has yielded many benefits for NimbleUser and this blog highlights lessons learned. – <a href="http://www.nimbleuser.com/blog/pair-programming-with-salesforce-app-cloud" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="https://www.nimbleuser.com/uploads/9/4/3/7/94371761/pair-programming-with-salesforce-app-cloud-for-professional-and-trade-associations-369x240.jpg?253" width="369" height="240" rel="900,585"></div>]]></content>
       
         <categories>
             
@@ -877,8 +879,8 @@
     <entry>
       <title><![CDATA[Google Script Connection to Salesforce / Nimble AMS via OAUTH]]></title>
       <url>http://www.DreamOps.org/2015/11/23/google-script-connection-to-salesforce-nimble-ams-via-oauth/</url>
-      <content type="html"><![CDATA[<p>[Sig VanDamme] Google Sheets can be a great reporting tool for Salesforce / Nimble AMS.   This can be done pretty easily via Google Apps Script.This blog is part one of a series on how to connect these two great cloud products.  In this blog we will cover the first step which is OATH authentication to Salesforce. – <a href="http://www.nimbleams.com/blog/2015/11/23/google-script-connection-to-salesforce-nimble-ams-via-oauth/" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="http://nimbleams.com/media/189277/connect-google-sheets-docs-and-gmail-to-salesforce-and-nimble-association-management-software.jpg" width="50%" height="50%"></div>]]></content>
+      <content type="html"><![CDATA[<p>[Sig VanDamme] Google Sheets can be a great reporting tool for Salesforce / Nimble AMS.   This can be done pretty easily via Google Apps Script.This blog is part one of a series on how to connect these two great cloud products.  In this blog we will cover the first step which is OATH authentication to Salesforce. – <a href="http://www.nimbleuser.com/blog/google-script-connection-to-salesforce-nimble-ams-via-oauth" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="http://nimbleuser.com/uploads/9/4/3/7/94371761/connect-google-sheets-docs-and-gmail-to-salesforce-and-nimble-association-management-software-514x292.jpg?303" width="50%" height="50%"></div>]]></content>
       
         <categories>
             
@@ -900,7 +902,7 @@
     <entry>
       <title><![CDATA[sObject Test Data Design Pattern]]></title>
       <url>http://www.DreamOps.org/2015/10/29/sobject-test-data-design-pattern/</url>
-      <content type="html"><![CDATA[<p>[Luke Freeland] In the <a href="http://www.nimbleams.com/blog/2013/11/27/apex-data-factory-design-pattern/" target="_blank" rel="external">Apex Data Factory Design Pattern</a>, a design pattern was introduced using static create &amp; insert methods for instantiating and inserting records in Apex. With many fields on the SObject, this resulted in many methods being created and caused too many static methods to be used. The SObject Test Data Design Pattern resolves this. – <a href="http://www.nimbleams.com/blog/2015/10/29/sobject-test-data-design-pattern/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Luke Freeland] In the <a href="http://www.nimbleuser.com/blog/apex-data-factory-design-pattern" target="_blank" rel="external">Apex Data Factory Design Pattern</a>, a design pattern was introduced using static create &amp; insert methods for instantiating and inserting records in Apex. With many fields on the SObject, this resulted in many methods being created and caused too many static methods to be used. The SObject Test Data Design Pattern resolves this. – <a href="http://www.nimbleuser.com/blog/sobject-test-data-design-pattern" target="_blank" rel="external">Read more at NimbleUser</a></p>
 ]]></content>
       
         <categories>
@@ -946,8 +948,8 @@
     <entry>
       <title><![CDATA[Designing with the Users in Mind]]></title>
       <url>http://www.DreamOps.org/2015/09/28/designing-with-the-users-mind-in-mind/</url>
-      <content type="html"><![CDATA[<p>[Cesar Para] Having hard data from real user tests is often times the best practice but is not always plausible, especially for smaller, “less risky” changes to the interface. This is where heuristic evaluations come in. As far a user experience goes, heuristics are rules of thumb that can guide usability.<br>– <a href="http://www.nimbleams.com/blog/2015/9/28/designing-with-the-users-mind-in-mind/" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="http://www.nimbleams.com/media/187604/nimble-ams-usability-on-the-salesforce-platform.jpg" width="25%" height="25%"><br></div>]]></content>
+      <content type="html"><![CDATA[<p>[Cesar Para] Having hard data from real user tests is often times the best practice but is not always plausible, especially for smaller, “less risky” changes to the interface. This is where heuristic evaluations come in. As far a user experience goes, heuristics are rules of thumb that can guide usability.<br>– <a href="http://www.nimbleuser.com/blog/designing-with-the-users-mind-in-mind" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="http://www.nimbleuser.com/uploads/9/4/3/7/94371761/nimble-ams-usability-on-the-salesforce-platform.jpg?309" width="25%" height="25%"><br></div>]]></content>
       
         <categories>
             
@@ -969,8 +971,8 @@
     <entry>
       <title><![CDATA[Using task lists to get more done better]]></title>
       <url>http://www.DreamOps.org/2015/09/27/using-task-lists-to-get-more-done-better/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] As much as I try to Automate All The Things, I still find myself walking through routine tasks with several simple steps. On busy days, it’s easy to miss a step, and on busier days, it’s easy to gloss over some of the fine details. – <a href="http://www.nimbleams.com/blog/2015/9/27/using-task-lists-to-get-more-done-better/" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="http://www.nimbleams.com/media/187430/allthethings.png" width="25%" height="25%"></div>
+      <content type="html"><![CDATA[<p>[Ted Husted] As much as I try to Automate All The Things, I still find myself walking through routine tasks with several simple steps. On busy days, it’s easy to miss a step, and on busier days, it’s easy to gloss over some of the fine details. – <a href="http://www.nimbleuser.com/blog/using-task-lists-to-get-more-done-better/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="https://www.nimbleuser.com/uploads/9/4/3/7/94371761/allthethings.png" width="25%" height="25%"></div>
 ]]></content>
       
         <categories>
@@ -1088,7 +1090,7 @@
     <entry>
       <title><![CDATA[DITA Best Practices: Use the maps, folks. Use the maps.]]></title>
       <url>http://www.DreamOps.org/2015/03/17/dita-best-practices-use-the-maps-folks-use-the-maps/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] DITA is a tool created from the ground up for technical writers. It is, quite literally, an embodiment of best practices for people creating documents for software and hardware products. DITA stands for Darwin Information Typing Architecture. – <a href="http://www.nimbleams.com/blog/2015/3/17/dita-best-practices-use-the-maps,-folks-use-the-maps/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] DITA is a tool created from the ground up for technical writers. It is, quite literally, an embodiment of best practices for people creating documents for software and hardware products. DITA stands for Darwin Information Typing Architecture. – <a href="http://www.nimbleuser.com/blog/dita-best-practices-use-the-maps-folks-use-the-maps" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img src="http://www.pdfpower.com/XML2005Proceedings/ship/239/maps_and_topics.PNG" width="50%" height="50%"></div>]]></content>
       
         <categories>
@@ -1146,9 +1148,9 @@
         
         <tags>
             
-            <tag> Jeff Douglas </tag>
-            
             <tag> Lightning </tag>
+            
+            <tag> Jeff Douglas </tag>
             
         </tags>
         
@@ -1184,7 +1186,7 @@
     <entry>
       <title><![CDATA[NuOps: How the Nimble AMS Sausages are Made]]></title>
       <url>http://www.DreamOps.org/2015/01/20/nuops-how-the-nimble-ams-sausages-are-made/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] Nimble AMS is created using an agile methodology and a sophisticated set of tools. The framework is a seamless software delivery platform integrating JIRA, BitBucket, TeamCity, and the Salesforce Migration Tool. While this high-level process description is specific to the Nimble AMS project, other Force.com projects can make use of the same design. – <a href="http://www.nimbleams.com/blog/2015/1/20/nuops-how-the-nimble-ams-sausages-are-made/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] Nimble AMS is created using an agile methodology and a sophisticated set of tools. The framework is a seamless software delivery platform integrating JIRA, BitBucket, TeamCity, and the Salesforce Migration Tool. While this high-level process description is specific to the Nimble AMS project, other Force.com projects can make use of the same design. – <a href="http://www.nimbleuser.com/blog/nuops-how-the-nimble-ams-sausages-are-made" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img src="http://pad2.whstatic.com/images/thumb/f/f6/Grill-Sausage-Step-2-Version-2.jpg/670px-Grill-Sausage-Step-2-Version-2.jpg" width="25%" height="25%"></div>]]></content>
       
         <categories>
@@ -1297,8 +1299,8 @@
     <entry>
       <title><![CDATA[Salesforce Publisher Actions 101 - Solutions to Common Problems]]></title>
       <url>http://www.DreamOps.org/2014/10/23/salesforce-publisher-actions-101-solutions-to-common-problems/</url>
-      <content type="html"><![CDATA[<p>[Bobby Watson] Introduced by Salesforce in their Summer 2013 release, I’m sure by now that most of you have heard something about publisher actions. There are certain limitations to publisher actions that I want to address, as well as provide solutions for getting around them. – <a href="http://www.nimbleams.com/blog/2014/10/23/salesforce-publisher-actions-101-solutions-to-common-problems/" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="http://www.nimbleams.com/media/169950/Blog-Post-003.png" width="50%" height="50%"></div>
+      <content type="html"><![CDATA[<p>[Bobby Watson] Introduced by Salesforce in their Summer 2013 release, I’m sure by now that most of you have heard something about publisher actions. There are certain limitations to publisher actions that I want to address, as well as provide solutions for getting around them. – <a href="http://www.nimbleuser.com/blog/salesforce-publisher-actions-101-solutions-to-common-problems" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="https://www.nimbleuser.com/uploads/9/4/3/7/94371761/blog-post-003.png" width="50%" height="50%"></div>
 ]]></content>
       
         <categories>
@@ -1321,7 +1323,7 @@
     <entry>
       <title><![CDATA[Salesforce Developer Console Query Editor]]></title>
       <url>http://www.DreamOps.org/2014/10/21/salesforce-developer-console-query-editor/</url>
-      <content type="html"><![CDATA[<p>[Luke Freeland] For quite a while now, the Salesforce Workbench has been my goto for adhoc SOQL queries. Lately, however, the Salesforce Developer Console’s Query Editor has received more of my attention. It does simple Create, Retrieve, Update, and Delete (CRUD) operations in an easy, understandable way. – <a href="http://www.nimbleams.com/blog/2014/10/21/salesforce-developer-console-query-editor/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Luke Freeland] For quite a while now, the Salesforce Workbench has been my goto for adhoc SOQL queries. Lately, however, the Salesforce Developer Console’s Query Editor has received more of my attention. It does simple Create, Retrieve, Update, and Delete (CRUD) operations in an easy, understandable way. – <a href="http://www.nimbleuser.com/blog/salesforce-developer-console-query-editor" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img src="https://lh6.googleusercontent.com/_mRw30rQgH4554l68o3d74tZ_hDixoHw_9bt62GYb7mMdcCpx05i-JzbnGWT_kzd_TBm6qKzIcNJ_7KY_DRZgEO4u3CPFRDP_XybzHQ1582a6Bk0K9JT1VUl2sIUAS50YA" width="25%;" height="25%"></div>
 ]]></content>
       
@@ -1366,7 +1368,7 @@
     <entry>
       <title><![CDATA[Customizing Salesforce Help]]></title>
       <url>http://www.DreamOps.org/2014/08/24/customizing-salesforce-help/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] How you can implement a custom help site for your Salesforce org, like the one at help.nimbleams.com (in three parts). Warning: There’s a lot you can do to extend Salesforce help, but we need to create a few prerequisites along the way. – <a href="http://www.nimbleams.com/blog/2014/8/24/customizing-salesforce-help/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] How you can implement a custom help site for your Salesforce org, like the one at help.nimbleams.com (in three parts). Warning: There’s a lot you can do to extend Salesforce help, but we need to create a few prerequisites along the way. – <a href="http://www.nimbleuser.com/blog/customizing-salesforce-help" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img width="20%" height="20%" src="http://mygradventure.files.wordpress.com/2013/11/keepcalmstudio-com-crown-keep-calm-and-ask-for-help.png"></div>
 ]]></content>
       
@@ -1382,6 +1384,29 @@
             <tag> Ted Husted </tag>
             
             <tag> Documentation </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
+      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
+      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Andrew Fawcett </tag>
+            
+            <tag> Metadata API </tag>
             
         </tags>
         
@@ -1412,32 +1437,9 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
-      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
-      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Tutorial </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Andrew Fawcett </tag>
-            
-            <tag> Metadata API </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Choosey partners choose Trialforce]]></title>
       <url>http://www.DreamOps.org/2014/07/22/choosey-partners-choose-trialforce/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] Archimedes said of the lever: “Give me a place to stand and I will move the world.” As a release engineer for Nimble AMS, one of my key responsibilities is to give people the levers they need to develop, test, and demonstrate our product. And, of course, by levers, I mean “environments”. – <a href="http://www.nimbleams.com/blog/2014/7/22/choosey-partners-choose-trialforce/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] Archimedes said of the lever: “Give me a place to stand and I will move the world.” As a release engineer for Nimble AMS, one of my key responsibilities is to give people the levers they need to develop, test, and demonstrate our product. And, of course, by levers, I mean “environments”. – <a href="http://www.nimbleuser.com/blog/choosey-partners-choose-trialforce" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img src="https://www.math.nyu.edu/~crorres/Archimedes/Lever/LeverMid.gif"></div>
 ]]></content>
       
@@ -1450,9 +1452,9 @@
         
         <tags>
             
-            <tag> Ted Husted </tag>
-            
             <tag> Trialforce </tag>
+            
+            <tag> Ted Husted </tag>
             
         </tags>
         
@@ -1484,7 +1486,7 @@
     <entry>
       <title><![CDATA[Mountain-top servers are now literally in the clouds]]></title>
       <url>http://www.DreamOps.org/2014/04/01/mountain-top-servers-are-now-literally-in-the-clouds/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] According to an article in Wired, Amazon is deploying a new tier of Elastic Cloud servers to Mount Elbert, the highest peak in the Rocky Mountains. – <a href="http://www.nimbleams.com/blog/2014/4/1/mountain-top-servers-are-now-literally-in-the-clouds/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] According to an article in Wired, Amazon is deploying a new tier of Elastic Cloud servers to Mount Elbert, the highest peak in the Rocky Mountains. – <a href="http://www.nimbleuser.com/blog/mountain-top-servers-are-now-literally-in-the-clouds" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img style="max-width: 30%; max-height: 30%;" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Mt._Elbert.jpg"></div>
 ]]></content>
       
@@ -1578,7 +1580,7 @@
     <entry>
       <title><![CDATA[My DevOps Take Aways]]></title>
       <url>http://www.DreamOps.org/2014/02/12/my-devops-take-aways/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] Some nifty DevOps videos have been circulating NimbleUser chat groups lately, ranging from the <a href="http://vooza.com/videos/what-is-devops/" target="_blank" rel="external">hilarious</a> to the <a href="http://www.youtube.com/watch?v=Hb4y0EHfOFQ" target="_blank" rel="external">sublime</a>. Here are my takeaways from these videos, and scads of other DevOps resources. Most tasks are part of a larger process. – <a href="http://www.nimbleams.com/blog/2014/2/12/my-devops-take-aways/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Ted Husted] Some nifty DevOps videos have been circulating NimbleUser chat groups lately, ranging from the <a href="http://vooza.com/videos/what-is-devops/" target="_blank" rel="external">hilarious</a> to the <a href="http://www.youtube.com/watch?v=Hb4y0EHfOFQ" target="_blank" rel="external">sublime</a>. Here are my takeaways from these videos, and scads of other DevOps resources. Most tasks are part of a larger process. – <a href="http://www.nimbleuser.com/blog/my-devops-take-aways" target="_blank" rel="external">Read more at NimbleUser</a></p>
 <div align="center"><img style="margin-top: 12px" src="http://www.appdynamics.com/blog/wp-content/uploads/2013/06/DevOps-infinity-loop.png" width="50%" height="50%"></div>
 ]]></content>
       
@@ -1602,7 +1604,7 @@
     <entry>
       <title><![CDATA[Apex Testing Username Creation Best Practice]]></title>
       <url>http://www.DreamOps.org/2014/01/19/apex-testing-username-creation-best-practice/</url>
-      <content type="html"><![CDATA[<p>[Luke Freeland] One common testing need is security testing. When a given user goes to Page X, they can only access and perform Y actions. Salesforce’s Apex Testing capabilities makes this painless. Through one or more test methods, users records are temporarily created and then verified that they can or cannot do the expected actions. This allows implementors to verify that their security model is correct or that it needs changing. – <a href="http://www.nimbleams.com/blog/2014/1/19/apex-testing-username-creation-best-practice/" target="_blank" rel="external">Read more at NimbleUser</a></p>
+      <content type="html"><![CDATA[<p>[Luke Freeland] One common testing need is security testing. When a given user goes to Page X, they can only access and perform Y actions. Salesforce’s Apex Testing capabilities makes this painless. Through one or more test methods, users records are temporarily created and then verified that they can or cannot do the expected actions. This allows implementors to verify that their security model is correct or that it needs changing. – <a href="http://www.nimbleuser.com/blog/apex-testing-username-creation-best-practice" target="_blank" rel="external">Read more at NimbleUser</a></p>
 ]]></content>
       
         <categories>
@@ -1625,8 +1627,8 @@
     <entry>
       <title><![CDATA[Why feature branches are a good thing]]></title>
       <url>http://www.DreamOps.org/2014/01/07/why-feature-branches-are-a-good-thing/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] “Pour new wine into new wineskins so both can grow together.” The recent generation of version control systems, like Git and Mercurial, have elevated merging to a new level. Now, merging has become powerful enough to make “Feature Branches a Good Thing”. – <a href="http://www.nimbleams.com/blog/2014/1/7/why-feature-branches-are-a-good-thing/" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="http://www.nimbleams.com/media/146379/feature-branch.jpg" width="50%" height="50%"></div>]]></content>
+      <content type="html"><![CDATA[<p>[Ted Husted] “Pour new wine into new wineskins so both can grow together.” The recent generation of version control systems, like Git and Mercurial, have elevated merging to a new level. Now, merging has become powerful enough to make “Feature Branches a Good Thing”. – <a href="http://www.nimbleuser.com/blog/why-feature-branches-are-a-good-thing" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="http://www.nimbleuser.com/uploads/9/4/3/7/94371761/feature-branch.jpg?396" width="50%" height="50%"></div>]]></content>
       
         <categories>
             
