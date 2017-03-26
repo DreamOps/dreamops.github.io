@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Bootstrapping Continuous Integration on Force.com | DreamOps Success Group</title>
+  <meta name="author" content="DreamOps Crew">
+  
+  <meta name="description" content="Force.com is a remarkable platform, and we want to help take it to the next level. We have a dream. We want Salesforce DX to be the most scalable, most agile, most developer-friendly platform on the planet -- or in the cloud -- bar none.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Bootstrapping Continuous Integration on Force.com"/>
+  <meta property="og:site_name" content="DreamOps Success Group"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="DreamOps Success Group" type="application/atom+xml">
+  
+  
+    <link href="/favicon.ico" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/bootstrap.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-92989768-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">DreamOps Success Group</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="More about DreamOps.">
+			  <i class="fa fa-user"></i>about
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> Bootstrapping Continuous Integration on Force.com</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row page">
+	<!-- cols -->
+	
+	<div class="col-md-12">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <p>Salesforce is piloting brave new tools that will make it easier for Salesforce developers to practice continuous integration and source-driven development. </p>
+<p>If you’d rather not wait out the pilot phase, there’s a lot you can do today to get ready for Salesforce DX. Since Salesforce DX is a great toolset but it is not a turnkey solution (and neither should it be), you would need to do much of this same work regardless.</p>
+<h1 id="Bootstrapping-Source-Driven-Development"><a href="#Bootstrapping-Source-Driven-Development" class="headerlink" title="Bootstrapping Source Driven Development"></a>Bootstrapping Source Driven Development</h1><p>This explanation is intended to orient novice package developers by quickly covering the fundamentals at a high-level. Contact me through the DreamOps Success Group for help with the lower level details.</p>
+<h2 id="Starting-Out"><a href="#Starting-Out" class="headerlink" title="Starting Out"></a>Starting Out</h2><p>When you first begin to develop a managed package, the natural inclination is to create it directly in the packaging org, and quickly upload your first version. </p>
+<p>Before long, you realize that this approach doesn’t scale well, and you start to wonder how to get started with continuous integration and source-driven development. </p>
+<p>Looking at your packaged code, you might wonder how to about removing the namespace references and transport the metadata to another org. </p>
+<h2 id="Namespace-Prefix"><a href="#Namespace-Prefix" class="headerlink" title="Namespace Prefix"></a>Namespace Prefix</h2><p>Generally speaking, the namespace prefix isn’t an issue. It appears to be attached to the classes, but its not really hardcoded. You can retrieve the metadata using the <a href="https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/meta_development.htm" target="_blank" rel="external">Ant Migration Tool</a>, and the namespaces disappear. </p>
+<h2 id="Transporting-Metadata"><a href="#Transporting-Metadata" class="headerlink" title="Transporting Metadata"></a>Transporting Metadata</h2><p>Once you retrieve the metadata to a local folder, then you can deploy the metadata source code to some other org, without the prefixes. When you deploy it back to the packaging org, the namespaces will appear to be prepended by the platform. It’s really quite magical. </p>
+<h2 id="Ant-Retrieve-Deploy"><a href="#Ant-Retrieve-Deploy" class="headerlink" title="Ant Retrieve Deploy"></a>Ant Retrieve Deploy</h2><p>Here’s a streamlined Ant build file I posted for a different purpose, but it would work in this context as well. </p>
+<ul>
+<li><a href="https://github.com/DreamOps/ant-rd" target="_blank" rel="external">https://github.com/DreamOps/ant-rd</a></li>
+</ul>
+<h2 id="Version-Control"><a href="#Version-Control" class="headerlink" title="Version Control"></a>Version Control</h2><p>After pulling the metadata out of the org, you will want to check it into a version control repository like Git. One popular host is GitHub, which will also work with the upcoming Salesforce DX toolset. (Though, I use Bitbucket myself.)</p>
+<p>Both Github and Bitbucket have excellent getting started instructions, so I won’t cover that point here. </p>
+<h2 id="Trialforce"><a href="#Trialforce" class="headerlink" title="Trialforce"></a>Trialforce</h2><p>If you have access to Trialforce, my best advice is to use a Trialforce Source Org to generate trial orgs with the unmanaged version of your code. Then your developers can use a separate org for each feature or task. </p>
+<p>A separate developer edition org for each developer will also work, but, honestly, it’s a huge pain, and the reason Salesforce is giving us scratch orgs. If you use a developer edition org, the Financial Force Deployment Tools (<a href="https://github.com/financialforcedev/df12-deployment-tools" target="_blank" rel="external">https://github.com/financialforcedev/df12-deployment-tools</a>) can  help you maintain your environments. </p>
+<p>If do you use Trialforce and map each development feature to a trial instance, then you will be very well aligned with the Salesforce DX scratch orgs when they become available. </p>
+<h2 id="Continuous-Integration"><a href="#Continuous-Integration" class="headerlink" title="Continuous Integration"></a>Continuous Integration</h2><p>To actually do the continuous integration bit, your developers can clone the Git repository locally when they begin a task, create a feature branch, and then sync the local source with their IDE. (We like the Illuminated Cloud IDE the best, but that’s a religious question.) </p>
+<p>When the development task is done, the developers can commit the changes to the Git repository and create a pull request to bring the feature branch back into the master branch. When the pull request is resolved, you can deploy the master branch to the Trialforce Source Org, to be sure everything deploys properly and the tests pass. </p>
+<p>Then when you are ready for a new major version, deploy master to the packaging org instead (and the namespace prefixes magically appear). </p>
+<h2 id="But-wait-there’s-more"><a href="#But-wait-there’s-more" class="headerlink" title="But wait there’s more"></a>But wait there’s more</h2><p>This description just catches the surface, but it should be enough to get you headed in the right direction. </p>
+<p>There are some more in-depth resources on this page: </p>
+<ul>
+<li><a href="continuous-integration-how-to.html">Continuous Integration How-To</a></li>
+</ul>
+<p>It’s a lot I know, and if you search around, you will find a number of resources about continuous integration with Salesforce. </p>
+<hr>
+<p>Return to <a href="index.html">Best Practices for Enterprise Development on Force.com</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+	
+	<!-- comment 
+	
+	--> 
+	</div> <!-- col-md-9/col-md-12 -->
+
+		
+
+</div><!-- row -->
+<!-- 
+ -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p><a href="http://www.dreamops.org/powered-by/index.html">DreamOps is made possible by Nimble AMS Engineering</a>.</p> </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  <a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+<a href="/atom.xml"><img src="/images/rss.png"/></a>   
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+</body>
+   </html>

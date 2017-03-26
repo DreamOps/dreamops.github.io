@@ -4,6 +4,53 @@
   
     
     <entry>
+      <title><![CDATA[Building Lightning Components with Chart.js]]></title>
+      <url>http://www.DreamOps.org/2017/03/15/building-lightning-components-with-chart-js/</url>
+      <content type="html"><![CDATA[<p>[Christophe Coenraets] When you need to build custom data visualization components, you can leverage third-party charting libraries like Chart.js, D3, and Highcharts. In this article, I share a set of Lightning Components built with Chart.js. – <a href="https://developer.salesforce.com/blogs/developer-relations/2017/03/building-lightning-components-chart-js.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
+<div align="center"><a href="http://www.youtube.com/watch?feature=player_embedded&v=KiT_qwj7RpI" target="_blank"><img src="http://img.youtube.com/vi/KiT_qwj7RpI/0.jpg" width="240" height="180" border="10"></a></div>]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Christophe Coenraets </tag>
+            
+            <tag> Ligntning </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Using VLOOKUP Validation Rules in Salesforce]]></title>
+      <url>http://www.DreamOps.org/2017/03/13/using-vlookup-validation-rules-in-salesforce/</url>
+      <content type="html"><![CDATA[<p>[Brent Downey] VLOOKUP formulas are very beneficial in Excel, but did you can use them in Salesforce too? Unfortunately, the documentation wasn’t clear on how to use this feature, and I had a hard time understanding the syntax. Three pages of Google search results didn’t help one bit. – <a href="https://www.adminhero.com/using-vlookup-validation-rules-salesforce/" target="_blank" rel="external">Read more at Admin Hero</a></p>
+<div align="center"><img style="max-width: 35%; max-height: 35%;" src="https://www.adminhero.com/wp-content/uploads/2017/03/Using-VLOOKUP-Validation-Rules-in-Salesforce-768x545.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Brent Downey </tag>
+            
+            <tag> App Building </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Top Open Source Projects]]></title>
       <url>http://www.DreamOps.org/2017/03/11/top-open-source-projects/</url>
       <content type="html"><![CDATA[<p>[DreamOps Crew] Without open source, <a href="https://developer.salesforce.com/blogs/engineering/2014/07/open-source-at-salesforce-com.html" target="_blank" rel="external">there would be no Salesforce as we know it today</a>. </p>
@@ -26,6 +73,54 @@
             <tag> DreamOps Crew </tag>
             
             <tag> Open Source </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[How to Design, Build and Publish Your Lightning Component for AppExchange]]></title>
+      <url>http://www.DreamOps.org/2017/03/10/design-build-publish-lighting-component-appexchange/</url>
+      <content type="html"><![CDATA[<p>This blog post provides a high level overview of the steps needed to create and publish a Lightning component for AppExchange. We will walk through the design, creation, testing and distribution of your Lightning component, with considerations for security, packaging, documentation and capturing success metrics. – <a href="https://developer.salesforce.com/blogs/developer-relations/2017/03/design-build-publish-lighting-component-appexchange.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
+<div align="center"><img src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_305/v1488911606/appexchange_c8780w.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Lightning </tag>
+            
+            <tag> Philippe Ozil </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Salesforce DX Week 1]]></title>
+      <url>http://www.DreamOps.org/2017/03/05/salesforce-dx-week-1/</url>
+      <content type="html"><![CDATA[<p>[Ben McCarthy] The SalesforceDX pilot started a week or two ago and BrightGen were lucky enough to be selected to participate (thanks to the sterling efforts of my colleague Kieran Maguire who didn’t screw up his signup, unlike me!). This week I’ve managed to spend a reasonable amount of time reading the docs and trying out the basics and it’s clear already that this is going to be a game changer. – <a href="http://bobbuzzard.blogspot.com/2017/03/salesforce-dx-week-1.html" target="_blank" rel="external">Read more at Bob Buzzard</a></p>
+<div align="center"><img src="https://lh3.googleusercontent.com/-r4tLzXboXKE/WLriyZ2cOzI/AAAAAAAAB10/F2AGqnOQIKQ/scratch.jpg?imgmax=1600"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Salesforce DX </tag>
+            
+            <tag> Ben McCarthy </tag>
             
         </tags>
         
@@ -317,9 +412,9 @@
         
         <tags>
             
-            <tag> App Building </tag>
-            
             <tag> Christophe Coenraets </tag>
+            
+            <tag> App Building </tag>
             
             <tag> JavaScript </tag>
             
@@ -689,9 +784,9 @@
         
         <tags>
             
-            <tag> App Building </tag>
-            
             <tag> Christophe Coenraets </tag>
+            
+            <tag> App Building </tag>
             
             <tag> JavaScript </tag>
             
@@ -1452,9 +1547,9 @@
         
         <tags>
             
-            <tag> Trialforce </tag>
-            
             <tag> Ted Husted </tag>
+            
+            <tag> Trialforce </tag>
             
         </tags>
         

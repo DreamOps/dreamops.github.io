@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.DreamOps.org/"/>
-  <updated>2017-03-14T11:08:28.000Z</updated>
+  <updated>2017-03-26T19:49:45.000Z</updated>
   <id>http://www.DreamOps.org/</id>
   
   <author>
@@ -14,6 +14,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Building Lightning Components with Chart.js</title>
+    <link href="http://www.DreamOps.org/2017/03/15/building-lightning-components-with-chart-js/"/>
+    <id>http://www.DreamOps.org/2017/03/15/building-lightning-components-with-chart-js/</id>
+    <published>2017-03-15T10:00:00.000Z</published>
+    <updated>2017-03-26T19:49:45.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Christophe Coenraets] When you need to build custom data visualization components, you can leverage third-party charting libraries like 
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="Christophe Coenraets" scheme="http://www.DreamOps.org/tags/christophe-coenraets/"/>
+    
+      <category term="Ligntning" scheme="http://www.DreamOps.org/tags/ligntning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Using VLOOKUP Validation Rules in Salesforce</title>
+    <link href="http://www.DreamOps.org/2017/03/13/using-vlookup-validation-rules-in-salesforce/"/>
+    <id>http://www.DreamOps.org/2017/03/13/using-vlookup-validation-rules-in-salesforce/</id>
+    <published>2017-03-13T10:00:00.000Z</published>
+    <updated>2017-03-26T19:42:41.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Brent Downey] VLOOKUP formulas are very beneficial in Excel, but did you can use them in Salesforce too? Unfortunately, the documentatio
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="Brent Downey" scheme="http://www.DreamOps.org/tags/brent-downey/"/>
+    
+      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
+    
+  </entry>
   
   <entry>
     <title>Top Open Source Projects</title>
@@ -34,6 +78,50 @@
       <category term="DreamOps Crew" scheme="http://www.DreamOps.org/tags/dreamops-crew/"/>
     
       <category term="Open Source" scheme="http://www.DreamOps.org/tags/open-source/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to Design, Build and Publish Your Lightning Component for AppExchange</title>
+    <link href="http://www.DreamOps.org/2017/03/10/design-build-publish-lighting-component-appexchange/"/>
+    <id>http://www.DreamOps.org/2017/03/10/design-build-publish-lighting-component-appexchange/</id>
+    <published>2017-03-10T11:00:00.000Z</published>
+    <updated>2017-03-26T19:38:21.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This blog post provides a high level overview of the steps needed to create and publish a Lightning component for AppExchange. We will wa
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
+    
+      <category term="Philippe Ozil" scheme="http://www.DreamOps.org/tags/philippe-ozil/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Salesforce DX Week 1</title>
+    <link href="http://www.DreamOps.org/2017/03/05/salesforce-dx-week-1/"/>
+    <id>http://www.DreamOps.org/2017/03/05/salesforce-dx-week-1/</id>
+    <published>2017-03-05T11:00:00.000Z</published>
+    <updated>2017-03-26T19:32:58.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Ben McCarthy] The SalesforceDX pilot started a week or two ago and BrightGen were lucky enough to be selected to participate (thanks to 
+    
+    </summary>
+    
+      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
+    
+    
+      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
+    
+      <category term="Ben McCarthy" scheme="http://www.DreamOps.org/tags/ben-mccarthy/"/>
     
   </entry>
   
@@ -301,9 +389,9 @@
       <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
     
     
-      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
-    
       <category term="Christophe Coenraets" scheme="http://www.DreamOps.org/tags/christophe-coenraets/"/>
+    
+      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
     
       <category term="JavaScript" scheme="http://www.DreamOps.org/tags/javascript/"/>
     
@@ -370,94 +458,6 @@
       <category term="DevOps" scheme="http://www.DreamOps.org/tags/devops/"/>
     
       <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Source driven development - Huh? What?</title>
-    <link href="http://www.DreamOps.org/2016/10/25/source-driven-development-huh-what/"/>
-    <id>http://www.DreamOps.org/2016/10/25/source-driven-development-huh-what/</id>
-    <published>2016-10-25T10:00:00.000Z</published>
-    <updated>2017-03-20T23:12:13.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ted Husted] In a classic Ted Talk (no relation), Tom Hulme asks “What can we learn from shortcuts?”. For years, many of us  have been lo
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
-    
-      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Write Better Apex With CodeScan</title>
-    <link href="http://www.DreamOps.org/2016/10/20/write-better-apex-with-codescan/"/>
-    <id>http://www.DreamOps.org/2016/10/20/write-better-apex-with-codescan/</id>
-    <published>2016-10-20T10:00:00.000Z</published>
-    <updated>2017-03-20T12:52:45.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ted Husted] As the maker of two managed packages, Nimble AMS hs a vested interest in developing the very best code we can. According to 
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
-    
-      <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>From waterfall to pipeline to mobius strip</title>
-    <link href="http://www.DreamOps.org/2016/10/18/from-waterfall-to-pipeline-to-mobius-strip/"/>
-    <id>http://www.DreamOps.org/2016/10/18/from-waterfall-to-pipeline-to-mobius-strip/</id>
-    <published>2016-10-18T10:00:00.000Z</published>
-    <updated>2017-03-20T12:10:36.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ted Husted] Once upon a time, a man named Royce published his recommended improvements to how large projects delivered software and acci
-    
-    </summary>
-    
-      <category term="Essay" scheme="http://www.DreamOps.org/categories/essay/"/>
-    
-    
-      <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
-    
-      <category term="Agile" scheme="http://www.DreamOps.org/tags/agile/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Visualforce Development Cookbook Second Edition</title>
-    <link href="http://www.DreamOps.org/2016/10/14/visualforce-development-cookbook-second-edition/"/>
-    <id>http://www.DreamOps.org/2016/10/14/visualforce-development-cookbook-second-edition/</id>
-    <published>2016-10-14T10:00:00.000Z</published>
-    <updated>2017-03-12T14:47:28.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Keir Bowden] As regular readers of this blog will know, I wrote a book three years ago - the Visualforce Development Cookbook - and I re
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="Visualforce" scheme="http://www.DreamOps.org/tags/visualforce/"/>
-    
-      <category term="Keir Bowden" scheme="http://www.DreamOps.org/tags/keir-bowden/"/>
     
   </entry>
   
