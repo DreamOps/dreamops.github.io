@@ -79,6 +79,30 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Pilot Madness!]]></title>
+      <url>http://www.DreamOps.org/2017/03/10/pilot-madness/</url>
+      <content type="html"><![CDATA[<p>[Ted Husted] Like many forward-looking Salesforce partners, we’ve been enrolling in the new developer pilots that are hitting the streets now. Here’s some public background links on the various pilots in progress now. – <a href="https://www.nimbleuser.com/blog/pilot-madness" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="https://www.nimbleuser.com/uploads/9/4/3/7/94371761/snag-0821_orig.jpg"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Ted Husted </tag>
+            
+            <tag> Salesforce DX </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[How to Design, Build and Publish Your Lightning Component for AppExchange]]></title>
       <url>http://www.DreamOps.org/2017/03/10/design-build-publish-lighting-component-appexchange/</url>
       <content type="html"><![CDATA[<p>This blog post provides a high level overview of the steps needed to create and publish a Lightning component for AppExchange. We will walk through the design, creation, testing and distribution of your Lightning component, with considerations for security, packaging, documentation and capturing success metrics. – <a href="https://developer.salesforce.com/blogs/developer-relations/2017/03/design-build-publish-lighting-component-appexchange.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
@@ -412,9 +436,9 @@
         
         <tags>
             
-            <tag> Christophe Coenraets </tag>
-            
             <tag> App Building </tag>
+            
+            <tag> Christophe Coenraets </tag>
             
             <tag> JavaScript </tag>
             
@@ -784,9 +808,9 @@
         
         <tags>
             
-            <tag> Christophe Coenraets </tag>
-            
             <tag> App Building </tag>
+            
+            <tag> Christophe Coenraets </tag>
             
             <tag> JavaScript </tag>
             
@@ -1243,9 +1267,9 @@
         
         <tags>
             
-            <tag> Lightning </tag>
-            
             <tag> Jeff Douglas </tag>
+            
+            <tag> Lightning </tag>
             
         </tags>
         
@@ -1485,29 +1509,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
-      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
-      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Tutorial </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Andrew Fawcett </tag>
-            
-            <tag> Metadata API </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Salesforce.com’s New Open Source Releases – Part 3]]></title>
       <url>http://www.DreamOps.org/2014/07/29/salesforce-com-new-open-source-releases/</url>
       <content type="html"><![CDATA[<p>[Ian Varley] Does Salesforce create and contribute new open source releases? Historically, yes, although typically not core platform features… But, this is changing. With over 4 million custom apps written on our Platform, and 1.5 million developers in our community, the importance of open sourcing core platform technologies is critical for continued success. In the last year, Salesforce has open sourced two large libraries, Aura and Apache Phoenix. – <a href="https://developer.salesforce.com/blogs/engineering/2014/07/salesforce-com-new-open-source-releases.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
@@ -1526,6 +1527,29 @@
             <tag> Open Source </tag>
             
             <tag> Ian Varley </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
+      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
+      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Andrew Fawcett </tag>
+            
+            <tag> Metadata API </tag>
             
         </tags>
         
@@ -1765,6 +1789,29 @@
         <tags>
             
             <tag> DreamOps Crew </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Why 'Standard' Profile Permissions Can't Be Changed]]></title>
+      <url>http://www.DreamOps.org/2013/04/15/why-standard-profile-permissions-can-t-be-changed/</url>
+      <content type="html"><![CDATA[<p>[Adam Torman] I saw this question on the Salesforce StackExchange and thought it would be good to clarify why ‘standard’ profiles are immutable: – <a href="http://www.salesforcehacker.com/2013/05/why-standard-profile-permissions-cant.html" target="_blank" rel="external">Read more at Salesforce Hacker</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+            <tag> Adam Torman </tag>
             
         </tags>
         

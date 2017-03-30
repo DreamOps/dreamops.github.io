@@ -82,6 +82,28 @@
   </entry>
   
   <entry>
+    <title>Pilot Madness!</title>
+    <link href="http://www.DreamOps.org/2017/03/10/pilot-madness/"/>
+    <id>http://www.DreamOps.org/2017/03/10/pilot-madness/</id>
+    <published>2017-03-10T11:16:44.000Z</published>
+    <updated>2017-03-30T10:19:18.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Ted Husted] Like many forward-looking Salesforce partners, we’ve been enrolling in the new developer pilots that are hitting the streets
+    
+    </summary>
+    
+      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
+    
+    
+      <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
+    
+      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
+    
+  </entry>
+  
+  <entry>
     <title>How to Design, Build and Publish Your Lightning Component for AppExchange</title>
     <link href="http://www.DreamOps.org/2017/03/10/design-build-publish-lighting-component-appexchange/"/>
     <id>http://www.DreamOps.org/2017/03/10/design-build-publish-lighting-component-appexchange/</id>
@@ -389,9 +411,9 @@
       <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
     
     
-      <category term="Christophe Coenraets" scheme="http://www.DreamOps.org/tags/christophe-coenraets/"/>
-    
       <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
+    
+      <category term="Christophe Coenraets" scheme="http://www.DreamOps.org/tags/christophe-coenraets/"/>
     
       <category term="JavaScript" scheme="http://www.DreamOps.org/tags/javascript/"/>
     
@@ -436,28 +458,6 @@
       <category term="DevOps" scheme="http://www.DreamOps.org/tags/devops/"/>
     
       <category term="DreamOps Crew" scheme="http://www.DreamOps.org/tags/dreamops-crew/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JIRA: Our nexus of truth</title>
-    <link href="http://www.DreamOps.org/2016/11/15/jira-our-nexus-of-truth/"/>
-    <id>http://www.DreamOps.org/2016/11/15/jira-our-nexus-of-truth/</id>
-    <published>2016-11-15T11:00:00.000Z</published>
-    <updated>2017-03-20T12:12:03.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ted Husted] Once upon a time, when CVS ruled the earth, we used issue trackers, like Bugzilla and JIRA, to organize defect reports and h
-    
-    </summary>
-    
-      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
-    
-    
-      <category term="DevOps" scheme="http://www.DreamOps.org/tags/devops/"/>
-    
-      <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
     
   </entry>
   

@@ -121,6 +121,7 @@
 
 	  <p>For administrators working with a single company, changesets are a great way to move updates between sandboxes and a parent org. However, when working on the enterprise tier, we often need to transfer components between various test and developer environments, which are outside the scope of changesets. </p>
 <p>To support multiple developers working across multiple environments on various features and fixes, a proven path is to use an automated continuous integration system to simplify deployments and promote transparency. </p>
+<p>For a quick overview of the basics, see <a href="bootstrapping-continuous-integration-on-force-com.html">Bootstrapping Continuous Integration on Force.com</a>.</p>
 <h1 id="Lifecycle-Guide"><a href="#Lifecycle-Guide" class="headerlink" title="Lifecycle Guide"></a>Lifecycle Guide</h1><p>One approach, outlined in the <a href="https://resources.docs.salesforce.com/sfdc/pdf/salesforce_development_lifecycle.pdf" target="_blank" rel="external">Force.com Development Lifecycle guide</a>, is to use a separate developer org for each coder. While multiple orgs is better than one org, for larger teams, the org-per-developer approach presents challenges:</p>
 <ul>
 <li>Teardown scripts are needed to reset the developer org.</li>
