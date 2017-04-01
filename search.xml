@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title><![CDATA[Now, Salesforce can even read your mind]]></title>
+      <url>http://www.DreamOps.org/2017/04/01/now-salesforce-can-even-read-your-mind/</url>
+      <content type="html"><![CDATA[<p>It’s not enough that <a href="https://www.salesforce.com/blog/2016/11/voice-control-future-of-computing.html" target="_blank" rel="external">Salesforce can respond to your voice commands</a>, nor is it enough that <a href="https://www.salesforce.com/products/einstein/overview/" target="_blank" rel="external">Salesforce can predict your next move</a>, today the world’s #1 CRM can respond to your every thought, with Salesforce Kreskin (tm).</p>
+<p>The new Salesforce feature is based on a product acquired last year, Trilby. It takes <a href="https://ansidotorg.blogspot.com/2016/01/brain-computer-interface-bci-technology.html#gref" target="_blank" rel="external">brain-computer-interfaces</a> to the next level by attaching to your phone, like a card card reader. Except this dongle can swipe your mind.</p>
+<p>Gone are the days when you had to actually say out loud “Salesforce, what’s on my dashboard today.” Now, with a thought, your dashboard appears.</p>
+<p>Kreskin is perfect for getting work done on your phone in loud environments, where voice commands are just not practical.</p>
+<p>For more, <a href="https://www.google.com/search?q=april+fools+day" target="_blank" rel="external">visit the Salesforce Kreskin product page</a>.</p>
+<div align="center"><img src="https://3.bp.blogspot.com/-Op9iePAMW2w/Vo7o-mc5x8I/AAAAAAAAAjA/hQ0vPwD7DV0/s400/iStock_000044640572_Small_849x565-72dpi.jpg"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Satire </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Building Lightning Components with Chart.js]]></title>
       <url>http://www.DreamOps.org/2017/03/15/building-lightning-components-with-chart-js/</url>
       <content type="html"><![CDATA[<p>[Christophe Coenraets] When you need to build custom data visualization components, you can leverage third-party charting libraries like Chart.js, D3, and Highcharts. In this article, I share a set of Lightning Components built with Chart.js. – <a href="https://developer.salesforce.com/blogs/developer-relations/2017/03/building-lightning-components-chart-js.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
@@ -1267,9 +1293,9 @@
         
         <tags>
             
-            <tag> Jeff Douglas </tag>
-            
             <tag> Lightning </tag>
+            
+            <tag> Jeff Douglas </tag>
             
         </tags>
         

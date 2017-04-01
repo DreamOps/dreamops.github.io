@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.DreamOps.org/"/>
-  <updated>2017-03-26T19:49:45.000Z</updated>
+  <updated>2017-04-01T15:48:28.000Z</updated>
   <id>http://www.DreamOps.org/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Now, Salesforce can even read your mind</title>
+    <link href="http://www.DreamOps.org/2017/04/01/now-salesforce-can-even-read-your-mind/"/>
+    <id>http://www.DreamOps.org/2017/04/01/now-salesforce-can-even-read-your-mind/</id>
+    <published>2017-04-01T15:43:36.000Z</published>
+    <updated>2017-04-01T15:48:28.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;It’s not enough that &lt;a href=&quot;https://www.salesforce.com/blog/2016/11/voice-control-future-of-computing.html&quot; target=&quot;_blank&quot; rel=&quot;extern
+    
+    </summary>
+    
+      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
+    
+    
+      <category term="Satire" scheme="http://www.DreamOps.org/tags/satire/"/>
+    
+  </entry>
   
   <entry>
     <title>Building Lightning Components with Chart.js</title>
@@ -85,8 +105,8 @@
     <title>Pilot Madness!</title>
     <link href="http://www.DreamOps.org/2017/03/10/pilot-madness/"/>
     <id>http://www.DreamOps.org/2017/03/10/pilot-madness/</id>
-    <published>2017-03-10T11:16:44.000Z</published>
-    <updated>2017-03-30T10:19:18.000Z</updated>
+    <published>2017-03-10T11:00:00.000Z</published>
+    <updated>2017-03-30T10:19:48.000Z</updated>
     
     <summary type="html">
     
@@ -436,28 +456,6 @@
       <category term="Visualforce" scheme="http://www.DreamOps.org/tags/visualforce/"/>
     
       <category term="Ed Montalbano" scheme="http://www.DreamOps.org/tags/ed-montalbano/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Browse the DreamOps Guide</title>
-    <link href="http://www.DreamOps.org/2016/11/20/browse-the-dreamops-guide/"/>
-    <id>http://www.DreamOps.org/2016/11/20/browse-the-dreamops-guide/</id>
-    <published>2016-11-20T11:00:00.000Z</published>
-    <updated>2017-03-12T14:52:07.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[DreamOps Crew] The DreamOps Guide helps Salesforce developers implement continuous delivery on the Force.com platform with step-by-step 
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="DevOps" scheme="http://www.DreamOps.org/tags/devops/"/>
-    
-      <category term="DreamOps Crew" scheme="http://www.DreamOps.org/tags/dreamops-crew/"/>
     
   </entry>
   
