@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.DreamOps.org/"/>
-  <updated>2017-04-01T15:48:28.000Z</updated>
+  <updated>2017-04-21T07:42:12.000Z</updated>
   <id>http://www.DreamOps.org/</id>
   
   <author>
@@ -14,6 +14,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Introducing the NimbleUser Salesforce Apex Style Guide</title>
+    <link href="http://www.DreamOps.org/2017/04/13/introducing-the-nimbleuser-salesforce-apex-style-guide/"/>
+    <id>http://www.DreamOps.org/2017/04/13/introducing-the-nimbleuser-salesforce-apex-style-guide/</id>
+    <published>2017-04-13T10:00:00.000Z</published>
+    <updated>2017-04-21T07:42:12.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Craig Ceremuga] Throughout the years NimbleUser has written a number of in-house authoritative guides and documents on the Apex programm
+    
+    </summary>
+    
+      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
+    
+    
+      <category term="Apex" scheme="http://www.DreamOps.org/tags/apex/"/>
+    
+      <category term="Craig Ceremuga" scheme="http://www.DreamOps.org/tags/craig-ceremuga/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Machine-to-Machine Salesforce Integrations in Java with REST and SOAP</title>
+    <link href="http://www.DreamOps.org/2017/04/12/machine-to-machine-salesforce-integrations-in-java-with-rest-and-soap/"/>
+    <id>http://www.DreamOps.org/2017/04/12/machine-to-machine-salesforce-integrations-in-java-with-rest-and-soap/</id>
+    <published>2017-04-12T10:00:00.000Z</published>
+    <updated>2017-04-21T08:14:43.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;When doing a human-to-machine integration you should use the OAuth web or mobile flow so that the credentials never pass through the inte
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="James Ward" scheme="http://www.DreamOps.org/tags/james-ward/"/>
+    
+      <category term="Integration" scheme="http://www.DreamOps.org/tags/integration/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Salesforce Expands Partnership with Girl Develop It—Get Involved!</title>
+    <link href="http://www.DreamOps.org/2017/04/06/salesforce-expands-partnership-with-girl-develop-it%E2%80%94get-involved/"/>
+    <id>http://www.DreamOps.org/2017/04/06/salesforce-expands-partnership-with-girl-develop-it—get-involved/</id>
+    <published>2017-04-06T10:00:00.000Z</published>
+    <updated>2017-04-21T08:10:12.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Mary Scotton] We’re expanding our partnership with Girl Develop It (GDI) this year by doubling the number of cities where Salesforce cla
+    
+    </summary>
+    
+      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
+    
+    
+      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
+    
+      <category term="Mary Scotton" scheme="http://www.DreamOps.org/tags/mary-scotton/"/>
+    
+  </entry>
   
   <entry>
     <title>Now, Salesforce can even read your mind</title>
@@ -32,6 +98,28 @@
     
     
       <category term="Satire" scheme="http://www.DreamOps.org/tags/satire/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ultimate Salesforce Chrome Extensions 2017</title>
+    <link href="http://www.DreamOps.org/2017/03/27/ultimate-salesforce-chrome-extensions-2017/"/>
+    <id>http://www.DreamOps.org/2017/03/27/ultimate-salesforce-chrome-extensions-2017/</id>
+    <published>2017-03-27T10:00:00.000Z</published>
+    <updated>2017-04-21T07:44:22.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;There are now a huge amount of Chrome extensions out there for various functions when working with the Salesforce platform. These range f
+    
+    </summary>
+    
+      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
+    
+    
+      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
+    
+      <category term="Ben McCarthy" scheme="http://www.DreamOps.org/tags/ben-mccarthy/"/>
     
   </entry>
   
@@ -271,9 +359,9 @@
       <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
     
     
-      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
-    
       <category term="Brent Downey" scheme="http://www.DreamOps.org/tags/brent-downey/"/>
+    
+      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
     
   </entry>
   
@@ -364,98 +452,6 @@
       <category term="DreamOps Crew" scheme="http://www.DreamOps.org/tags/dreamops-crew/"/>
     
       <category term="Open Source" scheme="http://www.DreamOps.org/tags/open-source/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hot JavaScript tips for Visualforce Developers!</title>
-    <link href="http://www.DreamOps.org/2017/01/09/hot-javascript-tips-visualforce-developers/"/>
-    <id>http://www.DreamOps.org/2017/01/09/hot-javascript-tips-visualforce-developers/</id>
-    <published>2017-01-09T11:00:00.000Z</published>
-    <updated>2017-03-11T00:54:43.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Peter Knolle] The Visualforce framework abstracts away a lot of the heavy lifting of the underlying JavaScript necessary for Visualforce
-    
-    </summary>
-    
-      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
-    
-    
-      <category term="JavaScript" scheme="http://www.DreamOps.org/tags/javascript/"/>
-    
-      <category term="Visualforce" scheme="http://www.DreamOps.org/tags/visualforce/"/>
-    
-      <category term="Peter Knolle" scheme="http://www.DreamOps.org/tags/peter-knolle/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript Promises in Lightning Components</title>
-    <link href="http://www.DreamOps.org/2016/12/30/javascript-promises-in-lightning-components/"/>
-    <id>http://www.DreamOps.org/2016/12/30/javascript-promises-in-lightning-components/</id>
-    <published>2016-12-30T11:00:00.000Z</published>
-    <updated>2017-03-06T11:59:20.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Keir Bowden] For me, the key advantage with Promises is that they allow asynchronous JavaScript code to be written in a way that looks s
-    
-    </summary>
-    
-      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
-    
-    
-      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
-    
-      <category term="JavaScript" scheme="http://www.DreamOps.org/tags/javascript/"/>
-    
-      <category term="Keir Bowden" scheme="http://www.DreamOps.org/tags/keir-bowden/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Sample Application with Ionic 2 and Salesforce</title>
-    <link href="http://www.DreamOps.org/2016/12/08/sample-application-with-ionic-2-and-salesforce/"/>
-    <id>http://www.DreamOps.org/2016/12/08/sample-application-with-ionic-2-and-salesforce/</id>
-    <published>2016-12-09T00:50:48.000Z</published>
-    <updated>2017-03-11T12:46:22.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Christophe Coenraets] A few weeks ago, I shared a version of the DreamHouse sample application built with the latest release candidate o
-    
-    </summary>
-    
-      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
-    
-    
-      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
-    
-      <category term="Christophe Coenraets" scheme="http://www.DreamOps.org/tags/christophe-coenraets/"/>
-    
-      <category term="JavaScript" scheme="http://www.DreamOps.org/tags/javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Implementing Material Design in Salesforce</title>
-    <link href="http://www.DreamOps.org/2016/12/05/implementing-material-design-in-salesforce/"/>
-    <id>http://www.DreamOps.org/2016/12/05/implementing-material-design-in-salesforce/</id>
-    <published>2016-12-05T11:00:00.000Z</published>
-    <updated>2017-03-11T00:57:25.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ed Montalbano] The design aspect of a web application is a daunting task for many developers. Design should aim to make a product useful
-    
-    </summary>
-    
-    
-      <category term="Visualforce" scheme="http://www.DreamOps.org/tags/visualforce/"/>
-    
-      <category term="Ed Montalbano" scheme="http://www.DreamOps.org/tags/ed-montalbano/"/>
     
   </entry>
   

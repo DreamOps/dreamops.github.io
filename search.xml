@@ -4,6 +4,76 @@
   
     
     <entry>
+      <title><![CDATA[Introducing the NimbleUser Salesforce Apex Style Guide]]></title>
+      <url>http://www.DreamOps.org/2017/04/13/introducing-the-nimbleuser-salesforce-apex-style-guide/</url>
+      <content type="html"><![CDATA[<p>[Craig Ceremuga] Throughout the years NimbleUser has written a number of in-house authoritative guides and documents on the Apex programming language. While a good start, our previous guidelines were too complicated and opinionated on the types of things that were unenforceable / didn’t matter in the grand scheme of building good software. – <a href="https://www.nimbleuser.com/blog/introducing-the-nimbleuser-salesforce-apex-style-guide" target="_blank" rel="external">Read more at NimbleUser</a> and (<a href="https://nimbleuser.github.io/apex-style-guide/" target="_blank" rel="external">https://nimbleuser.github.io/apex-style-guide/</a>)</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Apex </tag>
+            
+            <tag> Craig Ceremuga </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Machine-to-Machine Salesforce Integrations in Java with REST and SOAP]]></title>
+      <url>http://www.DreamOps.org/2017/04/12/machine-to-machine-salesforce-integrations-in-java-with-rest-and-soap/</url>
+      <content type="html"><![CDATA[<p>When doing a human-to-machine integration you should use the OAuth web or mobile flow so that the credentials never pass through the integration application. In the case of machine-to-machine integrations, the integration must have an integration user’s credentials and use either the username &amp; password OAuth flow for REST or direct authentication for SOAP. – <a href="https://developer.salesforce.com/blogs/developer-relations/2017/04/machine-machine-salesforce-integrations-java-rest-soap.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> James Ward </tag>
+            
+            <tag> Integration </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Salesforce Expands Partnership with Girl Develop It—Get Involved!]]></title>
+      <url>http://www.DreamOps.org/2017/04/06/salesforce-expands-partnership-with-girl-develop-it%E2%80%94get-involved/</url>
+      <content type="html"><![CDATA[<p>[Mary Scotton] We’re expanding our partnership with Girl Develop It (GDI) this year by doubling the number of cities where Salesforce classes will be taught. Even better, we get to work with you, the Salesforce community, to help make it happen! Read on to learn how to get involved. – <a href="https://developer.salesforce.com/blogs/developer-relations/2017/04/salesforce-expands-partnership-girl-develop-get-involved.html" target="_blank" rel="external">Read more at Salesforce Developer’s Blog</a></p>
+<div align="center"><img style="max-width: 50%; max-height: 50%;" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1491312824/GDISalesforce_u7uoif.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+            <tag> Mary Scotton </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Now, Salesforce can even read your mind]]></title>
       <url>http://www.DreamOps.org/2017/04/01/now-salesforce-can-even-read-your-mind/</url>
       <content type="html"><![CDATA[<p>It’s not enough that <a href="https://www.salesforce.com/blog/2016/11/voice-control-future-of-computing.html" target="_blank" rel="external">Salesforce can respond to your voice commands</a>, nor is it enough that <a href="https://www.salesforce.com/products/einstein/overview/" target="_blank" rel="external">Salesforce can predict your next move</a>, today the world’s #1 CRM can respond to your every thought, with Salesforce Kreskin (tm).</p>
@@ -24,6 +94,30 @@
         <tags>
             
             <tag> Satire </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ultimate Salesforce Chrome Extensions 2017]]></title>
+      <url>http://www.DreamOps.org/2017/03/27/ultimate-salesforce-chrome-extensions-2017/</url>
+      <content type="html"><![CDATA[<p>There are now a huge amount of Chrome extensions out there for various functions when working with the Salesforce platform. These range from Apps that help you organise your various Salesforce logins, to full blown toolkits that are jam packed with productivity features.<br> – <a href="http://www.salesforceben.com/ultimate-salesforce-chrome-extensions-2017/" target="_blank" rel="external">Read more at Salesforce Ben</a></p>
+<div align="center"><img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+            <tag> Ben McCarthy </tag>
             
         </tags>
         
@@ -285,9 +379,9 @@
         
         <tags>
             
-            <tag> Lightning </tag>
-            
             <tag> Brent Downey </tag>
+            
+            <tag> Lightning </tag>
             
         </tags>
         
@@ -462,9 +556,9 @@
         
         <tags>
             
-            <tag> App Building </tag>
-            
             <tag> Christophe Coenraets </tag>
+            
+            <tag> App Building </tag>
             
             <tag> JavaScript </tag>
             
@@ -787,9 +881,9 @@
         
         <tags>
             
-            <tag> Pat Patterson </tag>
-            
             <tag> Integration </tag>
+            
+            <tag> Pat Patterson </tag>
             
         </tags>
         
@@ -834,9 +928,9 @@
         
         <tags>
             
-            <tag> App Building </tag>
-            
             <tag> Christophe Coenraets </tag>
+            
+            <tag> App Building </tag>
             
             <tag> JavaScript </tag>
             
@@ -1535,6 +1629,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
+      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
+      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Andrew Fawcett </tag>
+            
+            <tag> Metadata API </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Salesforce.com’s New Open Source Releases – Part 3]]></title>
       <url>http://www.DreamOps.org/2014/07/29/salesforce-com-new-open-source-releases/</url>
       <content type="html"><![CDATA[<p>[Ian Varley] Does Salesforce create and contribute new open source releases? Historically, yes, although typically not core platform features… But, this is changing. With over 4 million custom apps written on our Platform, and 1.5 million developers in our community, the importance of open sourcing core platform technologies is critical for continued success. In the last year, Salesforce has open sourced two large libraries, Aura and Apache Phoenix. – <a href="https://developer.salesforce.com/blogs/engineering/2014/07/salesforce-com-new-open-source-releases.html" target="_blank" rel="external">Read more at Salesforce Developers Blog</a></p>
@@ -1553,29 +1670,6 @@
             <tag> Open Source </tag>
             
             <tag> Ian Varley </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
-      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
-      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Tutorial </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Andrew Fawcett </tag>
-            
-            <tag> Metadata API </tag>
             
         </tags>
         
