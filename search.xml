@@ -6,7 +6,9 @@
     <entry>
       <title><![CDATA[Introducing the NimbleUser Salesforce Apex Style Guide]]></title>
       <url>http://www.DreamOps.org/2017/04/13/introducing-the-nimbleuser-salesforce-apex-style-guide/</url>
-      <content type="html"><![CDATA[<p>[Craig Ceremuga] Throughout the years NimbleUser has written a number of in-house authoritative guides and documents on the Apex programming language. While a good start, our previous guidelines were too complicated and opinionated on the types of things that were unenforceable / didn’t matter in the grand scheme of building good software. – <a href="https://www.nimbleuser.com/blog/introducing-the-nimbleuser-salesforce-apex-style-guide" target="_blank" rel="external">Read more at NimbleUser</a> and (<a href="https://nimbleuser.github.io/apex-style-guide/" target="_blank" rel="external">https://nimbleuser.github.io/apex-style-guide/</a>)</p>
+      <content type="html"><![CDATA[<p>[Craig Ceremuga] Throughout the years NimbleUser has written a number of in-house authoritative guides and documents on the Apex programming language. While a good start, our previous guidelines were too complicated and opinionated on the types of things that were unenforceable / didn’t matter in the grand scheme of building good software. – <a href="https://www.nimbleuser.com/blog/introducing-the-nimbleuser-salesforce-apex-style-guide" target="_blank" rel="external">Read more at NimbleUser</a> and the <a href="https://nimbleuser.github.io/apex-style-guide/" target="_blank" rel="external">Apex Style Guide Site</a></p>
+<div align="center"><img style="max-width: 30%; max-height: 30%;" src="https://creativityincluded.com/wp-content/uploads/2014/05/ft-style-guide.png"></div>
+
 ]]></content>
       
         <categories>
@@ -556,9 +558,9 @@
         
         <tags>
             
-            <tag> Christophe Coenraets </tag>
-            
             <tag> App Building </tag>
+            
+            <tag> Christophe Coenraets </tag>
             
             <tag> JavaScript </tag>
             
@@ -881,9 +883,9 @@
         
         <tags>
             
-            <tag> Integration </tag>
-            
             <tag> Pat Patterson </tag>
+            
+            <tag> Integration </tag>
             
         </tags>
         
@@ -928,9 +930,9 @@
         
         <tags>
             
-            <tag> Christophe Coenraets </tag>
-            
             <tag> App Building </tag>
+            
+            <tag> Christophe Coenraets </tag>
             
             <tag> JavaScript </tag>
             
@@ -1387,9 +1389,9 @@
         
         <tags>
             
-            <tag> Jeff Douglas </tag>
-            
             <tag> Lightning </tag>
+            
+            <tag> Jeff Douglas </tag>
             
         </tags>
         
