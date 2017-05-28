@@ -4,6 +4,226 @@
   
     
     <entry>
+      <title><![CDATA[Lightning Component Dev Tips]]></title>
+      <url>http://www.DreamOps.org/2017/05/28/lightning-component-dev-tips/</url>
+      <content type="html"><![CDATA[<p>[Luke Freeland] After officially starting my first “work” Lightning component, here are some tips learned so far when developing a lightning component. – <a href="http://metillium.com/2017/05/lightning-component-dev-tips/" target="_blank" rel="external">Learn more at Metilllium</a></p>
+<div align="center"><img src="http://metillium.com/wp-content/uploads/2016/12/SF_Lightning.jpg"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Lightning </tag>
+            
+            <tag> ~Luke Freeland </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Creating a JIRA Change Log in Confluence]]></title>
+      <url>http://www.DreamOps.org/2017/05/27/creating-a-jira-change-log-in-confluence/</url>
+      <content type="html"><![CDATA[<p><div align="center"><img style="max-width: 50%; max-height: 50%; float: left; padding-right: 16px;" src="https://www.linkedin.com/mpr/mpr/AAEAAQAAAAAAAAryAAAAJDhjMmZjYThlLWMyZDQtNGEzZS1hZWIzLTBmMTAzOTA3NDQwYQ.png"></div>[Ted Husted] With only a few clicks, it’s simple to setup a JIRA Change Log in your Confluence wiki, where your devops stakeholders can easily find it. –<a href="ht.ly/Xk7v30c5FUt">Read More at LinkedIn.com</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+            <tag> ~Ted Husted </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Introducing Slackforce: A Salesforce Slack Community]]></title>
+      <url>http://www.DreamOps.org/2017/05/23/introducing-slackforce-a-salesforce-slack-community/</url>
+      <content type="html"><![CDATA[<p>[Robert Watson] Applications like Slack, Hipchat, and Google Hangouts are all different options that many companies use to promote sharing, collaboration, and transparency.  But how do you stay connected to your overall community?  – <a href="http://www.robertwatson.me/2017/05/introducing-slackforce-a-salesforce-slack-community/" target="_blank" rel="external">Learn more at Just Another Watson</a></p>
+<div align="center"><img src="http://www.robertwatson.me/wp-content/uploads/2017/05/Slackforce-768x124.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+            <tag> ~Robert Watson </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Updating Multiple Sites from Jenkins]]></title>
+      <url>http://www.DreamOps.org/2017/05/22/updating-multiple-sites-from-jenkins/</url>
+      <content type="html"><![CDATA[<p><div align="center"><img style="max-width: 50%; max-height: 50%; float: right;" src="https://www.linkedin.com/mpr/mpr/AAEAAQAAAAAAAA2jAAAAJDhjYjZmYzZmLTc2MWQtNDBkMy1hZGI0LWQ1OTEyMzhhNzA1Mg.jpg"></div><br>If you need to run the same Jenkins project with multiple sets of parameters, say to roll out an upgrade to a variety of client sites, here is a way to use a CSV to launch any number of sub-projects. –<a href="https://www.linkedin.com/post/edit/updating-multiple-sites-from-jenkins-ted-husted" target="_blank" rel="external">Read More at LinkedIn.com</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DevOps </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Free Debugger for Unlimited Edition]]></title>
+      <url>http://www.DreamOps.org/2017/05/17/free-debugger-for-unlimited-edition/</url>
+      <content type="html"><![CDATA[<p>[Josh Kaplan] Some of you are now saying some (or all) of the following:</p>
+<p>“YESSSSSSSS!”<br>“Wait, why not me?”<br>“But I already had one, what now?”<br>“Salesforce DX rules! What about scratch orgs?”<br>“Great. How does this help ISVs?”</p>
+<p>Allow me to address each of these. – <a href="https://developer.salesforce.com/blogs/developer-relations/2017/05/free-debugger.html" target="_blank" rel="external">Learn more at Salesforce Developers Blog</a></p>
+<div align="center"><img src="http://res.cloudinary.com/hzxejch6p/image/upload/v1452798834/2016-01-200x200-apex_debugger-NL_o9ekcz.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Essay </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Salesforce DX </tag>
+            
+            <tag> ~Josh Kaplan </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Build Better Communities with Lightning]]></title>
+      <url>http://www.DreamOps.org/2017/05/16/build-better-communities-with-lightning/</url>
+      <content type="html"><![CDATA[<p>[Kartik Viswanadha, David Green] Learn how you can customize Salesforce Community Cloud to fit your needs with the Lightning Bolt framework, Lightning Components and Community Builder in this Webinar by  Salesforce Dev.<br> – <a href="https://developer.salesforce.com/events/webinars/LightningCommunities" target="_blank" rel="external">Learn more at Salesforce Developers</a></p>
+<div align="center"><img src="https://developer.salesforce.com/resource/images/trailhead/badges/modules/trailhead_module_lightning_experience_basics.png"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Lightning </tag>
+            
+            <tag> Community Cloud </tag>
+            
+            <tag> ~Kartik Viswanadha </tag>
+            
+            <tag> ~David Green </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Selenium and SalesforceDX Scratch Orgs]]></title>
+      <url>http://www.DreamOps.org/2017/05/06/selenium-and-salesforcedx-scratch-orgs/</url>
+      <content type="html"><![CDATA[<p>[Keir Bowden] Like a lot of other Salesforce developers I use Selenium from time to time to automatically test my Visualforce pages and Lightning Components. Now that I’m on the SalesforceDX pilot, I need to be able to use Selenium with scratch orgs. This presents a slight challenge, in that Selenium needs to open the browser and login to the scratch org rather than the sfdx cli. Wade Wegner’s post on using scratch orgs with the Salesforce Workbench detailed how to get set a scratch org password so I started down this route before realising that there’s a simpler way, based on the sfdx force:org:open command.<br> – <a href="http://bobbuzzard.blogspot.com/2017/05/selenium-and-salesforcedx-scratch-orgs.html" target="_blank" rel="external">Learn more at Bob Buzzard</a></p>
+<div align="center"><img src="https://lh3.googleusercontent.com/-PzPN8B21_F8/WQ37RKVRsCI/AAAAAAAAB6A/maNy_JRQxxkSR8N3Bh9sGdng3dJ-ZlzNwCHM/Screen%2BShot%2B2017-05-06%2Bat%2B13.57.48.png?imgmax=1600"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Salesforce DX </tag>
+            
+            <tag> ~Keir Bowden </tag>
+            
+            <tag> Selenium </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Locker Service in Summer 17]]></title>
+      <url>http://www.DreamOps.org/2017/04/29/locker-service-in-summer-17/</url>
+      <content type="html"><![CDATA[<p>[Keir Bowden] The Summer 17 release of Salesforce sees the activation of the Lightning Components Locker Service critical update - something that I’d say has been anticipated and feared in equal measure since it was announced. If you’ve been hiding under a rock for the last couple of years, the Locker Service (among other things) adds a security layer to your Lightning Components JavaScript, isolating components by namespace to ensure that your Evil Co-worker can’t write components can’t go tinkering with the standard Salesforce components for nefarious purposes. – <a href="http://bobbuzzard.blogspot.com/2017/04/locker-service-in-summer-17.html" target="_blank" rel="external">Learn more at Bob Buzzard</a></p>
+<div align="center"><img src="https://lh3.googleusercontent.com/-FePKVjBx1LI/VxJx3mqgr8I/AAAAAAAABiY/I06P0dlPV3o/locker.jpeg?imgmax=1600"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Lightning </tag>
+            
+            <tag> ~Keir Bowden </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Leveraging Use Case Diagrams in Smoke Testing]]></title>
+      <url>http://www.DreamOps.org/2017/04/28/leveraging-use-case-diagrams-in-smoke-testing/</url>
+      <content type="html"><![CDATA[<p>[Preeti Sharma] Do you want a way to perform smoke testing on new builds deployed in Test Environment? Start using Unified Modeling Language (UML) diagrams to make it easier. – <a href="https://appirio.com/tech-blog/leveraging-use-case-diagrams-in-smoke-testing" target="_blank" rel="external">Learn more at Appirio Tech Blog</a></p>
+<div align="center"><img style="max-width: 25%; max-height: 25%;" src="https://appirio.com/wp-content/uploads/2017/04/Tech-Blog-Images_2.jpg"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> App Building </tag>
+            
+            <tag> ~Preeti Sharma </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Introducing the NimbleUser Salesforce Apex Style Guide]]></title>
       <url>http://www.DreamOps.org/2017/04/13/introducing-the-nimbleuser-salesforce-apex-style-guide/</url>
       <content type="html"><![CDATA[<p>[Craig Ceremuga] Throughout the years NimbleUser has written a number of in-house authoritative guides and documents on the Apex programming language. While a good start, our previous guidelines were too complicated and opinionated on the types of things that were unenforceable / didn’t matter in the grand scheme of building good software. – <a href="https://www.nimbleuser.com/blog/introducing-the-nimbleuser-salesforce-apex-style-guide" target="_blank" rel="external">Read more at NimbleUser</a> and the <a href="https://nimbleuser.github.io/apex-style-guide/" target="_blank" rel="external">Apex Style Guide Site</a></p>
@@ -22,7 +242,7 @@
             
             <tag> Apex </tag>
             
-            <tag> Craig Ceremuga </tag>
+            <tag> ~Craig Ceremuga </tag>
             
         </tags>
         
@@ -43,7 +263,7 @@
         
         <tags>
             
-            <tag> James Ward </tag>
+            <tag> ~James Ward </tag>
             
             <tag> Integration </tag>
             
@@ -69,7 +289,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Mary Scotton </tag>
+            <tag> ~Mary Scotton </tag>
             
         </tags>
         
@@ -119,7 +339,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Ben McCarthy </tag>
+            <tag> ~Ben McCarthy </tag>
             
         </tags>
         
@@ -140,7 +360,7 @@
         
         <tags>
             
-            <tag> Christophe Coenraets </tag>
+            <tag> ~Christophe Coenraets </tag>
             
             <tag> Ligntning </tag>
             
@@ -164,7 +384,7 @@
         
         <tags>
             
-            <tag> Brent Downey </tag>
+            <tag> ~Brent Downey </tag>
             
             <tag> App Building </tag>
             
@@ -192,33 +412,9 @@
         
         <tags>
             
-            <tag> DreamOps Crew </tag>
+            <tag> ~DreamOps Crew </tag>
             
             <tag> Open Source </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Pilot Madness!]]></title>
-      <url>http://www.DreamOps.org/2017/03/10/pilot-madness/</url>
-      <content type="html"><![CDATA[<p>[Ted Husted] Like many forward-looking Salesforce partners, we’ve been enrolling in the new developer pilots that are hitting the streets now. Here’s some public background links on the various pilots in progress now. – <a href="https://www.nimbleuser.com/blog/pilot-madness" target="_blank" rel="external">Read more at NimbleUser</a></p>
-<div align="center"><img src="https://www.nimbleuser.com/uploads/9/4/3/7/94371761/snag-0821_orig.jpg"></div>
-]]></content>
-      
-        <categories>
-            
-            <category> Review </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Ted Husted </tag>
-            
-            <tag> Salesforce DX </tag>
             
         </tags>
         
@@ -242,7 +438,31 @@
             
             <tag> Lightning </tag>
             
-            <tag> Philippe Ozil </tag>
+            <tag> ~Philippe Ozil </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Pilot Madness!]]></title>
+      <url>http://www.DreamOps.org/2017/03/10/pilot-madness/</url>
+      <content type="html"><![CDATA[<p>[Ted Husted] Like many forward-looking Salesforce partners, we’ve been enrolling in the new developer pilots that are hitting the streets now. Here’s some public background links on the various pilots in progress now. – <a href="https://www.nimbleuser.com/blog/pilot-madness" target="_blank" rel="external">Read more at NimbleUser</a></p>
+<div align="center"><img src="https://www.nimbleuser.com/uploads/9/4/3/7/94371761/snag-0821_orig.jpg"></div>
+]]></content>
+      
+        <categories>
+            
+            <category> Review </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> ~Ted Husted </tag>
+            
+            <tag> Salesforce DX </tag>
             
         </tags>
         
@@ -266,7 +486,7 @@
             
             <tag> Salesforce DX </tag>
             
-            <tag> Ben McCarthy </tag>
+            <tag> ~Ben McCarthy </tag>
             
         </tags>
         
@@ -290,7 +510,7 @@
             
             <tag> Productivity </tag>
             
-            <tag> Joe Castro </tag>
+            <tag> ~Joe Castro </tag>
             
         </tags>
         
@@ -313,7 +533,7 @@
             
             <tag> Salesforce DX </tag>
             
-            <tag> Alex Brausewetter </tag>
+            <tag> ~Alex Brausewetter </tag>
             
         </tags>
         
@@ -337,7 +557,7 @@
             
             <tag> Lightning </tag>
             
-            <tag> Keir Bowden </tag>
+            <tag> ~Keir Bowden </tag>
             
         </tags>
         
@@ -360,7 +580,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Ben McCarthy </tag>
+            <tag> ~Ben McCarthy </tag>
             
         </tags>
         
@@ -381,7 +601,7 @@
         
         <tags>
             
-            <tag> Brent Downey </tag>
+            <tag> ~Brent Downey </tag>
             
             <tag> Lightning </tag>
             
@@ -406,7 +626,7 @@
         
         <tags>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
             <tag> Salesforce DX </tag>
             
@@ -432,7 +652,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
         </tags>
         
@@ -455,7 +675,7 @@
             
             <tag> Lightning </tag>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
         </tags>
         
@@ -482,7 +702,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> DreamOps Crew </tag>
+            <tag> ~DreamOps Crew </tag>
             
             <tag> Open Source </tag>
             
@@ -510,7 +730,7 @@
             
             <tag> Visualforce </tag>
             
-            <tag> Peter Knolle </tag>
+            <tag> ~Peter Knolle </tag>
             
         </tags>
         
@@ -536,7 +756,7 @@
             
             <tag> JavaScript </tag>
             
-            <tag> Keir Bowden </tag>
+            <tag> ~Keir Bowden </tag>
             
         </tags>
         
@@ -560,7 +780,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Christophe Coenraets </tag>
+            <tag> ~Christophe Coenraets </tag>
             
             <tag> JavaScript </tag>
             
@@ -579,7 +799,7 @@
             
             <tag> Visualforce </tag>
             
-            <tag> Ed Montalbano </tag>
+            <tag> ~Ed Montalbano </tag>
             
         </tags>
         
@@ -602,7 +822,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> DreamOps Crew </tag>
+            <tag> ~DreamOps Crew </tag>
             
         </tags>
         
@@ -626,7 +846,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
         </tags>
         
@@ -648,7 +868,7 @@
         
         <tags>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
             <tag> Salesforce DX </tag>
             
@@ -675,7 +895,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
         </tags>
         
@@ -696,7 +916,7 @@
         
         <tags>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
             <tag> Agile </tag>
             
@@ -722,7 +942,7 @@
             
             <tag> Visualforce </tag>
             
-            <tag> Keir Bowden </tag>
+            <tag> ~Keir Bowden </tag>
             
         </tags>
         
@@ -743,7 +963,7 @@
         
         <tags>
             
-            <tag> James Ward </tag>
+            <tag> ~James Ward </tag>
             
             <tag> Integration </tag>
             
@@ -768,7 +988,7 @@
             
             <tag> Lightning </tag>
             
-            <tag> Garry Polmateer </tag>
+            <tag> ~Garry Polmateer </tag>
             
         </tags>
         
@@ -789,7 +1009,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Flow </tag>
             
@@ -814,7 +1034,7 @@
             
             <tag> App Building </tag>
             
-            <tag> James Ward </tag>
+            <tag> ~James Ward </tag>
             
         </tags>
         
@@ -838,7 +1058,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Adam Torman </tag>
+            <tag> ~Adam Torman </tag>
             
         </tags>
         
@@ -861,7 +1081,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
         </tags>
         
@@ -883,7 +1103,7 @@
         
         <tags>
             
-            <tag> Pat Patterson </tag>
+            <tag> ~Pat Patterson </tag>
             
             <tag> Integration </tag>
             
@@ -906,7 +1126,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Flow </tag>
             
@@ -932,7 +1152,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Christophe Coenraets </tag>
+            <tag> ~Christophe Coenraets </tag>
             
             <tag> JavaScript </tag>
             
@@ -967,7 +1187,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Matt Simonis </tag>
+            <tag> ~Matt Simonis </tag>
             
         </tags>
         
@@ -989,7 +1209,7 @@
         
         <tags>
             
-            <tag> DreamOps Crew </tag>
+            <tag> ~DreamOps Crew </tag>
             
             <tag> Documentation </tag>
             
@@ -1014,7 +1234,7 @@
             
             <tag> Agile </tag>
             
-            <tag> Craig Ceremuga </tag>
+            <tag> ~Craig Ceremuga </tag>
             
         </tags>
         
@@ -1042,7 +1262,7 @@
             
             <tag> Visualforce </tag>
             
-            <tag> Peter Knolle </tag>
+            <tag> ~Peter Knolle </tag>
             
         </tags>
         
@@ -1063,7 +1283,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Apex </tag>
             
@@ -1088,7 +1308,7 @@
             
             <tag> Lightning </tag>
             
-            <tag> Peter Knolle </tag>
+            <tag> ~Peter Knolle </tag>
             
         </tags>
         
@@ -1109,7 +1329,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Flow </tag>
             
@@ -1134,7 +1354,7 @@
             
             <tag> Integration </tag>
             
-            <tag> Sig VanDamme </tag>
+            <tag> ~Sig VanDamme </tag>
             
         </tags>
         
@@ -1157,7 +1377,7 @@
             
             <tag> Apex Tests </tag>
             
-            <tag> Luke Freeland </tag>
+            <tag> ~Luke Freeland </tag>
             
         </tags>
         
@@ -1178,7 +1398,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Integration </tag>
             
@@ -1203,7 +1423,7 @@
             
             <tag> Agile </tag>
             
-            <tag> Cesar Para </tag>
+            <tag> ~Cesar Para </tag>
             
         </tags>
         
@@ -1229,7 +1449,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
         </tags>
         
@@ -1252,7 +1472,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> James Ward </tag>
+            <tag> ~James Ward </tag>
             
         </tags>
         
@@ -1273,7 +1493,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Apex </tag>
             
@@ -1296,7 +1516,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Apex Tests </tag>
             
@@ -1320,7 +1540,7 @@
         
         <tags>
             
-            <tag> Jeff Douglas </tag>
+            <tag> ~Jeff Douglas </tag>
             
             <tag> Productivity </tag>
             
@@ -1343,7 +1563,7 @@
         
         <tags>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
             <tag> Documentation </tag>
             
@@ -1368,7 +1588,7 @@
             
             <tag> Lightning </tag>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
         </tags>
         
@@ -1391,7 +1611,7 @@
             
             <tag> Lightning </tag>
             
-            <tag> Jeff Douglas </tag>
+            <tag> ~Jeff Douglas </tag>
             
         </tags>
         
@@ -1416,7 +1636,7 @@
         
         <tags>
             
-            <tag> Jeff Douglas </tag>
+            <tag> ~Jeff Douglas </tag>
             
             <tag> Satire </tag>
             
@@ -1441,7 +1661,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
         </tags>
         
@@ -1462,7 +1682,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Apex </tag>
             
@@ -1485,7 +1705,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
         </tags>
         
@@ -1508,7 +1728,7 @@
             
             <tag> Lightning </tag>
             
-            <tag> Jesse Altman </tag>
+            <tag> ~Jesse Altman </tag>
             
         </tags>
         
@@ -1529,7 +1749,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Flow </tag>
             
@@ -1555,7 +1775,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Bobby Watson </tag>
+            <tag> ~Bobby Watson </tag>
             
         </tags>
         
@@ -1577,7 +1797,7 @@
         
         <tags>
             
-            <tag> Luke Freeland </tag>
+            <tag> ~Luke Freeland </tag>
             
             <tag> SOQL </tag>
             
@@ -1600,7 +1820,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
         </tags>
         
@@ -1622,32 +1842,9 @@
         
         <tags>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
             <tag> Documentation </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
-      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
-      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Tutorial </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Andrew Fawcett </tag>
-            
-            <tag> Metadata API </tag>
             
         </tags>
         
@@ -1671,7 +1868,30 @@
             
             <tag> Open Source </tag>
             
-            <tag> Ian Varley </tag>
+            <tag> ~Ian Varley </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Post Install Apex Metadata API Configuration Solved!]]></title>
+      <url>http://www.DreamOps.org/2014/07/29/post-install-apex-metadata-api-configuration-solved/</url>
+      <content type="html"><![CDATA[<p>[Andrew Fawcett] Since I created the Apex Metadata API, I get to help all sorts of folks building many different and cool things with it. One that is quite common is to automate post package installation tasks such as updating layouts or picklist values, which are not auto upgraded by the platform. – <a href="https://andyinthecloud.com/2014/07/29/post-install-apex-metadata-api-configuration-solved/" target="_blank" rel="external">Read more at Andy In The Cloud</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> ~Andrew Fawcett </tag>
+            
+            <tag> Metadata API </tag>
             
         </tags>
         
@@ -1693,7 +1913,7 @@
         
         <tags>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
             <tag> Trialforce </tag>
             
@@ -1716,7 +1936,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Metadata API </tag>
             
@@ -1740,7 +1960,7 @@
         
         <tags>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
             <tag> Satire </tag>
             
@@ -1763,7 +1983,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Apex Tests </tag>
             
@@ -1787,7 +2007,7 @@
         
         <tags>
             
-            <tag> Pat Patterson </tag>
+            <tag> ~Pat Patterson </tag>
             
             <tag> Visualforce </tag>
             
@@ -1810,7 +2030,7 @@
         
         <tags>
             
-            <tag> Andrew Fawcett </tag>
+            <tag> ~Andrew Fawcett </tag>
             
             <tag> Flow </tag>
             
@@ -1836,7 +2056,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
         </tags>
         
@@ -1859,7 +2079,7 @@
             
             <tag> Apex Tests </tag>
             
-            <tag> Luke Freeland </tag>
+            <tag> ~Luke Freeland </tag>
             
         </tags>
         
@@ -1882,7 +2102,7 @@
             
             <tag> DevOps </tag>
             
-            <tag> Ted Husted </tag>
+            <tag> ~Ted Husted </tag>
             
         </tags>
         
@@ -1933,7 +2153,7 @@
             
             <tag> App Building </tag>
             
-            <tag> Adam Torman </tag>
+            <tag> ~Adam Torman </tag>
             
         </tags>
         

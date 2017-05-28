@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.DreamOps.org/"/>
-  <updated>2017-04-21T08:29:07.000Z</updated>
+  <updated>2017-05-28T19:38:49.000Z</updated>
   <id>http://www.DreamOps.org/</id>
   
   <author>
@@ -16,11 +16,214 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Lightning Component Dev Tips</title>
+    <link href="http://www.DreamOps.org/2017/05/28/lightning-component-dev-tips/"/>
+    <id>http://www.DreamOps.org/2017/05/28/lightning-component-dev-tips/</id>
+    <published>2017-05-28T08:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Luke Freeland] After officially starting my first “work” Lightning component, here are some tips learned so far when developing a lightn
+    
+    </summary>
+    
+      <category term="tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
+    
+      <category term="~Luke Freeland" scheme="http://www.DreamOps.org/tags/luke-freeland/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Creating a JIRA Change Log in Confluence</title>
+    <link href="http://www.DreamOps.org/2017/05/27/creating-a-jira-change-log-in-confluence/"/>
+    <id>http://www.DreamOps.org/2017/05/27/creating-a-jira-change-log-in-confluence/</id>
+    <published>2017-05-27T08:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;div align=&quot;center&quot;&gt;&lt;img style=&quot;max-width: 50%; max-height: 50%; float: left; padding-right: 16px;&quot; src=&quot;https://www.linkedin.com/mpr/mpr
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="DevOps" scheme="http://www.DreamOps.org/tags/devops/"/>
+    
+      <category term="~Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introducing Slackforce: A Salesforce Slack Community</title>
+    <link href="http://www.DreamOps.org/2017/05/23/introducing-slackforce-a-salesforce-slack-community/"/>
+    <id>http://www.DreamOps.org/2017/05/23/introducing-slackforce-a-salesforce-slack-community/</id>
+    <published>2017-05-23T08:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Robert Watson] Applications like Slack, Hipchat, and Google Hangouts are all different options that many companies use to promote sharin
+    
+    </summary>
+    
+      <category term="Essay" scheme="http://www.DreamOps.org/categories/essay/"/>
+    
+    
+      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
+    
+      <category term="~Robert Watson" scheme="http://www.DreamOps.org/tags/robert-watson/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Updating Multiple Sites from Jenkins</title>
+    <link href="http://www.DreamOps.org/2017/05/22/updating-multiple-sites-from-jenkins/"/>
+    <id>http://www.DreamOps.org/2017/05/22/updating-multiple-sites-from-jenkins/</id>
+    <published>2017-05-22T08:00:00.000Z</published>
+    <updated>2017-05-28T19:25:48.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;div align=&quot;center&quot;&gt;&lt;img style=&quot;max-width: 50%; max-height: 50%; float: right;&quot; src=&quot;https://www.linkedin.com/mpr/mpr/AAEAAQAAAAAAAA2jAAA
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="DevOps" scheme="http://www.DreamOps.org/tags/devops/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Free Debugger for Unlimited Edition</title>
+    <link href="http://www.DreamOps.org/2017/05/17/free-debugger-for-unlimited-edition/"/>
+    <id>http://www.DreamOps.org/2017/05/17/free-debugger-for-unlimited-edition/</id>
+    <published>2017-05-17T08:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Josh Kaplan] Some of you are now saying some (or all) of the following:&lt;/p&gt;
+&lt;p&gt;“YESSSSSSSS!”&lt;br&gt;“Wait, why not me?”&lt;br&gt;“But I already ha
+    
+    </summary>
+    
+      <category term="Essay" scheme="http://www.DreamOps.org/categories/essay/"/>
+    
+    
+      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
+    
+      <category term="~Josh Kaplan" scheme="http://www.DreamOps.org/tags/josh-kaplan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Build Better Communities with Lightning</title>
+    <link href="http://www.DreamOps.org/2017/05/16/build-better-communities-with-lightning/"/>
+    <id>http://www.DreamOps.org/2017/05/16/build-better-communities-with-lightning/</id>
+    <published>2017-05-16T08:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Kartik Viswanadha, David Green] Learn how you can customize Salesforce Community Cloud to fit your needs with the Lightning Bolt framewo
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
+    
+      <category term="Community Cloud" scheme="http://www.DreamOps.org/tags/community-cloud/"/>
+    
+      <category term="~Kartik Viswanadha" scheme="http://www.DreamOps.org/tags/kartik-viswanadha/"/>
+    
+      <category term="~David Green" scheme="http://www.DreamOps.org/tags/david-green/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Selenium and SalesforceDX Scratch Orgs</title>
+    <link href="http://www.DreamOps.org/2017/05/06/selenium-and-salesforcedx-scratch-orgs/"/>
+    <id>http://www.DreamOps.org/2017/05/06/selenium-and-salesforcedx-scratch-orgs/</id>
+    <published>2017-05-06T08:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Keir Bowden] Like a lot of other Salesforce developers I use Selenium from time to time to automatically test my Visualforce pages and L
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
+    
+      <category term="~Keir Bowden" scheme="http://www.DreamOps.org/tags/keir-bowden/"/>
+    
+      <category term="Selenium" scheme="http://www.DreamOps.org/tags/selenium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Locker Service in Summer 17</title>
+    <link href="http://www.DreamOps.org/2017/04/29/locker-service-in-summer-17/"/>
+    <id>http://www.DreamOps.org/2017/04/29/locker-service-in-summer-17/</id>
+    <published>2017-04-29T08:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Keir Bowden] The Summer 17 release of Salesforce sees the activation of the Lightning Components Locker Service critical update - someth
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
+    
+      <category term="~Keir Bowden" scheme="http://www.DreamOps.org/tags/keir-bowden/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Leveraging Use Case Diagrams in Smoke Testing</title>
+    <link href="http://www.DreamOps.org/2017/04/28/leveraging-use-case-diagrams-in-smoke-testing/"/>
+    <id>http://www.DreamOps.org/2017/04/28/leveraging-use-case-diagrams-in-smoke-testing/</id>
+    <published>2017-04-28T08:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Preeti Sharma] Do you want a way to perform smoke testing on new builds deployed in Test Environment? Start using Unified Modeling Langu
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
+    
+    
+      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
+    
+      <category term="~Preeti Sharma" scheme="http://www.DreamOps.org/tags/preeti-sharma/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Introducing the NimbleUser Salesforce Apex Style Guide</title>
     <link href="http://www.DreamOps.org/2017/04/13/introducing-the-nimbleuser-salesforce-apex-style-guide/"/>
     <id>http://www.DreamOps.org/2017/04/13/introducing-the-nimbleuser-salesforce-apex-style-guide/</id>
     <published>2017-04-13T10:00:00.000Z</published>
-    <updated>2017-04-21T08:29:07.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -33,7 +236,7 @@
     
       <category term="Apex" scheme="http://www.DreamOps.org/tags/apex/"/>
     
-      <category term="Craig Ceremuga" scheme="http://www.DreamOps.org/tags/craig-ceremuga/"/>
+      <category term="~Craig Ceremuga" scheme="http://www.DreamOps.org/tags/craig-ceremuga/"/>
     
   </entry>
   
@@ -42,7 +245,7 @@
     <link href="http://www.DreamOps.org/2017/04/12/machine-to-machine-salesforce-integrations-in-java-with-rest-and-soap/"/>
     <id>http://www.DreamOps.org/2017/04/12/machine-to-machine-salesforce-integrations-in-java-with-rest-and-soap/</id>
     <published>2017-04-12T10:00:00.000Z</published>
-    <updated>2017-04-21T08:36:59.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -53,7 +256,7 @@
       <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
     
     
-      <category term="James Ward" scheme="http://www.DreamOps.org/tags/james-ward/"/>
+      <category term="~James Ward" scheme="http://www.DreamOps.org/tags/james-ward/"/>
     
       <category term="Integration" scheme="http://www.DreamOps.org/tags/integration/"/>
     
@@ -64,7 +267,7 @@
     <link href="http://www.DreamOps.org/2017/04/06/salesforce-expands-partnership-with-girl-develop-it%E2%80%94get-involved/"/>
     <id>http://www.DreamOps.org/2017/04/06/salesforce-expands-partnership-with-girl-develop-it—get-involved/</id>
     <published>2017-04-06T10:00:00.000Z</published>
-    <updated>2017-04-21T08:10:12.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -77,7 +280,7 @@
     
       <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
     
-      <category term="Mary Scotton" scheme="http://www.DreamOps.org/tags/mary-scotton/"/>
+      <category term="~Mary Scotton" scheme="http://www.DreamOps.org/tags/mary-scotton/"/>
     
   </entry>
   
@@ -106,7 +309,7 @@
     <link href="http://www.DreamOps.org/2017/03/27/ultimate-salesforce-chrome-extensions-2017/"/>
     <id>http://www.DreamOps.org/2017/03/27/ultimate-salesforce-chrome-extensions-2017/</id>
     <published>2017-03-27T10:00:00.000Z</published>
-    <updated>2017-04-21T07:44:22.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -119,7 +322,7 @@
     
       <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
     
-      <category term="Ben McCarthy" scheme="http://www.DreamOps.org/tags/ben-mccarthy/"/>
+      <category term="~Ben McCarthy" scheme="http://www.DreamOps.org/tags/ben-mccarthy/"/>
     
   </entry>
   
@@ -128,7 +331,7 @@
     <link href="http://www.DreamOps.org/2017/03/15/building-lightning-components-with-chart-js/"/>
     <id>http://www.DreamOps.org/2017/03/15/building-lightning-components-with-chart-js/</id>
     <published>2017-03-15T10:00:00.000Z</published>
-    <updated>2017-03-26T19:49:45.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -139,7 +342,7 @@
       <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
     
     
-      <category term="Christophe Coenraets" scheme="http://www.DreamOps.org/tags/christophe-coenraets/"/>
+      <category term="~Christophe Coenraets" scheme="http://www.DreamOps.org/tags/christophe-coenraets/"/>
     
       <category term="Ligntning" scheme="http://www.DreamOps.org/tags/ligntning/"/>
     
@@ -150,7 +353,7 @@
     <link href="http://www.DreamOps.org/2017/03/13/using-vlookup-validation-rules-in-salesforce/"/>
     <id>http://www.DreamOps.org/2017/03/13/using-vlookup-validation-rules-in-salesforce/</id>
     <published>2017-03-13T10:00:00.000Z</published>
-    <updated>2017-03-26T19:42:41.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -161,7 +364,7 @@
       <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
     
     
-      <category term="Brent Downey" scheme="http://www.DreamOps.org/tags/brent-downey/"/>
+      <category term="~Brent Downey" scheme="http://www.DreamOps.org/tags/brent-downey/"/>
     
       <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
     
@@ -172,7 +375,7 @@
     <link href="http://www.DreamOps.org/2017/03/11/top-open-source-projects/"/>
     <id>http://www.DreamOps.org/2017/03/11/top-open-source-projects/</id>
     <published>2017-03-11T11:00:00.000Z</published>
-    <updated>2017-03-14T11:08:28.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -183,31 +386,9 @@
       <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
     
     
-      <category term="DreamOps Crew" scheme="http://www.DreamOps.org/tags/dreamops-crew/"/>
+      <category term="~DreamOps Crew" scheme="http://www.DreamOps.org/tags/dreamops-crew/"/>
     
       <category term="Open Source" scheme="http://www.DreamOps.org/tags/open-source/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pilot Madness!</title>
-    <link href="http://www.DreamOps.org/2017/03/10/pilot-madness/"/>
-    <id>http://www.DreamOps.org/2017/03/10/pilot-madness/</id>
-    <published>2017-03-10T11:00:00.000Z</published>
-    <updated>2017-03-30T10:19:48.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ted Husted] Like many forward-looking Salesforce partners, we’ve been enrolling in the new developer pilots that are hitting the streets
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
-    
-      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
     
   </entry>
   
@@ -216,7 +397,7 @@
     <link href="http://www.DreamOps.org/2017/03/10/design-build-publish-lighting-component-appexchange/"/>
     <id>http://www.DreamOps.org/2017/03/10/design-build-publish-lighting-component-appexchange/</id>
     <published>2017-03-10T11:00:00.000Z</published>
-    <updated>2017-03-26T19:38:21.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -229,7 +410,29 @@
     
       <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
     
-      <category term="Philippe Ozil" scheme="http://www.DreamOps.org/tags/philippe-ozil/"/>
+      <category term="~Philippe Ozil" scheme="http://www.DreamOps.org/tags/philippe-ozil/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Pilot Madness!</title>
+    <link href="http://www.DreamOps.org/2017/03/10/pilot-madness/"/>
+    <id>http://www.DreamOps.org/2017/03/10/pilot-madness/</id>
+    <published>2017-03-10T11:00:00.000Z</published>
+    <updated>2017-05-28T19:38:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[Ted Husted] Like many forward-looking Salesforce partners, we’ve been enrolling in the new developer pilots that are hitting the streets
+    
+    </summary>
+    
+      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
+    
+    
+      <category term="~Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
+    
+      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
     
   </entry>
   
@@ -238,7 +441,7 @@
     <link href="http://www.DreamOps.org/2017/03/05/salesforce-dx-week-1/"/>
     <id>http://www.DreamOps.org/2017/03/05/salesforce-dx-week-1/</id>
     <published>2017-03-05T11:00:00.000Z</published>
-    <updated>2017-03-26T19:32:58.000Z</updated>
+    <updated>2017-05-28T19:38:49.000Z</updated>
     
     <summary type="html">
     
@@ -251,207 +454,7 @@
     
       <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
     
-      <category term="Ben McCarthy" scheme="http://www.DreamOps.org/tags/ben-mccarthy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tips for an Effective Architecture Review Board</title>
-    <link href="http://www.DreamOps.org/2017/03/03/tips-for-an-effective-architecture-review-board/"/>
-    <id>http://www.DreamOps.org/2017/03/03/tips-for-an-effective-architecture-review-board/</id>
-    <published>2017-03-03T11:00:00.000Z</published>
-    <updated>2017-03-05T01:51:47.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Joe Castro] Does your Salesforce environment have integrations with other systems in your organization? Do you use custom VisualForce Pa
-    
-    </summary>
-    
-      <category term="Essay" scheme="http://www.DreamOps.org/categories/essay/"/>
-    
-    
-      <category term="Productivity" scheme="http://www.DreamOps.org/tags/productivity/"/>
-    
-      <category term="Joe Castro" scheme="http://www.DreamOps.org/tags/joe-castro/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>What is Salesforce DX and what does it mean for Admins</title>
-    <link href="http://www.DreamOps.org/2017/02/20/what-is-salesforce-dx-and-what-does-it-mean-for-admins/"/>
-    <id>http://www.DreamOps.org/2017/02/20/what-is-salesforce-dx-and-what-does-it-mean-for-admins/</id>
-    <published>2017-02-20T11:00:00.000Z</published>
-    <updated>2017-03-05T01:31:24.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Alex Brausewetter] Salesforce has been at the forefront of so many technological changes. Their innovation stance on the viability of En
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
-    
-      <category term="Alex Brausewetter" scheme="http://www.DreamOps.org/tags/alex-brausewetter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Lightning Design System in Visualforce Part 2 - Forms</title>
-    <link href="http://www.DreamOps.org/2017/02/19/lightning-design-system-in-visualforce/"/>
-    <id>http://www.DreamOps.org/2017/02/19/lightning-design-system-in-visualforce/</id>
-    <published>2017-02-19T11:00:00.000Z</published>
-    <updated>2017-03-06T11:58:26.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Keir Bowden] In Part 1 of this series I covered getting started with the lightning design system for Visualforce developers. The example
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
-    
-      <category term="Keir Bowden" scheme="http://www.DreamOps.org/tags/keir-bowden/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Secure your Org with Salesforce Health Check</title>
-    <link href="http://www.DreamOps.org/2017/02/13/secure-your-org-with-salesforce-health-check/"/>
-    <id>http://www.DreamOps.org/2017/02/13/secure-your-org-with-salesforce-health-check/</id>
-    <published>2017-02-13T11:00:00.000Z</published>
-    <updated>2017-03-11T12:47:14.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ben McCarthy] Org security should be one of the most important topics on any Admins radar, but unfortunately can get left behind ahead o
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="App Building" scheme="http://www.DreamOps.org/tags/app-building/"/>
-    
-      <category term="Ben McCarthy" scheme="http://www.DreamOps.org/tags/ben-mccarthy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>10 UX Issues in Lightning Experience that Need Fixing</title>
-    <link href="http://www.DreamOps.org/2017/02/10/10-ux-lightning-experience-need-fixing/"/>
-    <id>http://www.DreamOps.org/2017/02/10/10-ux-lightning-experience-need-fixing/</id>
-    <published>2017-02-10T11:00:00.000Z</published>
-    <updated>2017-03-11T01:15:54.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Brent Downey] As a user of Salesforce for seven years, I’ve grown accustomed to Salesforce Classic, but have embraced Lightning Experien
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="Brent Downey" scheme="http://www.DreamOps.org/tags/brent-downey/"/>
-    
-      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The Thousand Developer March on DX GA</title>
-    <link href="http://www.DreamOps.org/2017/02/06/the-thousand-developer-march-on-dx-ga/"/>
-    <id>http://www.DreamOps.org/2017/02/06/the-thousand-developer-march-on-dx-ga/</id>
-    <published>2017-02-06T11:00:00.000Z</published>
-    <updated>2017-03-20T12:47:58.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ted Husted] The Salesforce DX pilot is imminent, and it’s a pilot with a difference. Sure, DX is a groundbreaking initiative for Salesfo
-    
-    </summary>
-    
-      <category term="Essay" scheme="http://www.DreamOps.org/categories/essay/"/>
-    
-    
-      <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
-    
-      <category term="Salesforce DX" scheme="http://www.DreamOps.org/tags/salesforce-dx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Confluence Templates For All</title>
-    <link href="http://www.DreamOps.org/2017/01/31/confluence-templates-for-all/"/>
-    <id>http://www.DreamOps.org/2017/01/31/confluence-templates-for-all/</id>
-    <published>2017-01-31T11:00:00.000Z</published>
-    <updated>2017-03-20T23:10:24.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Ted Husted] One of the many truly useful features of the Confluence enterprise wiki are page templates. Along with Confluence templates 
-    
-    </summary>
-    
-      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
-    
-    
-      <category term="DevOps" scheme="http://www.DreamOps.org/tags/devops/"/>
-    
-      <category term="Ted Husted" scheme="http://www.DreamOps.org/tags/ted-husted/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Understanding how your App Experience fits into Lightning Experience</title>
-    <link href="http://www.DreamOps.org/2017/01/29/undertanding-how-your-app-experience-fits-into-lightning-experience/"/>
-    <id>http://www.DreamOps.org/2017/01/29/undertanding-how-your-app-experience-fits-into-lightning-experience/</id>
-    <published>2017-01-29T11:00:00.000Z</published>
-    <updated>2017-03-12T14:57:39.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[Andrew Fawcett] Lightning Experience is not just a shiny new looking version of Salesforce Classic. Nor is it just some new cool technol
-    
-    </summary>
-    
-      <category term="Tutorial" scheme="http://www.DreamOps.org/categories/tutorial/"/>
-    
-    
-      <category term="Lightning" scheme="http://www.DreamOps.org/tags/lightning/"/>
-    
-      <category term="Andrew Fawcett" scheme="http://www.DreamOps.org/tags/andrew-fawcett/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ant-SF: DX for the rest of us</title>
-    <link href="http://www.DreamOps.org/2017/01/17/ant-sf-dx-for-the-rest-of-us/"/>
-    <id>http://www.DreamOps.org/2017/01/17/ant-sf-dx-for-the-rest-of-us/</id>
-    <published>2017-01-17T11:00:00.000Z</published>
-    <updated>2017-03-12T14:55:43.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[DreamOps Crew] The ant-sf buildfile supplements tasks provided by the Ant-Salesforce JAR. The JAR provides a core set of tasks for retri
-    
-    </summary>
-    
-      <category term="Review" scheme="http://www.DreamOps.org/categories/review/"/>
-    
-    
-      <category term="DevOps" scheme="http://www.DreamOps.org/tags/devops/"/>
-    
-      <category term="DreamOps Crew" scheme="http://www.DreamOps.org/tags/dreamops-crew/"/>
-    
-      <category term="Open Source" scheme="http://www.DreamOps.org/tags/open-source/"/>
+      <category term="~Ben McCarthy" scheme="http://www.DreamOps.org/tags/ben-mccarthy/"/>
     
   </entry>
   
